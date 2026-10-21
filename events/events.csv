@@ -1,0 +1,19 @@
+date,type,description
+2008-09-15,global_shock,Lehman Brothers bankruptcy
+2014-05-16,election,Lok Sabha 2014 results
+2016-06-24,global_shock,Brexit referendum result
+2016-11-09,policy_shock,Demonetisation (announced evening of 8 Nov)
+2019-05-23,election,Lok Sabha 2019 results
+2019-09-20,policy,Corporate tax cut announced
+2020-02-01,budget,Union Budget 2020
+2020-03-23,global_shock,COVID-19 lockdown crash
+2020-11-09,global_shock,First COVID vaccine efficacy news (Pfizer)
+2021-02-01,budget,Union Budget 2021
+2022-02-01,budget,Union Budget 2022
+2022-02-24,geopolitics,Russia invades Ukraine
+2023-02-01,budget,Union Budget 2023
+2024-02-01,budget,Interim Budget 2024
+2024-06-04,election,Lok Sabha 2024 results
+2024-07-23,budget,Union Budget 2024
+2025-02-01,budget,Union Budget 2025
+2025-04-07,global_shock,US reciprocal-tariff selloff

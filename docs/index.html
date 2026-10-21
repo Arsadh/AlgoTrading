@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AlgTrd Prediction Log</title>
+<meta name="description" content="Hourly NSE index and MCX commodity calls from AlgTrd, each graded 1 hour later and at the close.">
+<style>
+:root {
+  --bg: #f6f6f4; --surface: #ffffff; --ink: #1d1d1b; --ink-2: #55534e; --muted: #85837d; --border: #e3e2de;
+  --up: #1f7a4d; --down: #c23b3b; --accent: #2a78d6; --chip: #f0efeb; --warn-bg: #fff6e0; --warn-ink: #7a5600;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141413; --surface: #1d1d1b; --ink: #ecebe7; --ink-2: #b8b6b0; --muted: #8b8984; --border: #34332f;
+    --up: #4fbf86; --down: #ec6b6b; --accent: #5b9cf0; --chip: #2a2926; --warn-bg: #3a2f12; --warn-ink: #f0cf7a;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141413; --surface: #1d1d1b; --ink: #ecebe7; --ink-2: #b8b6b0; --muted: #8b8984; --border: #34332f;
+  --up: #4fbf86; --down: #ec6b6b; --accent: #5b9cf0; --chip: #2a2926; --warn-bg: #3a2f12; --warn-ink: #f0cf7a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 18px; margin: 0 0 4px; }
+p { margin: 6px 0; }
+.muted { color: var(--muted); } .small { font-size: 13px; }
+.up { color: var(--up); } .down { color: var(--down); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 16px; }
+.warn { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 10px 14px; margin-top: 14px; font-size: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 16px; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.tile .label { font-size: 13px; color: var(--ink-2); }
+.tile .value { font-size: 28px; font-weight: 650; font-variant-numeric: tabular-nums; margin: 2px 0; }
+.tile .sub { font-size: 12px; color: var(--muted); }
+.bar { position: relative; height: 8px; background: var(--chip); border-radius: 4px; margin-top: 8px; overflow: hidden; }
+.bar i { position: absolute; inset: 0 auto 0 0; background: var(--accent); border-radius: 4px; }
+.bar b { position: absolute; top: -3px; bottom: -3px; left: 50%; width: 2px; background: var(--ink-2); }
+.scroll { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+th { font-size: 12px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .03em; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; background: var(--chip); }
+.pill.call { background: color-mix(in srgb, var(--up) 18%, transparent); color: var(--up); }
+.pill.put { background: color-mix(in srgb, var(--down) 18%, transparent); color: var(--down); }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: space-between; }
+select { font: inherit; padding: 5px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); }
+footer { margin-top: 28px; font-size: 13px; color: var(--muted); }
+@media (max-width: 640px) { h1 { font-size: 22px; } .tile .value { font-size: 24px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>AlgTrd prediction log</h1>
+  <p class="muted">Hourly calls for Nifty, Bank Nifty and MCX commodities, each graded 1 hour later and at the close.
+    <span id="updated"></span></p>
+  <div class="warn"><b>Not investment advice.</b> These are outputs of an experimental model, published to measure it honestly.
+    The author is not a SEBI-registered adviser. In backtests the rules lost money after costs, and their direction calls
+    have been right about half the time, like a coin flip. Do not trade on them.</div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section class="card">
+    <h2>Current calls</h2>
+    <p class="small muted">Bias comes from the score (−100 to +100): bullish at +20 or more, bearish at −20 or less. A BUY CALL / BUY PUT signal needs ±45 plus trend checks.</p>
+    <div class="scroll"><table id="latest"></table></div>
+  </section>
+
+  <section class="card">
+    <h2>Does a stronger score predict better?</h2>
+    <p class="small muted">Share of bullish/bearish calls that were right, by score strength. 50% is a coin flip.</p>
+    <div class="scroll"><table id="strength"></table></div>
+  </section>
+
+  <section class="card">
+    <h2>Accuracy by instrument</h2>
+    <div class="scroll"><table id="perInst"></table></div>
+  </section>
+
+  <section class="card">
+    <div class="row"><h2>Every call, by day</h2><select id="day" aria-label="Day"></select></div>
+    <div class="scroll"><table id="calls"></table></div>
+    <h2 style="margin-top:18px">Live CALL / PUT signals that day</h2>
+    <div class="scroll"><table id="signals"></table></div>
+  </section>
+
+  <footer>Data: <a href="data/summary.json">summary.json</a> · <a href="data/latest.json">latest.json</a> · daily files in
+    <code>data/predictions/</code>. Prices: NSE / Yahoo for indices, real MCX quotes via Moneycontrol for commodities.</footer>
+</main>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = (v, d = 2) => v == null || isNaN(v) ? "–" : Number(v).toLocaleString("en-IN", { minimumFractionDigits: d, maximumFractionDigits: d });
+const pct = (v, d = 0) => v == null ? "–" : (v * 100).toFixed(d) + "%";
+const sgn = (v, d = 1) => v == null ? "–" : (v >= 0 ? "+" : "") + Number(v).toFixed(d);
+const cls = (v) => v > 0 ? "up" : v < 0 ? "down" : "";
+const time = (iso) => (iso || "").replace("T", " ").slice(0, 16);
+const get = (p) => fetch(p + "?t=" + Date.now()).then((r) => r.ok ? r.json() : null).catch(() => null);
+
+function table(el, head, rows, empty) {
+  $(el).innerHTML = `<thead><tr>${head.map(([h, n]) => `<th class="${n ? "num" : ""}">${h}</th>`).join("")}</tr></thead><tbody>` +
+    (rows.length ? rows.join("") : `<tr><td colspan="${head.length}" class="muted">${empty}</td></tr>`) + "</tbody>";
+}
+const acc = (b) => b && b.graded ? `<b class="${b.accuracy >= 0.5 ? "up" : "down"}">${pct(b.accuracy)}</b> <span class="muted">of ${b.graded}</span>` : `<span class="muted">not graded yet</span>`;
+const tile = (label, b, sub) => `<div class="tile"><div class="label">${label}</div>
+  <div class="value ${b && b.graded ? (b.accuracy >= 0.5 ? "up" : "down") : ""}">${b && b.graded ? pct(b.accuracy) : "–"}</div>
+  <div class="sub">${sub}</div><div class="bar" title="line = 50% coin flip"><i style="width:${b && b.graded ? b.accuracy * 100 : 0}%"></i><b></b></div></div>`;
+const signalPill = (s) => s ? `<span class="pill ${s === "CALL" ? "call" : "put"}">BUY ${s === "CALL" ? "CE" : "PE"}</span>` : `<span class="muted">wait</span>`;
+const mark = (o) => !o ? `<span class="muted">…</span>` : o.correct == null ? `<span class="muted">${sgn(o.change_pct, 2)}%</span>` :
+  `<span class="${o.correct ? "up" : "down"}">${o.correct ? "✓" : "✗"} ${sgn(o.change_pct, 2)}%</span>`;
+
+async function boot() {
+  const [sum, lat] = await Promise.all([get("data/summary.json"), get("data/latest.json")]);
+  if (!sum) { $("#tiles").innerHTML = `<p class="muted">No predictions published yet.</p>`; return; }
+  $("#updated").textContent = `Updated ${time(sum.updated)} IST.`;
+  const s = sum.signals;
+  $("#tiles").innerHTML = tile("Direction 1 hour later", sum.total["1h"], `${sum.total["1h"].graded} graded calls`) +
+    tile("Direction by the close", sum.total.close, `${sum.total.close.graded} graded calls`) +
+    `<div class="tile"><div class="label">Live CALL/PUT signals</div><div class="value ${s.avg_r > 0 ? "up" : s.avg_r < 0 ? "down" : ""}">${s.win_rate == null ? "–" : pct(s.win_rate)}</div>
+     <div class="sub">won ${s.wins} of ${s.closed} · average ${sgn(s.avg_r, 2)}R per trade</div></div>`;
+
+  table("#strength", [["Score strength"], ["1 hour later", 1], ["By the close", 1]],
+    Object.entries(sum.by_strength).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${acc(v["1h"])}</td><td class="num">${acc(v.close)}</td></tr>`), "No calls yet.");
+  table("#perInst", [["Instrument"], ["Calls", 1], ["1 hour later", 1], ["By the close", 1], ["Signals won", 1], ["Avg R", 1]],
+    Object.entries(sum.by_instrument).map(([k, v]) => {
+      const sc = s.by_instrument[k] || {};
+      return `<tr><td>${esc(v.name)}</td><td class="num">${v["1h"].calls}</td><td class="num">${acc(v["1h"])}</td><td class="num">${acc(v.close)}</td>
+        <td class="num">${sc.trades ? `${pct(sc.win_rate)} of ${sc.trades}` : "–"}</td><td class="num ${cls(sc.avg_r)}">${sc.trades ? sgn(sc.avg_r, 2) : "–"}</td></tr>`;
+    }), "No calls yet.");
+
+  table("#latest", [["Instrument"], ["Price", 1], ["Score", 1], ["Bias"], ["Signal"], ["Suggested option"], ["Stop / T1 / T2", 1], ["Market"]],
+    (lat?.instruments || []).map((a) => {
+      const o = a.option || {}, l = a.levels || {};
+      return `<tr><td>${esc(a.name)}</td><td class="num">${fmt(a.spot)} <span class="${cls(a.change_pct)} small">${sgn(a.change_pct, 2)}%</span></td>
+        <td class="num ${cls(a.score)}">${sgn(a.score, 0)}</td><td>${esc(a.bias)}</td><td>${signalPill(a.signal)}</td>
+        <td>${o.strike ? `${fmt(o.strike, 0)} ${esc(o.type)} ${esc(o.expiry || "")}${o.premium ? ` · ₹${fmt(o.premium)}` : ""}` : "–"}</td>
+        <td class="num">${fmt(l.sl)} / ${fmt(l.t1)} / ${fmt(l.t2)}</td><td>${a.open ? "open" : `<span class="muted">closed</span>`}</td></tr>`;
+    }), "No current calls.");
+
+  $("#day").innerHTML = sum.days.map((d) => `<option value="${esc(d.date)}">${esc(d.date)} · ${d.directional} calls · ${d.signals} signals</option>`).join("");
+  $("#day").onchange = () => loadDay($("#day").value);
+  if (sum.days.length) loadDay(sum.days[0].date);
+}
+
+async function loadDay(date) {
+  const d = await get(`data/predictions/${date}.json`);
+  const preds = (d?.predictions || []).slice().reverse();
+  table("#calls", [["Time"], ["Instrument"], ["Price", 1], ["Score", 1], ["Bias"], ["Signal"], ["1 hour later", 1], ["By the close", 1]],
+    preds.map((p) => `<tr><td>${esc(time(p.time).slice(11))}</td><td>${esc(p.name)}</td><td class="num">${fmt(p.spot)}</td>
+      <td class="num ${cls(p.score)}">${sgn(p.score, 0)}</td><td>${esc(p.bias)}</td><td>${signalPill(p.signal)}</td>
+      <td class="num">${p.bias === "neutral" ? `<span class="muted">no call</span>` : mark(p.outcome_1h)}</td>
+      <td class="num">${p.bias === "neutral" ? "" : mark(p.outcome_close)}</td></tr>`), "No calls that day.");
+  table("#signals", [["Time"], ["Instrument"], ["Signal"], ["Entry", 1], ["Stop", 1], ["T1 / T2", 1], ["Result"], ["Points", 1], ["R", 1]],
+    (d?.signals || []).map((x) => `<tr><td>${esc(time(x.ts).slice(11))}</td><td>${esc(x.symbol)}</td>
+      <td>${signalPill(x.side)} ${fmt(x.strike, 0)} ${esc(x.opt_type || "")}</td><td class="num">${fmt(x.entry)}</td><td class="num">${fmt(x.sl)}</td>
+      <td class="num">${fmt(x.t1)} / ${fmt(x.t2)}</td><td>${esc(x.status)}</td>
+      <td class="num ${cls(x.points)}">${x.points == null ? "–" : sgn(x.points, 1)}</td><td class="num ${cls(x.r)}">${x.r == null ? "–" : sgn(x.r, 2)}</td></tr>`),
+    "No live signals that day.");
+}
+boot();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.1
+numpy>=1.26
+yfinance>=0.2.40
+feedparser>=6.0
+vaderSentiment>=3.3
+python-dotenv>=1.0
+httpx>=0.27
+growwapi>=1.0
+pyotp>=2.9
+anthropic>=0.70
