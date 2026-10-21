@@ -33,7 +33,13 @@
     "correct": true,
     "at": "2026-10-21T13:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22811.35,
+    "change": 42.65,
+    "change_pct": 0.187,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T12:BANKNIFTY",
@@ -67,7 +73,13 @@
     "correct": true,
     "at": "2026-10-21T13:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54976.9,
+    "change": 97.2,
+    "change_pct": 0.177,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T12:CRUDEOIL",
@@ -435,7 +447,13 @@
     "correct": true,
     "at": "2026-10-21T14:00:32+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22811.35,
+    "change": 63.8,
+    "change_pct": 0.28,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T13:BANKNIFTY",
@@ -467,7 +485,13 @@
     "correct": true,
     "at": "2026-10-21T14:00:32+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54976.9,
+    "change": 147.35,
+    "change_pct": 0.269,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T13:CRUDEOIL",
@@ -836,7 +860,13 @@
     "correct": true,
     "at": "2026-10-21T15:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22811.35,
+    "change": 108.55,
+    "change_pct": 0.478,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T14:BANKNIFTY",
@@ -868,7 +898,13 @@
     "correct": true,
     "at": "2026-10-21T15:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54976.9,
+    "change": 178.8,
+    "change_pct": 0.326,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T14:CRUDEOIL",
@@ -1227,7 +1263,13 @@
     "Outside the signal window 09:30–14:45 IST"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22811.35,
+    "change": 137.8,
+    "change_pct": 0.608,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T15:BANKNIFTY",
@@ -1255,7 +1297,13 @@
     "Outside the signal window 09:30–14:45 IST"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54976.9,
+    "change": 195.15,
+    "change_pct": 0.356,
+    "correct": false,
+    "at": "2026-10-21T15:30:04+05:30"
+   }
   },
   {
    "id": "2026-10-21T15:CRUDEOIL",
@@ -2149,7 +2197,7 @@
    "side": "PUT",
    "score": -52.6,
    "entry": 144443.0,
-   "sl": 144592.91,
+   "sl": 144443.0,
    "t1": 144293.09,
    "t2": 144143.18,
    "strike": 144500.0,
@@ -2180,7 +2228,26 @@
    "exit_spot": 1390.63,
    "points": -1.63,
    "r": -1.0
+  },
+  {
+   "ts": "2026-10-21T15:09:51+05:30",
+   "symbol": "GOLD",
+   "side": "PUT",
+   "score": -76.9,
+   "entry": 145844.0,
+   "sl": 145844.0,
+   "t1": 145736.41,
+   "t2": 145628.82,
+   "strike": 146000.0,
+   "opt_type": "PE",
+   "expiry": "30-Oct-2026",
+   "premium": 1825.0,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
   }
  ],
- "updated": "2026-10-21T15:00:00+05:30"
+ "updated": "2026-10-21T15:30:04+05:30"
 }
