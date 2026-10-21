@@ -9,7 +9,27 @@ const cls = (v) => v > 0 ? "up" : v < 0 ? "down" : "";
 const hhmm = (iso) => (iso || "").slice(11, 16);
 const IST = 19800;
 
+// Published copy (GitHub Pages): no server, every /api/... answer is a JSON file in snapshot/,
+// exported by the local app (app/snapshot.py) every ~15 minutes while markets are open.
+const STATIC = !!window.ALGTRD_STATIC;
+let snapVer = "";
+
+function staticUrl(path) {
+  const [p, q] = path.replace(/^\/api\//, "").split("?");
+  const parts = p.split("/");
+  if (parts[0] === "chart") return `snapshot/chart/${parts[1]}_${new URLSearchParams(q || "").get("tf") || 5}.json`;
+  return `snapshot/${parts.join("/")}.json`;
+}
+
 async function api(path, method = "GET", body) {
+  if (STATIC) {
+    if (method !== "GET") throw new Error("Not available on the published copy. Run the app on your PC for this.");
+    const r = await fetch(staticUrl(path) + "?v=" + encodeURIComponent(snapVer));
+    if (!r.ok) throw new Error("Not in this snapshot");
+    const j = await r.json();
+    const key = new URLSearchParams(path.split("?")[1] || "").get("key");
+    return path.startsWith("/api/signals") && key ? { ...j, items: j.items.filter((x) => x.symbol === key) } : j;
+  }
   const r = await fetch(path, { method, headers: { "Content-Type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
   if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
   return r.json();
@@ -443,7 +463,7 @@ $("#btnNews").onclick = async () => { $("#btnNews").disabled = true; try { await
 // --------------------------------------------------------------- history
 async function loadHistory() {
   const r = await api("/api/research");
-  $("#btnResearch").disabled = r.running;
+  $("#btnResearch").disabled = r.running || STATIC;
   $("#btnResearch").textContent = r.running ? "Running… (1–3 min)" : "Re-run analysis";
   if (!r.report) return;
   const rep = r.report, m = rep.market;
@@ -579,11 +599,44 @@ function connect() {
   };
 }
 
+// ------------------------------------------------------- published copy
+// Instead of the websocket: check every minute for a newer snapshot and redraw the open tab.
+async function loadMeta() {
+  const r = await fetch("snapshot/meta.json?t=" + Date.now()).catch(() => null);
+  const m = r && r.ok ? await r.json() : null;
+  if (!m) return false;
+  const changed = m.updated !== snapVer;
+  snapVer = m.updated;
+  const t = new Date(m.updated).toLocaleString("en-IN", { timeZone: "Asia/Kolkata", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hour12: false });
+  $("#wsPill").textContent = `snapshot ${t}`;
+  $("#wsPill").className = "pill" + (m.any_open ? " on" : "");
+  $("#snapBanner").innerHTML = `<b>Published copy</b>, data as of ${esc(t)} IST. It refreshes about every ${m.every_minutes} minutes while a market is open,
+    so prices do not tick here; the app on the PC is live. · <a href="log/">Prediction log &amp; accuracy</a>`;
+  return changed;
+}
+
+function setupStatic() {
+  const b = document.createElement("div");
+  b.id = "snapBanner";
+  b.className = "banner";
+  $("main").prepend(b);
+  ["#btnQuant", "#btnNews", "#btnResearch"].forEach((s) => { const el = $(s); if (el) { el.disabled = true; el.title = "Runs only in the app on the PC"; } });
+  setInterval(async () => {
+    if (!(await loadMeta())) return;
+    state.config = await api("/api/config");
+    if (state.tab === "live") refreshLive(true);
+    else if (state.tab === "market") renderMarket();
+    else if (state.tab === "signals") loadSignals();
+    else if (state.tab === "news") loadNews();
+  }, 60000);
+}
+
 // ------------------------------------------------------------------ boot
 (async function boot() {
+  if (STATIC) { setupStatic(); await loadMeta(); }
   state.config = await api("/api/config");
   buildCharts();
   await refreshLive();
-  connect();
+  if (!STATIC) connect();
   setInterval(() => state.tab === "live" && refreshLive(false), 30000);
 })();

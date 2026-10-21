@@ -5,7 +5,7 @@ const star = (r) => r.significant ? " ★" : "";
 
 window.loadQuant = async function loadQuant() {
   const r = await api("/api/quant");
-  $("#btnQuant").disabled = r.running;
+  $("#btnQuant").disabled = r.running || STATIC;
   $("#btnQuant").textContent = r.running ? "Running… (1–2 min)" : "Re-run study";
   if (!r.report) {
     $("#qMeta").textContent = r.running ? "First run: downloading ~56,000 days of history and testing every rule…" : "No study yet.";

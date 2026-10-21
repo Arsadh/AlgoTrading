@@ -46,6 +46,7 @@ class Settings:
     # Hourly prediction log in docs/data, pushed to GitHub (Pages) when enabled
     publish_git: bool = field(default_factory=lambda: _s("PUBLISH_GIT", "0") == "1")
     publish_remote: str = field(default_factory=lambda: _s("PUBLISH_REMOTE", "origin"))
+    pages_every_minutes: int = field(default_factory=lambda: int(_f("PAGES_EVERY_MINUTES", 15)))
 
     # Signal rules
     signal_threshold: float = field(default_factory=lambda: _f("SIGNAL_THRESHOLD", 45))

@@ -93,7 +93,11 @@ Each bullish/bearish call is graded twice: 1 hour later and at the close. `docs/
 running accuracy (50% = coin flip) and `docs/data/latest.json` the current calls.
 
 With `PUBLISH_GIT=1` in `.env`, the app commits and pushes `docs/data` after every hourly write and at each
-close; GitHub Pages serves `docs/index.html` as a one-page dashboard. Git handles the login (Git Credential
+close; The full dashboard is published too: every `PAGES_EVERY_MINUTES` (15) while a market is open, the app exports
+what every tab shows as JSON ([app/snapshot.py](app/snapshot.py)) and force-pushes it with the same web UI, in
+static mode, to the `gh-pages` branch (one commit, no history, so the repo does not grow). Set GitHub Pages to
+**branch `gh-pages`, folder `/`**: the site root is the dashboard and `log/` is the prediction log. Prices do not
+tick there; it is a snapshot of the local app. Git handles the login (Git Credential
 Manager), so no token is stored by the app.
 
 **Measured so far:** on ~60 days of 5-minute data (12 instruments, held-out period), the score called the

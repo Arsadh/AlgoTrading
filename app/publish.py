@@ -1,4 +1,4 @@
-"""Commit and push docs/data (the prediction JSON) to GitHub, so GitHub Pages shows it.
+"""Push to GitHub: docs/data (the prediction JSON) to master, and the static dashboard to gh-pages.
 
 Off unless PUBLISH_GIT=1 in .env and the project is a git repository with a remote.
 Authentication is left to git itself (Git Credential Manager on Windows), so no
@@ -53,3 +53,27 @@ def _run(message: str):
         log.warning("publish failed: %s", e)
     finally:
         _lock.release()
+
+
+def push_site(site_dir, message: str):
+    """Replace the gh-pages branch with one commit holding site_dir (no history kept).
+    Uses a separate index file, so the working tree and master are not touched.
+    Files that did not change are not uploaded again: git only sends new objects."""
+    import os
+    index = ROOT / ".git" / "pages-index"
+    index.unlink(missing_ok=True)
+    env = {**os.environ, "GIT_INDEX_FILE": str(index), "GCM_INTERACTIVE": "never", "GIT_TERMINAL_PROMPT": "0"}
+
+    def git(*args):
+        r = subprocess.run(["git", f"--git-dir={ROOT / '.git'}", f"--work-tree={site_dir}", *args],
+                           cwd=site_dir, capture_output=True, text=True, timeout=300, env=env)
+        if r.returncode != 0:
+            raise RuntimeError(r.stderr.strip() or r.stdout.strip())
+        return r.stdout.strip()
+
+    git("add", "-A", ".")
+    tree = git("write-tree")
+    commit = git("commit-tree", tree, "-m", message)
+    git("push", "--quiet", "--force", settings.publish_remote, f"{commit}:refs/heads/gh-pages")
+    status.update(last_ok=datetime.now(IST).isoformat(timespec="seconds"), last_error=None)
+    log.info("published dashboard: %s", message)

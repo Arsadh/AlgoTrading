@@ -12,7 +12,7 @@ import logging
 import time
 from datetime import datetime, time as dtime
 
-from .. import db, predictions, publish
+from .. import db, predictions, publish, snapshot
 from ..config import IST, settings
 from ..market import contracts, feed
 from ..market.instruments import INSTRUMENTS, active, any_open
@@ -307,6 +307,7 @@ class LiveService:
         except Exception as e:
             log.exception("prediction log failed")
             self.errors["predictions"] = f"prediction log: {e}"
+        snapshot.maybe_publish()
         if publish.status["last_error"]:
             self.errors["publish"] = f"GitHub publish: {publish.status['last_error']}"
         else:
