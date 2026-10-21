@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:00:09+05:30",
+ "updated": "2026-10-21T18:00:17+05:30",
  "instruments": [
   {
    "key": "NIFTY",
@@ -8,13 +8,13 @@
    "open": false,
    "spot": 22811.35,
    "change_pct": -0.34,
-   "score": 5.6,
+   "score": 4.9,
    "bias": "neutral",
    "signal": "",
    "source": "yahoo",
    "blockers": [
     "NSE is closed (session 09:15–15:30 IST, Mon–Fri)",
-    "Score +6 is inside ±45: no clear edge"
+    "Score +5 is inside ±45: no clear edge"
    ],
    "levels": {
     "entry": 22811.35,
@@ -23,7 +23,7 @@
     "t2": 22881.8,
     "risk": 35.22
    },
-   "computed_at": "2026-10-21T17:00:04+05:30",
+   "computed_at": "2026-10-21T18:00:12+05:30",
    "last_tick": "2026-10-21T15:31:00+05:30",
    "option": {
     "type": "CE",
@@ -32,7 +32,7 @@
     "premium": 135.95,
     "premium_sl": 116.44,
     "premium_t1": 155.46,
-    "premium_t2": 174.97,
+    "premium_t2": 174.96,
     "lot_desc": "65 qty",
     "premium_source": "NSE option chain"
    }
@@ -44,13 +44,13 @@
    "open": false,
    "spot": 54976.9,
    "change_pct": -0.92,
-   "score": 9.2,
+   "score": 8.4,
    "bias": "neutral",
    "signal": "",
    "source": "yahoo",
    "blockers": [
     "NSE is closed (session 09:15–15:30 IST, Mon–Fri)",
-    "Score +9 is inside ±45: no clear edge"
+    "Score +8 is inside ±45: no clear edge"
    ],
    "levels": {
     "entry": 54976.9,
@@ -59,16 +59,16 @@
     "t2": 55140.64,
     "risk": 81.87
    },
-   "computed_at": "2026-10-21T17:00:05+05:30",
+   "computed_at": "2026-10-21T18:00:12+05:30",
    "last_tick": "2026-10-21T15:31:00+05:30",
    "option": {
     "type": "CE",
     "strike": 55000,
     "expiry": "27-Oct-2026",
     "premium": 417.5,
-    "premium_sl": 375.09,
-    "premium_t1": 459.91,
-    "premium_t2": 502.33,
+    "premium_sl": 375.1,
+    "premium_t1": 459.9,
+    "premium_t2": 502.31,
     "lot_desc": "30 qty",
     "premium_source": "NSE option chain"
    }
@@ -78,32 +78,32 @@
    "name": "MCX Crude Oil",
    "exchange": "MCX",
    "open": true,
-   "spot": 9342.0,
-   "change_pct": 0.57,
-   "score": -37.8,
+   "spot": 9308.0,
+   "change_pct": 0.2,
+   "score": -39.9,
    "bias": "bearish",
    "signal": "",
    "source": "mcx",
    "blockers": [
-    "Score -38 is inside ±45: no clear edge"
+    "Score -40 is inside ±45: no clear edge"
    ],
    "levels": {
-    "entry": 9342.0,
-    "sl": 9377.18,
-    "t1": 9306.82,
-    "t2": 9271.64,
-    "risk": 35.18
+    "entry": 9308.0,
+    "sl": 9344.82,
+    "t1": 9271.18,
+    "t2": 9234.36,
+    "risk": 36.82
    },
-   "computed_at": "2026-10-21T17:00:05+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:13+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
     "type": "PE",
-    "strike": 9350,
+    "strike": 9300,
     "expiry": "17-Nov-2026",
-    "premium": 509.8,
-    "premium_sl": 493.34,
-    "premium_t1": 526.26,
-    "premium_t2": 542.73,
+    "premium": 506.6,
+    "premium_sl": 489.26,
+    "premium_t1": 523.94,
+    "premium_t2": 541.28,
     "lot_desc": "100 bbl",
     "premium_source": "MCX option chain"
    }
@@ -113,32 +113,32 @@
    "name": "MCX Crude Oil Mini",
    "exchange": "MCX",
    "open": true,
-   "spot": 9345.0,
-   "change_pct": 0.66,
-   "score": -34.9,
+   "spot": 9306.0,
+   "change_pct": 0.24,
+   "score": -39.9,
    "bias": "bearish",
    "signal": "",
    "source": "mcx",
    "blockers": [
-    "Score -35 is inside ±45: no clear edge"
+    "Score -40 is inside ±45: no clear edge"
    ],
    "levels": {
-    "entry": 9345.0,
-    "sl": 9381.15,
-    "t1": 9308.85,
-    "t2": 9272.71,
-    "risk": 36.15
+    "entry": 9306.0,
+    "sl": 9344.61,
+    "t1": 9267.39,
+    "t2": 9228.79,
+    "risk": 38.61
    },
-   "computed_at": "2026-10-21T17:00:06+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:13+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
     "type": "PE",
-    "strike": 9350,
+    "strike": 9300,
     "expiry": "17-Nov-2026",
-    "premium": 517.55,
-    "premium_sl": 500.63,
-    "premium_t1": 534.47,
-    "premium_t2": 551.38,
+    "premium": 515.0,
+    "premium_sl": 496.89,
+    "premium_t1": 533.11,
+    "premium_t2": 551.21,
     "lot_desc": "10 bbl",
     "premium_source": "MCX option chain"
    }
@@ -150,28 +150,28 @@
    "open": true,
    "spot": 271.1,
    "change_pct": -4.27,
-   "score": -80.1,
+   "score": -63.3,
    "bias": "bearish",
    "signal": "PUT",
    "source": "mcx",
    "blockers": [],
    "levels": {
     "entry": 271.1,
-    "sl": 272.39,
-    "t1": 269.81,
-    "t2": 268.52,
-    "risk": 1.29
+    "sl": 272.52,
+    "t1": 269.68,
+    "t2": 268.25,
+    "risk": 1.42
    },
-   "computed_at": "2026-10-21T17:00:06+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:14+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
     "type": "PE",
     "strike": 270,
     "expiry": "23-Oct-2026",
-    "premium": 6.2,
-    "premium_sl": 5.59,
-    "premium_t1": 6.81,
-    "premium_t2": 7.42,
+    "premium": 5.45,
+    "premium_sl": 4.81,
+    "premium_t1": 6.09,
+    "premium_t2": 6.72,
     "lot_desc": "1,250 mmBtu",
     "premium_source": "MCX option chain"
    }
@@ -181,30 +181,30 @@
    "name": "MCX Natural Gas Mini",
    "exchange": "MCX",
    "open": true,
-   "spot": 271.6,
-   "change_pct": -4.2,
-   "score": -80.1,
+   "spot": 271.0,
+   "change_pct": -4.41,
+   "score": -63.3,
    "bias": "bearish",
    "signal": "PUT",
    "source": "mcx",
    "blockers": [],
    "levels": {
-    "entry": 271.6,
+    "entry": 271.0,
     "sl": 272.66,
-    "t1": 270.54,
-    "t2": 269.49,
-    "risk": 1.06
+    "t1": 269.34,
+    "t2": 267.69,
+    "risk": 1.66
    },
-   "computed_at": "2026-10-21T17:00:06+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:14+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
     "type": "PE",
     "strike": 270,
     "expiry": "23-Oct-2026",
-    "premium": 6.2,
-    "premium_sl": 5.7,
-    "premium_t1": 6.7,
-    "premium_t2": 7.19,
+    "premium": 5.45,
+    "premium_sl": 4.71,
+    "premium_t1": 6.19,
+    "premium_t2": 6.93,
     "lot_desc": "250 mmBtu",
     "premium_source": "MCX option chain"
    }
@@ -214,32 +214,32 @@
    "name": "MCX Gold",
    "exchange": "MCX",
    "open": true,
-   "spot": 146080.0,
-   "change_pct": -0.27,
-   "score": 18.3,
+   "spot": 145920.0,
+   "change_pct": -0.38,
+   "score": -8.1,
    "bias": "neutral",
    "signal": "",
    "source": "mcx",
    "blockers": [
-    "Score +18 is inside ±45: no clear edge"
+    "Score -8 is inside ±45: no clear edge"
    ],
    "levels": {
-    "entry": 146080.0,
-    "sl": 145962.42,
-    "t1": 146197.58,
-    "t2": 146315.16,
-    "risk": 117.58
+    "entry": 145920.0,
+    "sl": 146009.71,
+    "t1": 145830.29,
+    "t2": 145740.57,
+    "risk": 89.71
    },
-   "computed_at": "2026-10-21T17:00:07+05:30",
-   "last_tick": "2026-10-21T17:00:00+05:30",
+   "computed_at": "2026-10-21T18:00:14+05:30",
+   "last_tick": "2026-10-21T18:00:00+05:30",
    "option": {
-    "type": "CE",
+    "type": "PE",
     "strike": 146000,
     "expiry": "30-Oct-2026",
-    "premium": 1764.5,
-    "premium_sl": 1704.53,
-    "premium_t1": 1824.47,
-    "premium_t2": 1884.43,
+    "premium": 1750.0,
+    "premium_sl": 1704.96,
+    "premium_t1": 1795.04,
+    "premium_t2": 1840.07,
     "lot_desc": "1 kg",
     "premium_source": "MCX option chain"
    }
@@ -249,33 +249,32 @@
    "name": "MCX Gold Mini",
    "exchange": "MCX",
    "open": true,
-   "spot": 144623.0,
-   "change_pct": -0.27,
-   "score": 8.3,
+   "spot": 144440.0,
+   "change_pct": -0.4,
+   "score": -12.6,
    "bias": "neutral",
    "signal": "",
    "source": "mcx",
    "blockers": [
-    "ADX 18 below 18: market is choppy, not trending",
-    "Score +8 is inside ±45: no clear edge"
+    "Score -13 is inside ±45: no clear edge"
    ],
    "levels": {
-    "entry": 144623.0,
-    "sl": 144485.81,
-    "t1": 144760.19,
-    "t2": 144897.39,
-    "risk": 137.19
+    "entry": 144440.0,
+    "sl": 144502.49,
+    "t1": 144377.51,
+    "t2": 144315.01,
+    "risk": 62.49
    },
-   "computed_at": "2026-10-21T17:00:07+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:15+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
-    "type": "CE",
+    "type": "PE",
     "strike": 144500,
     "expiry": "29-Oct-2026",
-    "premium": 1572.0,
-    "premium_sl": 1502.31,
-    "premium_t1": 1641.69,
-    "premium_t2": 1711.39,
+    "premium": 1567.5,
+    "premium_sl": 1536.19,
+    "premium_t1": 1598.81,
+    "premium_t2": 1630.12,
     "lot_desc": "100 g",
     "premium_source": "MCX option chain"
    }
@@ -285,32 +284,30 @@
    "name": "MCX Silver",
    "exchange": "MCX",
    "open": true,
-   "spot": 210094.0,
-   "change_pct": -0.66,
-   "score": 4.0,
-   "bias": "neutral",
-   "signal": "",
+   "spot": 209006.0,
+   "change_pct": -1.18,
+   "score": -65.8,
+   "bias": "bearish",
+   "signal": "PUT",
    "source": "mcx",
-   "blockers": [
-    "Score +4 is inside ±45: no clear edge"
-   ],
+   "blockers": [],
    "levels": {
-    "entry": 210094.0,
-    "sl": 209724.52,
-    "t1": 210463.48,
-    "t2": 210832.96,
-    "risk": 369.48
+    "entry": 209006.0,
+    "sl": 209383.03,
+    "t1": 208628.97,
+    "t2": 208251.94,
+    "risk": 377.03
    },
-   "computed_at": "2026-10-21T17:00:07+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:15+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
-    "type": "CE",
-    "strike": 210000,
+    "type": "PE",
+    "strike": 209000,
     "expiry": "27-Oct-2026",
-    "premium": 2961.5,
-    "premium_sl": 2774.54,
-    "premium_t1": 3148.46,
-    "premium_t2": 3335.41,
+    "premium": 3040.5,
+    "premium_sl": 2856.89,
+    "premium_t1": 3224.11,
+    "premium_t2": 3407.73,
     "lot_desc": "30 kg",
     "premium_source": "MCX option chain"
    }
@@ -320,32 +317,32 @@
    "name": "MCX Silver Mini",
    "exchange": "MCX",
    "open": true,
-   "spot": 212575.0,
-   "change_pct": -0.65,
-   "score": 8.3,
-   "bias": "neutral",
+   "spot": 211550.0,
+   "change_pct": -1.13,
+   "score": -26.7,
+   "bias": "bearish",
    "signal": "",
    "source": "mcx",
    "blockers": [
-    "Score +8 is inside ±45: no clear edge"
+    "Score -27 is inside ±45: no clear edge"
    ],
    "levels": {
-    "entry": 212575.0,
-    "sl": 212185.34,
-    "t1": 212964.66,
-    "t2": 213354.32,
-    "risk": 389.66
+    "entry": 211550.0,
+    "sl": 211759.06,
+    "t1": 211340.94,
+    "t2": 211131.88,
+    "risk": 209.06
    },
-   "computed_at": "2026-10-21T17:00:08+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:16+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
-    "type": "CE",
-    "strike": 213000,
+    "type": "PE",
+    "strike": 212000,
     "expiry": "27-Oct-2026",
-    "premium": 2755.0,
-    "premium_sl": 2568.74,
-    "premium_t1": 2941.26,
-    "premium_t2": 3127.52,
+    "premium": 3242.5,
+    "premium_sl": 3134.62,
+    "premium_t1": 3350.38,
+    "premium_t2": 3458.25,
     "lot_desc": "5 kg",
     "premium_source": "MCX option chain"
    }
@@ -355,32 +352,30 @@
    "name": "MCX Copper",
    "exchange": "MCX",
    "open": true,
-   "spot": 1389.2,
-   "change_pct": -0.66,
-   "score": 18.0,
-   "bias": "neutral",
-   "signal": "",
+   "spot": 1385.6,
+   "change_pct": -0.92,
+   "score": -73.3,
+   "bias": "bearish",
+   "signal": "PUT",
    "source": "mcx",
-   "blockers": [
-    "Score +18 is inside ±45: no clear edge"
-   ],
+   "blockers": [],
    "levels": {
-    "entry": 1389.2,
-    "sl": 1387.58,
-    "t1": 1390.82,
-    "t2": 1392.44,
-    "risk": 1.62
+    "entry": 1385.6,
+    "sl": 1387.19,
+    "t1": 1384.01,
+    "t2": 1382.42,
+    "risk": 1.59
    },
-   "computed_at": "2026-10-21T17:00:08+05:30",
-   "last_tick": "2026-10-21T17:00:00+05:30",
+   "computed_at": "2026-10-21T18:00:16+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
-    "type": "CE",
+    "type": "PE",
     "strike": 1390,
     "expiry": "23-Oct-2026",
-    "premium": 7.16,
-    "premium_sl": 6.36,
-    "premium_t1": 7.96,
-    "premium_t2": 8.75,
+    "premium": 9.8,
+    "premium_sl": 8.84,
+    "premium_t1": 10.76,
+    "premium_t2": 11.72,
     "lot_desc": "2,500 kg",
     "premium_source": "MCX option chain"
    }
@@ -390,30 +385,32 @@
    "name": "MCX Zinc",
    "exchange": "MCX",
    "open": true,
-   "spot": 421.45,
-   "change_pct": -0.72,
-   "score": -47.6,
-   "bias": "bearish",
-   "signal": "PUT",
+   "spot": 422.0,
+   "change_pct": -0.59,
+   "score": 9.5,
+   "bias": "neutral",
+   "signal": "",
    "source": "mcx",
-   "blockers": [],
+   "blockers": [
+    "Score +10 is inside ±45: no clear edge"
+   ],
    "levels": {
-    "entry": 421.45,
-    "sl": 421.78,
-    "t1": 421.12,
-    "t2": 420.79,
-    "risk": 0.33
+    "entry": 422.0,
+    "sl": 421.57,
+    "t1": 422.43,
+    "t2": 422.85,
+    "risk": 0.43
    },
-   "computed_at": "2026-10-21T17:00:08+05:30",
-   "last_tick": "2026-10-21T17:01:00+05:30",
+   "computed_at": "2026-10-21T18:00:17+05:30",
+   "last_tick": "2026-10-21T18:01:00+05:30",
    "option": {
-    "type": "PE",
+    "type": "CE",
     "strike": 420,
     "expiry": "23-Oct-2026",
-    "premium": 2.4,
-    "premium_sl": 2.26,
-    "premium_t1": 2.54,
-    "premium_t2": 2.67,
+    "premium": 4.36,
+    "premium_sl": 4.1,
+    "premium_t1": 4.62,
+    "premium_t2": 4.87,
     "lot_desc": "5,000 kg",
     "premium_source": "MCX option chain"
    }
