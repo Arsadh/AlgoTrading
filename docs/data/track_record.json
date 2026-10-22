@@ -166,7 +166,7 @@
   },
   {
    "date": "2026-10-22",
-   "updated": "2026-10-22T12:00:37+05:30",
+   "updated": "2026-10-22T13:00:25+05:30",
    "rules": {
     "signal_threshold": 45,
     "min_adx": 18,
@@ -187,11 +187,11 @@
      "trades": 102,
      "win_rate": 0.51,
      "t1_hit_rate": 0.441,
-     "avg_points": 10.0,
-     "avg_points_after_costs": 6.0,
-     "total_points_after_costs": 612.9,
-     "avg_r": 0.145,
-     "profit_factor": 1.34,
+     "avg_points": 9.1,
+     "avg_points_after_costs": 5.1,
+     "total_points_after_costs": 520.8,
+     "avg_r": 0.136,
+     "profit_factor": 1.31,
      "max_losing_streak": 5
     },
     "BANKNIFTY": {
@@ -213,8 +213,8 @@
      "t1_hit_rate": 0.485,
      "avg_points": 5.2,
      "avg_points_after_costs": -0.8,
-     "total_points_after_costs": -82.5,
-     "avg_r": 0.169,
+     "total_points_after_costs": -75.5,
+     "avg_r": 0.17,
      "profit_factor": 1.38,
      "max_losing_streak": 6
     },
@@ -225,7 +225,7 @@
      "t1_hit_rate": 0.457,
      "avg_points": -1.8,
      "avg_points_after_costs": -17.8,
-     "total_points_after_costs": -2065.1,
+     "total_points_after_costs": -2059.1,
      "avg_r": -0.017,
      "profit_factor": 0.97,
      "max_losing_streak": 7
@@ -261,7 +261,7 @@
      "t1_hit_rate": 0.438,
      "avg_points": -60.5,
      "avg_points_after_costs": -120.5,
-     "total_points_after_costs": -14579.6,
+     "total_points_after_costs": -14578.9,
      "avg_r": -0.133,
      "profit_factor": 0.75,
      "max_losing_streak": 7
@@ -273,7 +273,7 @@
      "t1_hit_rate": 0.449,
      "avg_points": -11.0,
      "avg_points_after_costs": -131.0,
-     "total_points_after_costs": -15459.2,
+     "total_points_after_costs": -15458.7,
      "avg_r": -0.007,
      "profit_factor": 0.99,
      "max_losing_streak": 10
@@ -305,13 +305,13 @@
     "COPPER": {
      "name": "MCX Copper",
      "trades": 116,
-     "win_rate": 0.397,
+     "win_rate": 0.405,
      "t1_hit_rate": 0.353,
-     "avg_points": -0.6,
-     "avg_points_after_costs": -1.8,
-     "total_points_after_costs": -205.1,
-     "avg_r": -0.234,
-     "profit_factor": 0.61,
+     "avg_points": -0.5,
+     "avg_points_after_costs": -1.7,
+     "total_points_after_costs": -202.4,
+     "avg_r": -0.229,
+     "profit_factor": 0.62,
      "max_losing_streak": 9
     },
     "ZINC": {
@@ -329,6 +329,6 @@
    }
   }
  ],
- "updated": "2026-10-22T12:00:37+05:30",
+ "updated": "2026-10-22T13:00:25+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
