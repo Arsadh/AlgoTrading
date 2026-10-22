@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T23:00:03+05:30",
+ "updated": "2026-10-22T23:30:01+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
@@ -10,9 +10,9 @@
   },
   "close": {
    "calls": 188,
-   "graded": 15,
-   "correct": 1,
-   "accuracy": 0.067
+   "graded": 109,
+   "correct": 76,
+   "accuracy": 0.697
   }
  },
  "by_strength": {
@@ -25,9 +25,9 @@
    },
    "close": {
     "calls": 56,
-    "graded": 5,
-    "correct": 1,
-    "accuracy": 0.2
+    "graded": 36,
+    "correct": 25,
+    "accuracy": 0.694
    }
   },
   "|score| 45-69": {
@@ -39,9 +39,9 @@
    },
    "close": {
     "calls": 67,
-    "graded": 3,
-    "correct": 0,
-    "accuracy": 0.0
+    "graded": 32,
+    "correct": 25,
+    "accuracy": 0.781
    }
   },
   "|score| 70+": {
@@ -53,9 +53,9 @@
    },
    "close": {
     "calls": 65,
-    "graded": 7,
-    "correct": 0,
-    "accuracy": 0.0
+    "graded": 41,
+    "correct": 26,
+    "accuracy": 0.634
    }
   }
  },
@@ -100,9 +100,9 @@
    },
    "close": {
     "calls": 16,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 7,
+    "correct": 6,
+    "accuracy": 0.857
    }
   },
   "CRUDEOILM": {
@@ -115,9 +115,9 @@
    },
    "close": {
     "calls": 16,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 7,
+    "correct": 6,
+    "accuracy": 0.857
    }
   },
   "NATURALGAS": {
@@ -130,9 +130,9 @@
    },
    "close": {
     "calls": 19,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 9,
+    "correct": 5,
+    "accuracy": 0.556
    }
   },
   "GOLD": {
@@ -145,9 +145,9 @@
    },
    "close": {
     "calls": 13,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 9,
+    "correct": 9,
+    "accuracy": 1.0
    }
   },
   "GOLDM": {
@@ -160,9 +160,9 @@
    },
    "close": {
     "calls": 17,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 9,
+    "correct": 8,
+    "accuracy": 0.889
    }
   },
   "SILVER": {
@@ -175,9 +175,9 @@
    },
    "close": {
     "calls": 20,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 12,
+    "correct": 11,
+    "accuracy": 0.917
    }
   },
   "SILVERM": {
@@ -190,9 +190,9 @@
    },
    "close": {
     "calls": 19,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 12,
+    "correct": 11,
+    "accuracy": 0.917
    }
   },
   "COPPER": {
@@ -205,9 +205,9 @@
    },
    "close": {
     "calls": 19,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 11,
+    "correct": 5,
+    "accuracy": 0.455
    }
   },
   "ZINC": {
@@ -220,9 +220,9 @@
    },
    "close": {
     "calls": 16,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 9,
+    "correct": 9,
+    "accuracy": 1.0
    }
   },
   "NATGASMINI": {
@@ -235,9 +235,9 @@
    },
    "close": {
     "calls": 18,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 9,
+    "correct": 5,
+    "accuracy": 0.556
    }
   }
  },
@@ -256,10 +256,10 @@
   }
  ],
  "signals": {
-  "closed": 89,
-  "wins": 39,
-  "win_rate": 0.438,
-  "avg_r": 0.114,
+  "closed": 91,
+  "wins": 40,
+  "win_rate": 0.44,
+  "avg_r": 0.121,
   "by_instrument": {
    "BANKNIFTY": {
     "trades": 10,
@@ -286,12 +286,12 @@
     "profit_factor": 0.54
    },
    "NATGASMINI": {
-    "trades": 6,
-    "win_rate": 0.5,
-    "t1_hit_rate": 0.333,
-    "avg_r": 0.272,
-    "total_points": -0.1,
-    "profit_factor": 1.54
+    "trades": 7,
+    "win_rate": 0.429,
+    "t1_hit_rate": 0.286,
+    "avg_r": 0.21,
+    "total_points": -0.4,
+    "profit_factor": 1.47
    },
    "ZINC": {
     "trades": 7,
@@ -318,12 +318,12 @@
     "profit_factor": 3.58
    },
    "CRUDEOIL": {
-    "trades": 6,
-    "win_rate": 0.5,
-    "t1_hit_rate": 0.5,
-    "avg_r": -0.2,
-    "total_points": -31.9,
-    "profit_factor": 0.4
+    "trades": 7,
+    "win_rate": 0.571,
+    "t1_hit_rate": 0.571,
+    "avg_r": -0.027,
+    "total_points": 36.1,
+    "profit_factor": 0.91
    },
    "CRUDEOILM": {
     "trades": 7,
