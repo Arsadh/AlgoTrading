@@ -166,7 +166,7 @@
   },
   {
    "date": "2026-10-22",
-   "updated": "2026-10-22T21:11:11+05:30",
+   "updated": "2026-10-22T22:01:30+05:30",
    "rules": {
     "signal_threshold": 45,
     "min_adx": 18,
@@ -259,10 +259,10 @@
      "trades": 123,
      "win_rate": 0.472,
      "t1_hit_rate": 0.439,
-     "avg_points": -57.4,
-     "avg_points_after_costs": -117.4,
-     "total_points_after_costs": -14441.3,
-     "avg_r": -0.127,
+     "avg_points": -56.6,
+     "avg_points_after_costs": -116.6,
+     "total_points_after_costs": -14336.3,
+     "avg_r": -0.125,
      "profit_factor": 0.76,
      "max_losing_streak": 7
     },
@@ -271,10 +271,10 @@
      "trades": 120,
      "win_rate": 0.5,
      "t1_hit_rate": 0.45,
-     "avg_points": -9.8,
-     "avg_points_after_costs": -129.8,
-     "total_points_after_costs": -15581.3,
-     "avg_r": -0.004,
+     "avg_points": -8.8,
+     "avg_points_after_costs": -128.8,
+     "total_points_after_costs": -15454.3,
+     "avg_r": -0.003,
      "profit_factor": 0.99,
      "max_losing_streak": 10
     },
@@ -282,24 +282,24 @@
      "name": "MCX Silver",
      "trades": 120,
      "win_rate": 0.5,
-     "t1_hit_rate": 0.45,
-     "avg_points": -75.0,
-     "avg_points_after_costs": -225.0,
-     "total_points_after_costs": -26999.0,
-     "avg_r": -0.011,
-     "profit_factor": 0.98,
+     "t1_hit_rate": 0.458,
+     "avg_points": -69.5,
+     "avg_points_after_costs": -219.5,
+     "total_points_after_costs": -26337.0,
+     "avg_r": -0.006,
+     "profit_factor": 0.99,
      "max_losing_streak": 8
     },
     "SILVERM": {
      "name": "MCX Silver Mini",
      "trades": 121,
-     "win_rate": 0.504,
+     "win_rate": 0.512,
      "t1_hit_rate": 0.463,
-     "avg_points": -74.4,
-     "avg_points_after_costs": -424.4,
-     "total_points_after_costs": -51357.6,
-     "avg_r": -0.026,
-     "profit_factor": 0.94,
+     "avg_points": -67.6,
+     "avg_points_after_costs": -417.6,
+     "total_points_after_costs": -50525.6,
+     "avg_r": -0.021,
+     "profit_factor": 0.96,
      "max_losing_streak": 9
     },
     "COPPER": {
@@ -313,22 +313,10 @@
      "avg_r": -0.214,
      "profit_factor": 0.64,
      "max_losing_streak": 9
-    },
-    "ZINC": {
-     "name": "MCX Zinc",
-     "trades": 77,
-     "win_rate": 0.481,
-     "t1_hit_rate": 0.39,
-     "avg_points": -0.1,
-     "avg_points_after_costs": -0.9,
-     "total_points_after_costs": -66.1,
-     "avg_r": -0.055,
-     "profit_factor": 0.89,
-     "max_losing_streak": 4
     }
    }
   }
  ],
- "updated": "2026-10-22T21:11:11+05:30",
+ "updated": "2026-10-22T22:01:30+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
