@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-22T19:58:43+05:30",
+ "updated": "2026-10-22T20:00:19+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 156,
-   "graded": 140,
+   "calls": 164,
+   "graded": 145,
    "correct": 72,
-   "accuracy": 0.514
+   "accuracy": 0.497
   },
   "close": {
-   "calls": 156,
+   "calls": 164,
    "graded": 15,
    "correct": 1,
    "accuracy": 0.067
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 48,
+    "calls": 51,
     "graded": 45,
     "correct": 18,
     "accuracy": 0.4
    },
    "close": {
-    "calls": 48,
+    "calls": 51,
     "graded": 5,
     "correct": 1,
     "accuracy": 0.2
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 60,
-    "graded": 57,
+    "calls": 61,
+    "graded": 58,
     "correct": 34,
-    "accuracy": 0.596
+    "accuracy": 0.586
    },
    "close": {
-    "calls": 60,
+    "calls": 61,
     "graded": 3,
     "correct": 0,
     "accuracy": 0.0
@@ -46,13 +46,13 @@
   },
   "|score| 70+": {
    "1h": {
-    "calls": 48,
-    "graded": 38,
+    "calls": 52,
+    "graded": 42,
     "correct": 20,
-    "accuracy": 0.526
+    "accuracy": 0.476
    },
    "close": {
-    "calls": 48,
+    "calls": 52,
     "graded": 7,
     "correct": 0,
     "accuracy": 0.0
@@ -123,13 +123,13 @@
   "NATURALGAS": {
    "name": "MCX Natural Gas",
    "1h": {
-    "calls": 15,
+    "calls": 16,
     "graded": 12,
     "correct": 9,
     "accuracy": 0.75
    },
    "close": {
-    "calls": 15,
+    "calls": 16,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -138,13 +138,13 @@
   "GOLD": {
    "name": "MCX Gold",
    "1h": {
-    "calls": 9,
-    "graded": 8,
+    "calls": 10,
+    "graded": 9,
     "correct": 2,
-    "accuracy": 0.25
+    "accuracy": 0.222
    },
    "close": {
-    "calls": 9,
+    "calls": 10,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -153,13 +153,13 @@
   "GOLDM": {
    "name": "MCX Gold Mini",
    "1h": {
-    "calls": 13,
-    "graded": 11,
+    "calls": 14,
+    "graded": 12,
     "correct": 3,
-    "accuracy": 0.273
+    "accuracy": 0.25
    },
    "close": {
-    "calls": 13,
+    "calls": 14,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -168,13 +168,13 @@
   "SILVER": {
    "name": "MCX Silver",
    "1h": {
-    "calls": 16,
-    "graded": 14,
+    "calls": 17,
+    "graded": 15,
     "correct": 7,
-    "accuracy": 0.5
+    "accuracy": 0.467
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -183,13 +183,13 @@
   "SILVERM": {
    "name": "MCX Silver Mini",
    "1h": {
-    "calls": 15,
-    "graded": 14,
+    "calls": 16,
+    "graded": 15,
     "correct": 7,
-    "accuracy": 0.5
+    "accuracy": 0.467
    },
    "close": {
-    "calls": 15,
+    "calls": 16,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -198,13 +198,13 @@
   "COPPER": {
    "name": "MCX Copper",
    "1h": {
-    "calls": 16,
+    "calls": 17,
     "graded": 16,
     "correct": 7,
     "accuracy": 0.438
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 13,
-    "graded": 12,
+    "calls": 14,
+    "graded": 13,
     "correct": 5,
-    "accuracy": 0.417
+    "accuracy": 0.385
    },
    "close": {
-    "calls": 13,
+    "calls": 14,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -228,13 +228,13 @@
   "NATGASMINI": {
    "name": "MCX Natural Gas Mini",
    "1h": {
-    "calls": 14,
+    "calls": 15,
     "graded": 12,
     "correct": 10,
     "accuracy": 0.833
    },
    "close": {
-    "calls": 14,
+    "calls": 15,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-22",
-   "calls": 100,
-   "directional": 70,
+   "calls": 110,
+   "directional": 78,
    "signals": 29
   },
   {
