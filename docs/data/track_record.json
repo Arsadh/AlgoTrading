@@ -166,7 +166,7 @@
   },
   {
    "date": "2026-10-22",
-   "updated": "2026-10-22T13:00:25+05:30",
+   "updated": "2026-10-22T14:00:45+05:30",
    "rules": {
     "signal_threshold": 45,
     "min_adx": 18,
@@ -211,11 +211,11 @@
      "trades": 99,
      "win_rate": 0.535,
      "t1_hit_rate": 0.485,
-     "avg_points": 5.2,
-     "avg_points_after_costs": -0.8,
-     "total_points_after_costs": -75.5,
-     "avg_r": 0.17,
-     "profit_factor": 1.38,
+     "avg_points": 5.6,
+     "avg_points_after_costs": -0.4,
+     "total_points_after_costs": -35.2,
+     "avg_r": 0.175,
+     "profit_factor": 1.39,
      "max_losing_streak": 6
     },
     "CRUDEOILM": {
@@ -223,34 +223,34 @@
      "trades": 116,
      "win_rate": 0.491,
      "t1_hit_rate": 0.457,
-     "avg_points": -1.8,
-     "avg_points_after_costs": -17.8,
-     "total_points_after_costs": -2059.1,
-     "avg_r": -0.017,
+     "avg_points": -1.4,
+     "avg_points_after_costs": -17.4,
+     "total_points_after_costs": -2022.1,
+     "avg_r": -0.014,
      "profit_factor": 0.97,
      "max_losing_streak": 7
     },
     "NATURALGAS": {
      "name": "MCX Natural Gas",
-     "trades": 114,
-     "win_rate": 0.465,
-     "t1_hit_rate": 0.439,
+     "trades": 115,
+     "win_rate": 0.461,
+     "t1_hit_rate": 0.435,
      "avg_points": -0.1,
      "avg_points_after_costs": -0.6,
-     "total_points_after_costs": -67.4,
-     "avg_r": -0.028,
-     "profit_factor": 0.95,
+     "total_points_after_costs": -68.4,
+     "avg_r": -0.03,
+     "profit_factor": 0.94,
      "max_losing_streak": 7
     },
     "NATGASMINI": {
      "name": "MCX Natural Gas Mini",
-     "trades": 114,
-     "win_rate": 0.518,
-     "t1_hit_rate": 0.474,
-     "avg_points": -0.0,
-     "avg_points_after_costs": -1.2,
-     "total_points_after_costs": -142.5,
-     "avg_r": 0.043,
+     "trades": 115,
+     "win_rate": 0.513,
+     "t1_hit_rate": 0.47,
+     "avg_points": -0.1,
+     "avg_points_after_costs": -1.3,
+     "total_points_after_costs": -144.2,
+     "avg_r": 0.041,
      "profit_factor": 1.09,
      "max_losing_streak": 8
     },
@@ -306,12 +306,12 @@
      "name": "MCX Copper",
      "trades": 116,
      "win_rate": 0.405,
-     "t1_hit_rate": 0.353,
+     "t1_hit_rate": 0.362,
      "avg_points": -0.5,
      "avg_points_after_costs": -1.7,
-     "total_points_after_costs": -202.4,
-     "avg_r": -0.229,
-     "profit_factor": 0.62,
+     "total_points_after_costs": -197.9,
+     "avg_r": -0.222,
+     "profit_factor": 0.63,
      "max_losing_streak": 9
     },
     "ZINC": {
@@ -329,6 +329,6 @@
    }
   }
  ],
- "updated": "2026-10-22T13:00:25+05:30",
+ "updated": "2026-10-22T14:00:45+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
