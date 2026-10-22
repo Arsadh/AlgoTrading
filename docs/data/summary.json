@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-21T21:00:24+05:30",
+ "updated": "2026-10-22T11:21:26+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 86,
+   "calls": 96,
    "graded": 77,
    "correct": 44,
    "accuracy": 0.571
   },
   "close": {
-   "calls": 86,
+   "calls": 96,
    "graded": 8,
    "correct": 0,
    "accuracy": 0.0
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 20,
+    "calls": 22,
     "graded": 19,
     "correct": 10,
     "accuracy": 0.526
    },
    "close": {
-    "calls": 20,
+    "calls": 22,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 37,
+    "calls": 41,
     "graded": 35,
     "correct": 18,
     "accuracy": 0.514
    },
    "close": {
-    "calls": 37,
+    "calls": 41,
     "graded": 2,
     "correct": 0,
     "accuracy": 0.0
@@ -46,13 +46,13 @@
   },
   "|score| 70+": {
    "1h": {
-    "calls": 29,
+    "calls": 33,
     "graded": 23,
     "correct": 16,
     "accuracy": 0.696
    },
    "close": {
-    "calls": 29,
+    "calls": 33,
     "graded": 6,
     "correct": 0,
     "accuracy": 0.0
@@ -63,13 +63,13 @@
   "NIFTY": {
    "name": "Nifty 50",
    "1h": {
-    "calls": 4,
+    "calls": 5,
     "graded": 3,
     "correct": 3,
     "accuracy": 1.0
    },
    "close": {
-    "calls": 4,
+    "calls": 5,
     "graded": 4,
     "correct": 0,
     "accuracy": 0.0
@@ -78,13 +78,13 @@
   "BANKNIFTY": {
    "name": "Bank Nifty",
    "1h": {
-    "calls": 4,
+    "calls": 5,
     "graded": 3,
     "correct": 3,
     "accuracy": 1.0
    },
    "close": {
-    "calls": 4,
+    "calls": 5,
     "graded": 4,
     "correct": 0,
     "accuracy": 0.0
@@ -93,13 +93,13 @@
   "CRUDEOIL": {
    "name": "MCX Crude Oil",
    "1h": {
-    "calls": 9,
+    "calls": 10,
     "graded": 8,
     "correct": 4,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 9,
+    "calls": 10,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -108,13 +108,13 @@
   "CRUDEOILM": {
    "name": "MCX Crude Oil Mini",
    "1h": {
-    "calls": 9,
+    "calls": 10,
     "graded": 8,
     "correct": 4,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 9,
+    "calls": 10,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -138,13 +138,13 @@
   "GOLD": {
    "name": "MCX Gold",
    "1h": {
-    "calls": 4,
+    "calls": 5,
     "graded": 4,
     "correct": 1,
     "accuracy": 0.25
    },
    "close": {
-    "calls": 4,
+    "calls": 5,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -153,13 +153,13 @@
   "GOLDM": {
    "name": "MCX Gold Mini",
    "1h": {
-    "calls": 8,
+    "calls": 9,
     "graded": 7,
     "correct": 2,
     "accuracy": 0.286
    },
    "close": {
-    "calls": 8,
+    "calls": 9,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -168,13 +168,13 @@
   "SILVER": {
    "name": "MCX Silver",
    "1h": {
-    "calls": 8,
+    "calls": 9,
     "graded": 7,
     "correct": 3,
     "accuracy": 0.429
    },
    "close": {
-    "calls": 8,
+    "calls": 9,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -183,13 +183,13 @@
   "SILVERM": {
    "name": "MCX Silver Mini",
    "1h": {
-    "calls": 7,
+    "calls": 8,
     "graded": 7,
     "correct": 3,
     "accuracy": 0.429
    },
    "close": {
-    "calls": 7,
+    "calls": 8,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -198,13 +198,13 @@
   "COPPER": {
    "name": "MCX Copper",
    "1h": {
-    "calls": 8,
+    "calls": 9,
     "graded": 8,
     "correct": 4,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 8,
+    "calls": 9,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 6,
+    "calls": 7,
     "graded": 6,
     "correct": 2,
     "accuracy": 0.333
    },
    "close": {
-    "calls": 6,
+    "calls": 7,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -242,6 +242,12 @@
   }
  },
  "days": [
+  {
+   "date": "2026-10-22",
+   "calls": 12,
+   "directional": 10,
+   "signals": 4
+  },
   {
    "date": "2026-10-21",
    "calls": 108,
