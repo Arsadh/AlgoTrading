@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated": "2026-10-22T17:00:50+05:30",
+ "updated": "2026-10-22T18:00:19+05:30",
  "rules": {
   "signal_threshold": 45,
   "min_adx": 18,
@@ -3678,7 +3678,7 @@
    "max_losing_streak": 6,
    "days": 37,
    "from": "2026-08-31T09:10:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T17:55:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 6.0,
    "with_daily_algo": true,
@@ -5093,10 +5093,10 @@
      "time": "2026-10-22T09:25:00+05:30",
      "side": "CALL",
      "entry": 9325.0,
-     "exit": 9432.0,
-     "exit_time": "2026-10-22T17:00:00+05:30",
-     "points": 107.0,
-     "r": 1.07,
+     "exit": 9450.0,
+     "exit_time": "2026-10-22T18:00:00+05:30",
+     "points": 125.0,
+     "r": 1.25,
      "reason": "eod",
      "t1_hit": true,
      "score": 52.6
@@ -5104,15 +5104,15 @@
    ],
    "win_rate": 0.491,
    "t1_hit_rate": 0.457,
-   "avg_points": -1.9,
-   "avg_points_after_costs": -17.9,
-   "total_points_after_costs": -2082.1,
-   "avg_r": -0.019,
-   "profit_factor": 0.96,
+   "avg_points": -1.8,
+   "avg_points_after_costs": -17.8,
+   "total_points_after_costs": -2064.1,
+   "avg_r": -0.017,
+   "profit_factor": 0.97,
    "max_losing_streak": 7,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 16.0,
    "with_daily_algo": true,
@@ -5120,24 +5120,24 @@
     "trades": 116,
     "win_rate": 0.491,
     "t1_hit_rate": 0.457,
-    "avg_r": -0.019,
-    "total_r": -2.18,
-    "avg_points": -1.9,
-    "total_points": -226.1,
-    "profit_factor": 0.96,
+    "avg_r": -0.017,
+    "total_r": -2.0,
+    "avg_points": -1.8,
+    "total_points": -208.1,
+    "profit_factor": 0.97,
     "max_losing_streak": 7,
     "call": {
      "trades": 72,
      "win_rate": 0.514,
-     "avg_r": 0.102
+     "avg_r": 0.104
     },
     "put": {
      "trades": 44,
      "win_rate": 0.455,
      "avg_r": -0.216
     },
-    "avg_points_after_costs": -17.9,
-    "total_points_after_costs": -2082.1
+    "avg_points_after_costs": -17.8,
+    "total_points_after_costs": -2064.1
    }
   },
   "NATURALGAS": {
@@ -6546,7 +6546,7 @@
    "max_losing_streak": 7,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T17:55:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 0.5,
    "with_daily_algo": true,
@@ -7980,7 +7980,7 @@
    "max_losing_streak": 8,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T17:55:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 1.2,
    "with_daily_algo": true,
@@ -9467,26 +9467,26 @@
      "time": "2026-10-22T16:40:00+05:30",
      "side": "PUT",
      "entry": 144400.0,
-     "exit": 144096.0,
-     "exit_time": "2026-10-22T17:00:00+05:30",
-     "points": 304.0,
-     "r": 1.12,
-     "reason": "eod",
+     "exit": 144318.32,
+     "exit_time": "2026-10-22T17:25:00+05:30",
+     "points": 81.68,
+     "r": 0.3,
+     "reason": "locked",
      "t1_hit": true,
      "score": -94.8
     }
    ],
    "win_rate": 0.467,
    "t1_hit_rate": 0.443,
-   "avg_points": -57.5,
-   "avg_points_after_costs": -117.5,
-   "total_points_after_costs": -14334.9,
-   "avg_r": -0.123,
-   "profit_factor": 0.77,
+   "avg_points": -59.3,
+   "avg_points_after_costs": -119.3,
+   "total_points_after_costs": -14557.3,
+   "avg_r": -0.13,
+   "profit_factor": 0.76,
    "max_losing_streak": 7,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 60.0,
    "with_daily_algo": true,
@@ -9494,11 +9494,11 @@
     "trades": 122,
     "win_rate": 0.467,
     "t1_hit_rate": 0.443,
-    "avg_r": -0.123,
-    "total_r": -15.02,
-    "avg_points": -57.5,
-    "total_points": -7014.9,
-    "profit_factor": 0.77,
+    "avg_r": -0.13,
+    "total_r": -15.84,
+    "avg_points": -59.3,
+    "total_points": -7237.3,
+    "profit_factor": 0.76,
     "max_losing_streak": 7,
     "call": {
      "trades": 53,
@@ -9508,10 +9508,10 @@
     "put": {
      "trades": 69,
      "win_rate": 0.478,
-     "avg_r": -0.169
+     "avg_r": -0.181
     },
-    "avg_points_after_costs": -117.5,
-    "total_points_after_costs": -14334.9
+    "avg_points_after_costs": -119.3,
+    "total_points_after_costs": -14557.3
    }
   },
   "GOLDM": {
@@ -10937,26 +10937,26 @@
      "time": "2026-10-22T16:45:00+05:30",
      "side": "PUT",
      "entry": 142767.0,
-     "exit": 142470.0,
-     "exit_time": "2026-10-22T16:55:00+05:30",
-     "points": 297.0,
-     "r": 0.94,
-     "reason": "eod",
+     "exit": 142672.59,
+     "exit_time": "2026-10-22T17:20:00+05:30",
+     "points": 94.41,
+     "r": 0.3,
+     "reason": "locked",
      "t1_hit": true,
      "score": -94.8
     }
    ],
    "win_rate": 0.496,
    "t1_hit_rate": 0.454,
-   "avg_points": -8.4,
-   "avg_points_after_costs": -128.4,
-   "total_points_after_costs": -15281.7,
-   "avg_r": 0.001,
-   "profit_factor": 1.0,
+   "avg_points": -10.1,
+   "avg_points_after_costs": -130.1,
+   "total_points_after_costs": -15484.3,
+   "avg_r": -0.005,
+   "profit_factor": 0.99,
    "max_losing_streak": 10,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T16:55:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 120.0,
    "with_daily_algo": true,
@@ -10964,11 +10964,11 @@
     "trades": 119,
     "win_rate": 0.496,
     "t1_hit_rate": 0.454,
-    "avg_r": 0.001,
-    "total_r": 0.08,
-    "avg_points": -8.4,
-    "total_points": -1001.7,
-    "profit_factor": 1.0,
+    "avg_r": -0.005,
+    "total_r": -0.56,
+    "avg_points": -10.1,
+    "total_points": -1204.3,
+    "profit_factor": 0.99,
     "max_losing_streak": 10,
     "call": {
      "trades": 45,
@@ -10978,10 +10978,10 @@
     "put": {
      "trades": 74,
      "win_rate": 0.514,
-     "avg_r": 0.011
+     "avg_r": 0.002
     },
-    "avg_points_after_costs": -128.4,
-    "total_points_after_costs": -15281.7
+    "avg_points_after_costs": -130.1,
+    "total_points_after_costs": -15484.3
    }
   },
   "SILVER": {
@@ -12404,13 +12404,13 @@
      "score": -75.2
     },
     {
-     "time": "2026-10-22T16:35:00+05:30",
+     "time": "2026-10-22T16:30:00+05:30",
      "side": "PUT",
-     "entry": 203213.0,
-     "exit": 203000.0,
-     "exit_time": "2026-10-22T17:00:00+05:30",
-     "points": 213.0,
-     "r": 0.38,
+     "entry": 203280.0,
+     "exit": 203157.0,
+     "exit_time": "2026-10-22T18:00:00+05:30",
+     "points": 123.0,
+     "r": 0.22,
      "reason": "eod",
      "t1_hit": false,
      "score": -95.2
@@ -12418,15 +12418,15 @@
    ],
    "win_rate": 0.496,
    "t1_hit_rate": 0.445,
-   "avg_points": -81.3,
-   "avg_points_after_costs": -231.3,
-   "total_points_after_costs": -27528.5,
-   "avg_r": -0.015,
+   "avg_points": -82.1,
+   "avg_points_after_costs": -232.1,
+   "total_points_after_costs": -27618.5,
+   "avg_r": -0.016,
    "profit_factor": 0.97,
    "max_losing_streak": 8,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 150.0,
    "with_daily_algo": true,
@@ -12434,10 +12434,10 @@
     "trades": 119,
     "win_rate": 0.496,
     "t1_hit_rate": 0.445,
-    "avg_r": -0.015,
-    "total_r": -1.79,
-    "avg_points": -81.3,
-    "total_points": -9678.5,
+    "avg_r": -0.016,
+    "total_r": -1.95,
+    "avg_points": -82.1,
+    "total_points": -9768.5,
     "profit_factor": 0.97,
     "max_losing_streak": 8,
     "call": {
@@ -12448,10 +12448,10 @@
     "put": {
      "trades": 76,
      "win_rate": 0.526,
-     "avg_r": 0.007
+     "avg_r": 0.005
     },
-    "avg_points_after_costs": -231.3,
-    "total_points_after_costs": -27528.5
+    "avg_points_after_costs": -232.1,
+    "total_points_after_costs": -27618.5
    }
   },
   "SILVERM": {
@@ -13889,38 +13889,38 @@
      "time": "2026-10-22T16:40:00+05:30",
      "side": "PUT",
      "entry": 205461.0,
-     "exit": 205255.0,
-     "exit_time": "2026-10-22T17:00:00+05:30",
-     "points": 206.0,
-     "r": 0.32,
+     "exit": 205540.0,
+     "exit_time": "2026-10-22T17:55:00+05:30",
+     "points": -79.0,
+     "r": -0.12,
      "reason": "eod",
      "t1_hit": false,
      "score": -95.2
     }
    ],
-   "win_rate": 0.517,
+   "win_rate": 0.508,
    "t1_hit_rate": 0.467,
-   "avg_points": -67.2,
-   "avg_points_after_costs": -417.2,
-   "total_points_after_costs": -50061.3,
-   "avg_r": -0.015,
-   "profit_factor": 0.97,
+   "avg_points": -69.6,
+   "avg_points_after_costs": -419.6,
+   "total_points_after_costs": -50346.3,
+   "avg_r": -0.019,
+   "profit_factor": 0.96,
    "max_losing_streak": 9,
    "days": 43,
    "from": "2026-08-24T09:05:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T17:55:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 350.0,
    "with_daily_algo": true,
    "stats": {
     "trades": 120,
-    "win_rate": 0.517,
+    "win_rate": 0.508,
     "t1_hit_rate": 0.467,
-    "avg_r": -0.015,
-    "total_r": -1.78,
-    "avg_points": -67.2,
-    "total_points": -8061.3,
-    "profit_factor": 0.97,
+    "avg_r": -0.019,
+    "total_r": -2.22,
+    "avg_points": -69.6,
+    "total_points": -8346.3,
+    "profit_factor": 0.96,
     "max_losing_streak": 9,
     "call": {
      "trades": 43,
@@ -13929,11 +13929,11 @@
     },
     "put": {
      "trades": 77,
-     "win_rate": 0.61,
-     "avg_r": 0.159
+     "win_rate": 0.597,
+     "avg_r": 0.153
     },
-    "avg_points_after_costs": -417.2,
-    "total_points_after_costs": -50061.3
+    "avg_points_after_costs": -419.6,
+    "total_points_after_costs": -50346.3
    }
   },
   "COPPER": {
@@ -15323,11 +15323,11 @@
      "time": "2026-10-22T10:15:00+05:30",
      "side": "PUT",
      "entry": 1370.4,
-     "exit": 1360.4,
-     "exit_time": "2026-10-22T17:00:00+05:30",
-     "points": 10.0,
-     "r": 1.84,
-     "reason": "eod",
+     "exit": 1359.56,
+     "exit_time": "2026-10-22T17:50:00+05:30",
+     "points": 10.84,
+     "r": 2.0,
+     "reason": "target2",
      "t1_hit": true,
      "score": -79.3
     }
@@ -15336,13 +15336,13 @@
    "t1_hit_rate": 0.362,
    "avg_points": -0.5,
    "avg_points_after_costs": -1.7,
-   "total_points_after_costs": -193.8,
-   "avg_r": -0.216,
+   "total_points_after_costs": -193.0,
+   "avg_r": -0.214,
    "profit_factor": 0.64,
    "max_losing_streak": 9,
    "days": 43,
    "from": "2026-08-24T09:10:00+05:30",
-   "to": "2026-10-22T17:00:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 1.2,
    "with_daily_algo": true,
@@ -15350,10 +15350,10 @@
     "trades": 116,
     "win_rate": 0.405,
     "t1_hit_rate": 0.362,
-    "avg_r": -0.216,
-    "total_r": -25.02,
+    "avg_r": -0.214,
+    "total_r": -24.86,
     "avg_points": -0.5,
-    "total_points": -54.6,
+    "total_points": -53.8,
     "profit_factor": 0.64,
     "max_losing_streak": 9,
     "call": {
@@ -15364,10 +15364,10 @@
     "put": {
      "trades": 46,
      "win_rate": 0.457,
-     "avg_r": -0.066
+     "avg_r": -0.063
     },
     "avg_points_after_costs": -1.7,
-    "total_points_after_costs": -193.8
+    "total_points_after_costs": -193.0
    }
   },
   "ZINC": {
@@ -16272,31 +16272,55 @@
      "reason": "locked",
      "t1_hit": true,
      "score": -88.9
+    },
+    {
+     "time": "2026-10-22T17:20:00+05:30",
+     "side": "PUT",
+     "entry": 418.6,
+     "exit": 419.36,
+     "exit_time": "2026-10-22T17:25:00+05:30",
+     "points": -0.76,
+     "r": -1.0,
+     "reason": "stop",
+     "t1_hit": false,
+     "score": -100.0
+    },
+    {
+     "time": "2026-10-22T17:55:00+05:30",
+     "side": "PUT",
+     "entry": 417.65,
+     "exit": 417.0,
+     "exit_time": "2026-10-22T18:00:00+05:30",
+     "points": 0.65,
+     "r": 0.44,
+     "reason": "eod",
+     "t1_hit": false,
+     "score": -100.0
     }
    ],
-   "win_rate": 0.48,
-   "t1_hit_rate": 0.4,
+   "win_rate": 0.481,
+   "t1_hit_rate": 0.39,
    "avg_points": -0.1,
    "avg_points_after_costs": -0.9,
-   "total_points_after_costs": -63.9,
-   "avg_r": -0.044,
-   "profit_factor": 0.92,
+   "total_points_after_costs": -65.6,
+   "avg_r": -0.05,
+   "profit_factor": 0.9,
    "max_losing_streak": 4,
    "days": 26,
    "from": "2026-09-10T09:15:00+05:30",
-   "to": "2026-10-22T16:55:00+05:30",
+   "to": "2026-10-22T18:00:00+05:30",
    "data": "MCX nearest future, 5-min (Moneycontrol)",
    "cost_points": 0.8,
    "with_daily_algo": false,
    "stats": {
-    "trades": 75,
-    "win_rate": 0.48,
-    "t1_hit_rate": 0.4,
-    "avg_r": -0.044,
-    "total_r": -3.27,
+    "trades": 77,
+    "win_rate": 0.481,
+    "t1_hit_rate": 0.39,
+    "avg_r": -0.05,
+    "total_r": -3.83,
     "avg_points": -0.1,
-    "total_points": -3.9,
-    "profit_factor": 0.92,
+    "total_points": -4.0,
+    "profit_factor": 0.9,
     "max_losing_streak": 4,
     "call": {
      "trades": 47,
@@ -16304,12 +16328,12 @@
      "avg_r": -0.128
     },
     "put": {
-     "trades": 28,
-     "win_rate": 0.571,
-     "avg_r": 0.099
+     "trades": 30,
+     "win_rate": 0.567,
+     "avg_r": 0.073
     },
     "avg_points_after_costs": -0.9,
-    "total_points_after_costs": -63.9
+    "total_points_after_costs": -65.6
    }
   }
  }
