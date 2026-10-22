@@ -166,7 +166,7 @@
   },
   {
    "date": "2026-10-22",
-   "updated": "2026-10-22T14:00:45+05:30",
+   "updated": "2026-10-22T15:00:34+05:30",
    "rules": {
     "signal_threshold": 45,
     "min_adx": 18,
@@ -223,10 +223,10 @@
      "trades": 116,
      "win_rate": 0.491,
      "t1_hit_rate": 0.457,
-     "avg_points": -1.4,
-     "avg_points_after_costs": -17.4,
-     "total_points_after_costs": -2022.1,
-     "avg_r": -0.014,
+     "avg_points": -1.6,
+     "avg_points_after_costs": -17.6,
+     "total_points_after_costs": -2037.1,
+     "avg_r": -0.015,
      "profit_factor": 0.97,
      "max_losing_streak": 7
     },
@@ -237,9 +237,9 @@
      "t1_hit_rate": 0.435,
      "avg_points": -0.1,
      "avg_points_after_costs": -0.6,
-     "total_points_after_costs": -68.4,
-     "avg_r": -0.03,
-     "profit_factor": 0.94,
+     "total_points_after_costs": -69.4,
+     "avg_r": -0.034,
+     "profit_factor": 0.93,
      "max_losing_streak": 7
     },
     "NATGASMINI": {
@@ -249,9 +249,9 @@
      "t1_hit_rate": 0.47,
      "avg_points": -0.1,
      "avg_points_after_costs": -1.3,
-     "total_points_after_costs": -144.2,
-     "avg_r": 0.041,
-     "profit_factor": 1.09,
+     "total_points_after_costs": -145.3,
+     "avg_r": 0.036,
+     "profit_factor": 1.08,
      "max_losing_streak": 8
     },
     "GOLD": {
@@ -309,8 +309,8 @@
      "t1_hit_rate": 0.362,
      "avg_points": -0.5,
      "avg_points_after_costs": -1.7,
-     "total_points_after_costs": -197.9,
-     "avg_r": -0.222,
+     "total_points_after_costs": -198.4,
+     "avg_r": -0.223,
      "profit_factor": 0.63,
      "max_losing_streak": 9
     },
@@ -329,6 +329,6 @@
    }
   }
  ],
- "updated": "2026-10-22T14:00:45+05:30",
+ "updated": "2026-10-22T15:00:34+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
