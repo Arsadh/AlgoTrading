@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-22T21:09:21+05:30",
+ "updated": "2026-10-22T21:11:10+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 169,
-   "graded": 150,
-   "correct": 77,
-   "accuracy": 0.513
+   "calls": 172,
+   "graded": 153,
+   "correct": 80,
+   "accuracy": 0.523
   },
   "close": {
-   "calls": 169,
+   "calls": 172,
    "graded": 15,
    "correct": 1,
    "accuracy": 0.067
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 53,
-    "graded": 46,
-    "correct": 19,
-    "accuracy": 0.413
+    "calls": 55,
+    "graded": 48,
+    "correct": 21,
+    "accuracy": 0.438
    },
    "close": {
-    "calls": 53,
+    "calls": 55,
     "graded": 5,
     "correct": 1,
     "accuracy": 0.2
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 63,
+    "calls": 64,
     "graded": 59,
     "correct": 35,
     "accuracy": 0.593
    },
    "close": {
-    "calls": 63,
+    "calls": 64,
     "graded": 3,
     "correct": 0,
     "accuracy": 0.0
@@ -47,9 +47,9 @@
   "|score| 70+": {
    "1h": {
     "calls": 53,
-    "graded": 45,
-    "correct": 23,
-    "accuracy": 0.511
+    "graded": 46,
+    "correct": 24,
+    "accuracy": 0.522
    },
    "close": {
     "calls": 53,
@@ -123,13 +123,13 @@
   "NATURALGAS": {
    "name": "MCX Natural Gas",
    "1h": {
-    "calls": 16,
-    "graded": 12,
-    "correct": 9,
-    "accuracy": 0.75
+    "calls": 17,
+    "graded": 13,
+    "correct": 10,
+    "accuracy": 0.769
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -138,13 +138,13 @@
   "GOLD": {
    "name": "MCX Gold",
    "1h": {
-    "calls": 10,
-    "graded": 9,
-    "correct": 2,
-    "accuracy": 0.222
+    "calls": 11,
+    "graded": 10,
+    "correct": 3,
+    "accuracy": 0.3
    },
    "close": {
-    "calls": 10,
+    "calls": 11,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -228,13 +228,13 @@
   "NATGASMINI": {
    "name": "MCX Natural Gas Mini",
    "1h": {
-    "calls": 15,
-    "graded": 12,
-    "correct": 10,
-    "accuracy": 0.833
+    "calls": 16,
+    "graded": 13,
+    "correct": 11,
+    "accuracy": 0.846
    },
    "close": {
-    "calls": 15,
+    "calls": 16,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-22",
-   "calls": 115,
-   "directional": 83,
+   "calls": 120,
+   "directional": 86,
    "signals": 29
   },
   {
