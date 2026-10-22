@@ -3581,7 +3581,13 @@
     "t2": 141178.06
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 142245.0,
+    "change": -41.0,
+    "change_pct": -0.029,
+    "correct": true,
+    "at": "2026-10-22T21:09:21+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3607,7 +3613,13 @@
     "t2": 199104.77
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 201100.0,
+    "change": -450.0,
+    "change_pct": -0.223,
+    "correct": true,
+    "at": "2026-10-22T21:09:21+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3633,7 +3645,13 @@
     "t2": 201582.15
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 203544.0,
+    "change": -251.0,
+    "change_pct": -0.123,
+    "correct": true,
+    "at": "2026-10-22T21:09:21+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3662,7 +3680,13 @@
     "ADX 9 below 18: market is choppy, not trending",
     "Score -29 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 1361.4,
+    "change": -0.8,
+    "change_pct": -0.059,
+    "correct": true,
+    "at": "2026-10-22T21:09:21+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3690,6 +3714,150 @@
    "blockers": [
     "ADX 17 below 18: market is choppy, not trending",
     "Score is bearish but Supertrend is still up"
+   ],
+   "outcome_1h": {
+    "spot": 417.5,
+    "change": -0.05,
+    "change_pct": -0.012,
+    "correct": true,
+    "at": "2026-10-22T21:09:21+05:30"
+   },
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T21:GOLDM",
+   "time": "2026-10-22T21:09:21+05:30",
+   "kind": "hourly",
+   "key": "GOLDM",
+   "name": "MCX Gold Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 142245.0,
+   "score": -71.0,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 142000,
+    "expiry": "29-Oct-2026",
+    "premium": 1365.0,
+    "entry": 142245.0,
+    "sl": 142679.49,
+    "t1": 141810.51,
+    "t2": 141376.02
+   },
+   "blockers": [
+    "ADX 17 below 18: market is choppy, not trending"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T21:SILVER",
+   "time": "2026-10-22T21:09:21+05:30",
+   "kind": "hourly",
+   "key": "SILVER",
+   "name": "MCX Silver",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 201100.0,
+   "score": -65.3,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 201000,
+    "expiry": "27-Oct-2026",
+    "premium": 2896.5,
+    "entry": 201100.0,
+    "sl": 202105.1,
+    "t1": 200094.9,
+    "t2": 199089.8
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T21:SILVERM",
+   "time": "2026-10-22T21:09:21+05:30",
+   "kind": "hourly",
+   "key": "SILVERM",
+   "name": "MCX Silver Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 203544.0,
+   "score": -69.1,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 204000,
+    "expiry": "27-Oct-2026",
+    "premium": 3209.0,
+    "entry": 203544.0,
+    "sl": 204417.05,
+    "t1": 202670.95,
+    "t2": 201797.91
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T21:COPPER",
+   "time": "2026-10-22T21:09:21+05:30",
+   "kind": "hourly",
+   "key": "COPPER",
+   "name": "MCX Copper",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 1361.4,
+   "score": -29.0,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 1360,
+    "expiry": "23-Oct-2026",
+    "premium": 5.61,
+    "entry": 1361.4,
+    "sl": 1363.12,
+    "t1": 1359.68,
+    "t2": 1357.95
+   },
+   "blockers": [
+    "ADX 9 below 18: market is choppy, not trending",
+    "Score -29 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T21:ZINC",
+   "time": "2026-10-22T21:09:21+05:30",
+   "kind": "hourly",
+   "key": "ZINC",
+   "name": "MCX Zinc",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 417.5,
+   "score": -30.0,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 420,
+    "expiry": "23-Oct-2026",
+    "premium": 4.0,
+    "entry": 417.5,
+    "sl": 418.02,
+    "t1": 416.98,
+    "t2": 416.46
+   },
+   "blockers": [
+    "ADX 13 below 18: market is choppy, not trending",
+    "Score -30 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
    "outcome_close": null
@@ -4248,5 +4416,5 @@
    "r": null
   }
  ],
- "updated": "2026-10-22T20:00:19+05:30"
+ "updated": "2026-10-22T21:09:21+05:30"
 }

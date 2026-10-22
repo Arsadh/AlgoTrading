@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-22T20:00:19+05:30",
+ "updated": "2026-10-22T21:09:21+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 164,
-   "graded": 145,
-   "correct": 72,
-   "accuracy": 0.497
+   "calls": 169,
+   "graded": 150,
+   "correct": 77,
+   "accuracy": 0.513
   },
   "close": {
-   "calls": 164,
+   "calls": 169,
    "graded": 15,
    "correct": 1,
    "accuracy": 0.067
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 51,
-    "graded": 45,
-    "correct": 18,
-    "accuracy": 0.4
+    "calls": 53,
+    "graded": 46,
+    "correct": 19,
+    "accuracy": 0.413
    },
    "close": {
-    "calls": 51,
+    "calls": 53,
     "graded": 5,
     "correct": 1,
     "accuracy": 0.2
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 61,
-    "graded": 58,
-    "correct": 34,
-    "accuracy": 0.586
+    "calls": 63,
+    "graded": 59,
+    "correct": 35,
+    "accuracy": 0.593
    },
    "close": {
-    "calls": 61,
+    "calls": 63,
     "graded": 3,
     "correct": 0,
     "accuracy": 0.0
@@ -46,13 +46,13 @@
   },
   "|score| 70+": {
    "1h": {
-    "calls": 52,
-    "graded": 42,
-    "correct": 20,
-    "accuracy": 0.476
+    "calls": 53,
+    "graded": 45,
+    "correct": 23,
+    "accuracy": 0.511
    },
    "close": {
-    "calls": 52,
+    "calls": 53,
     "graded": 7,
     "correct": 0,
     "accuracy": 0.0
@@ -153,13 +153,13 @@
   "GOLDM": {
    "name": "MCX Gold Mini",
    "1h": {
-    "calls": 14,
-    "graded": 12,
-    "correct": 3,
-    "accuracy": 0.25
+    "calls": 15,
+    "graded": 13,
+    "correct": 4,
+    "accuracy": 0.308
    },
    "close": {
-    "calls": 14,
+    "calls": 15,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -168,13 +168,13 @@
   "SILVER": {
    "name": "MCX Silver",
    "1h": {
-    "calls": 17,
-    "graded": 15,
-    "correct": 7,
-    "accuracy": 0.467
+    "calls": 18,
+    "graded": 16,
+    "correct": 8,
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 17,
+    "calls": 18,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -183,13 +183,13 @@
   "SILVERM": {
    "name": "MCX Silver Mini",
    "1h": {
-    "calls": 16,
-    "graded": 15,
-    "correct": 7,
-    "accuracy": 0.467
+    "calls": 17,
+    "graded": 16,
+    "correct": 8,
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -198,13 +198,13 @@
   "COPPER": {
    "name": "MCX Copper",
    "1h": {
-    "calls": 17,
-    "graded": 16,
-    "correct": 7,
-    "accuracy": 0.438
+    "calls": 18,
+    "graded": 17,
+    "correct": 8,
+    "accuracy": 0.471
    },
    "close": {
-    "calls": 17,
+    "calls": 18,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 14,
-    "graded": 13,
-    "correct": 5,
-    "accuracy": 0.385
+    "calls": 15,
+    "graded": 14,
+    "correct": 6,
+    "accuracy": 0.429
    },
    "close": {
-    "calls": 14,
+    "calls": 15,
     "graded": 0,
     "correct": 0,
     "accuracy": null
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-22",
-   "calls": 110,
-   "directional": 78,
+   "calls": 115,
+   "directional": 83,
    "signals": 29
   },
   {
