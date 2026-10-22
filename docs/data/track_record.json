@@ -166,7 +166,7 @@
   },
   {
    "date": "2026-10-22",
-   "updated": "2026-10-22T19:58:29+05:30",
+   "updated": "2026-10-22T20:01:35+05:30",
    "rules": {
     "signal_threshold": 45,
     "min_adx": 18,
@@ -223,11 +223,11 @@
      "trades": 116,
      "win_rate": 0.491,
      "t1_hit_rate": 0.457,
-     "avg_points": -2.2,
-     "avg_points_after_costs": -18.2,
-     "total_points_after_costs": -2110.1,
-     "avg_r": -0.021,
-     "profit_factor": 0.96,
+     "avg_points": -2.4,
+     "avg_points_after_costs": -18.4,
+     "total_points_after_costs": -2136.1,
+     "avg_r": -0.023,
+     "profit_factor": 0.95,
      "max_losing_streak": 7
     },
     "NATURALGAS": {
@@ -259,10 +259,10 @@
      "trades": 123,
      "win_rate": 0.472,
      "t1_hit_rate": 0.439,
-     "avg_points": -57.0,
-     "avg_points_after_costs": -117.0,
-     "total_points_after_costs": -14386.3,
-     "avg_r": -0.126,
+     "avg_points": -57.5,
+     "avg_points_after_costs": -117.5,
+     "total_points_after_costs": -14452.3,
+     "avg_r": -0.127,
      "profit_factor": 0.76,
      "max_losing_streak": 7
     },
@@ -271,9 +271,9 @@
      "trades": 120,
      "win_rate": 0.5,
      "t1_hit_rate": 0.45,
-     "avg_points": -8.9,
-     "avg_points_after_costs": -128.9,
-     "total_points_after_costs": -15462.3,
+     "avg_points": -9.1,
+     "avg_points_after_costs": -129.1,
+     "total_points_after_costs": -15494.3,
      "avg_r": -0.003,
      "profit_factor": 0.99,
      "max_losing_streak": 10
@@ -283,9 +283,9 @@
      "trades": 120,
      "win_rate": 0.5,
      "t1_hit_rate": 0.45,
-     "avg_points": -77.5,
-     "avg_points_after_costs": -227.5,
-     "total_points_after_costs": -27302.0,
+     "avg_points": -77.8,
+     "avg_points_after_costs": -227.8,
+     "total_points_after_costs": -27333.0,
      "avg_r": -0.013,
      "profit_factor": 0.97,
      "max_losing_streak": 8
@@ -295,10 +295,10 @@
      "trades": 121,
      "win_rate": 0.504,
      "t1_hit_rate": 0.463,
-     "avg_points": -74.7,
-     "avg_points_after_costs": -424.7,
-     "total_points_after_costs": -51385.6,
-     "avg_r": -0.026,
+     "avg_points": -74.9,
+     "avg_points_after_costs": -424.9,
+     "total_points_after_costs": -51412.6,
+     "avg_r": -0.027,
      "profit_factor": 0.94,
      "max_losing_streak": 9
     },
@@ -321,14 +321,14 @@
      "t1_hit_rate": 0.39,
      "avg_points": -0.1,
      "avg_points_after_costs": -0.9,
-     "total_points_after_costs": -65.8,
-     "avg_r": -0.051,
+     "total_points_after_costs": -66.0,
+     "avg_r": -0.053,
      "profit_factor": 0.9,
      "max_losing_streak": 4
     }
    }
   }
  ],
- "updated": "2026-10-22T19:58:29+05:30",
+ "updated": "2026-10-22T20:01:35+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
