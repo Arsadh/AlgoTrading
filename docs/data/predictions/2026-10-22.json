@@ -26,7 +26,13 @@
    "blockers": [
     "Score +28 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 22640.8,
+    "change": -111.35,
+    "change_pct": -0.489,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -55,7 +61,13 @@
     "ADX 17 below 18: market is choppy, not trending",
     "Score +24 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 54751.25,
+    "change": -146.15,
+    "change_pct": -0.266,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -81,7 +93,13 @@
     "t2": 9499.37
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 9449.0,
+    "change": 33.0,
+    "change_pct": 0.35,
+    "correct": true,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -107,7 +125,13 @@
     "t2": 9500.83
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 9447.0,
+    "change": 33.0,
+    "change_pct": 0.351,
+    "correct": true,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -135,7 +159,13 @@
    "blockers": [
     "Score -7 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 262.1,
+    "change": -0.1,
+    "change_pct": -0.038,
+    "correct": null,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -163,7 +193,13 @@
    "blockers": [
     "Score -5 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 262.1,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "correct": null,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -189,7 +225,13 @@
     "t2": 143427.65
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 144812.0,
+    "change": 737.0,
+    "change_pct": 0.512,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -215,7 +257,13 @@
     "t2": 141749.89
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 143229.0,
+    "change": 745.0,
+    "change_pct": 0.523,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -243,7 +291,13 @@
    "blockers": [
     "RSI 15: already oversold, late to buy puts"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 204063.0,
+    "change": 1260.0,
+    "change_pct": 0.621,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -271,7 +325,13 @@
    "blockers": [
     "RSI 18: already oversold, late to buy puts"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 206354.0,
+    "change": 1327.0,
+    "change_pct": 0.647,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -299,7 +359,13 @@
    "blockers": [
     "ADX 13 below 18: market is choppy, not trending"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 1370.75,
+    "change": 0.9,
+    "change_pct": 0.066,
+    "correct": false,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -326,6 +392,343 @@
    },
    "blockers": [
     "ADX 15 below 18: market is choppy, not trending"
+   ],
+   "outcome_1h": {
+    "spot": 420.5,
+    "change": -0.15,
+    "change_pct": -0.036,
+    "correct": true,
+    "at": "2026-10-22T12:00:06+05:30"
+   },
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:NIFTY",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "NIFTY",
+   "name": "Nifty 50",
+   "exchange": "NSE",
+   "source": "yahoo",
+   "spot": 22640.8,
+   "score": -75.2,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 22650,
+    "expiry": "27-Oct-2026",
+    "premium": 161.45,
+    "entry": 22640.8,
+    "sl": 22739.55,
+    "t1": 22542.05,
+    "t2": 22443.3
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:BANKNIFTY",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "BANKNIFTY",
+   "name": "Bank Nifty",
+   "exchange": "NSE",
+   "source": "yahoo",
+   "spot": 54751.25,
+   "score": -64.0,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 54800,
+    "expiry": "27-Oct-2026",
+    "premium": 381.2,
+    "entry": 54751.25,
+    "sl": 54980.46,
+    "t1": 54522.04,
+    "t2": 54292.84
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:CRUDEOIL",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOIL",
+   "name": "MCX Crude Oil",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9449.0,
+   "score": 60.2,
+   "bias": "bullish",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 9450,
+    "expiry": "17-Nov-2026",
+    "premium": 535.7,
+    "entry": 9449.0,
+    "sl": 9410.86,
+    "t1": 9487.14,
+    "t2": 9525.29
+   },
+   "blockers": [
+    "RSI 75: already overbought, late to buy calls"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:CRUDEOILM",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOILM",
+   "name": "MCX Crude Oil Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9447.0,
+   "score": 64.3,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 9450,
+    "expiry": "17-Nov-2026",
+    "premium": 539.55,
+    "entry": 9447.0,
+    "sl": 9407.93,
+    "t1": 9486.07,
+    "t2": 9525.13
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:NATURALGAS",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "NATURALGAS",
+   "name": "MCX Natural Gas",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 262.1,
+   "score": -2.4,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 260,
+    "expiry": "23-Oct-2026",
+    "premium": 4.8,
+    "entry": 262.1,
+    "sl": 263.69,
+    "t1": 260.51,
+    "t2": 258.92
+   },
+   "blockers": [
+    "Score -2 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:NATGASMINI",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "NATGASMINI",
+   "name": "MCX Natural Gas Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 262.1,
+   "score": -4.8,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 260,
+    "expiry": "23-Oct-2026",
+    "premium": 4.8,
+    "entry": 262.1,
+    "sl": 263.75,
+    "t1": 260.45,
+    "t2": 258.8
+   },
+   "blockers": [
+    "ADX 14 below 18: market is choppy, not trending",
+    "Score -5 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:GOLD",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "GOLD",
+   "name": "MCX Gold",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 144812.0,
+   "score": 1.0,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 145000,
+    "expiry": "30-Oct-2026",
+    "premium": 1535.0,
+    "entry": 144812.0,
+    "sl": 144521.27,
+    "t1": 145102.73,
+    "t2": 145393.46
+   },
+   "blockers": [
+    "Score +1 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:GOLDM",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "GOLDM",
+   "name": "MCX Gold Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 143229.0,
+   "score": 1.0,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 143000,
+    "expiry": "29-Oct-2026",
+    "premium": 1592.0,
+    "entry": 143229.0,
+    "sl": 142819.23,
+    "t1": 143638.77,
+    "t2": 144048.54
+   },
+   "blockers": [
+    "Score +1 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:SILVER",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "SILVER",
+   "name": "MCX Silver",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 204063.0,
+   "score": -34.2,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 204000,
+    "expiry": "27-Oct-2026",
+    "premium": 3000.0,
+    "entry": 204063.0,
+    "sl": 204655.8,
+    "t1": 203470.2,
+    "t2": 202877.41
+   },
+   "blockers": [
+    "Score -34 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:SILVERM",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "SILVERM",
+   "name": "MCX Silver Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 206354.0,
+   "score": -34.2,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 206000,
+    "expiry": "27-Oct-2026",
+    "premium": 3036.0,
+    "entry": 206354.0,
+    "sl": 207024.73,
+    "t1": 205683.27,
+    "t2": 205012.54
+   },
+   "blockers": [
+    "Score -34 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:COPPER",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "COPPER",
+   "name": "MCX Copper",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 1370.75,
+   "score": -64.7,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 1370,
+    "expiry": "23-Oct-2026",
+    "premium": 7.0,
+    "entry": 1370.75,
+    "sl": 1375.24,
+    "t1": 1366.26,
+    "t2": 1361.77
+   },
+   "blockers": [
+    "ADX 11 below 18: market is choppy, not trending"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-22T12:ZINC",
+   "time": "2026-10-22T12:00:06+05:30",
+   "kind": "hourly",
+   "key": "ZINC",
+   "name": "MCX Zinc",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 420.5,
+   "score": -50.9,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 420,
+    "expiry": "23-Oct-2026",
+    "premium": 2.6,
+    "entry": 420.5,
+    "sl": 421.4,
+    "t1": 419.6,
+    "t2": 418.7
+   },
+   "blockers": [
+    "ADX 16 below 18: market is choppy, not trending"
    ],
    "outcome_1h": null,
    "outcome_close": null
@@ -383,11 +786,11 @@
    "opt_type": "PE",
    "expiry": "30-Oct-2026",
    "premium": 1653.0,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "stop",
+   "exit_ts": "2026-10-22T11:28:18+05:30",
+   "exit_spot": 144398.67,
+   "points": -323.67,
+   "r": -1.0
   },
   {
    "ts": "2026-10-22T11:20:52+05:30",
@@ -402,6 +805,82 @@
    "opt_type": "PE",
    "expiry": "29-Oct-2026",
    "premium": 1494.0,
+   "status": "stop",
+   "exit_ts": "2026-10-22T11:29:21+05:30",
+   "exit_spot": 142851.05,
+   "points": -367.05,
+   "r": -1.0
+  },
+  {
+   "ts": "2026-10-22T11:29:17+05:30",
+   "symbol": "SILVERM",
+   "side": "PUT",
+   "score": -62.5,
+   "entry": 206213.0,
+   "sl": 206900.57,
+   "t1": 205525.43,
+   "t2": 204837.85,
+   "strike": 206000.0,
+   "opt_type": "PE",
+   "expiry": "27-Oct-2026",
+   "premium": 3266.0,
+   "status": "stop",
+   "exit_ts": "2026-10-22T11:44:51+05:30",
+   "exit_spot": 206900.57,
+   "points": -687.57,
+   "r": -1.0
+  },
+  {
+   "ts": "2026-10-22T11:30:11+05:30",
+   "symbol": "SILVER",
+   "side": "PUT",
+   "score": -66.8,
+   "entry": 203771.0,
+   "sl": 204323.43,
+   "t1": 203218.57,
+   "t2": 202666.13,
+   "strike": 204000.0,
+   "opt_type": "PE",
+   "expiry": "27-Oct-2026",
+   "premium": 3362.0,
+   "status": "stop",
+   "exit_ts": "2026-10-22T11:38:50+05:30",
+   "exit_spot": 204323.43,
+   "points": -552.43,
+   "r": -1.0
+  },
+  {
+   "ts": "2026-10-22T11:49:04+05:30",
+   "symbol": "BANKNIFTY",
+   "side": "PUT",
+   "score": -72.8,
+   "entry": 54650.7,
+   "sl": 54913.7,
+   "t1": 54387.7,
+   "t2": 54124.71,
+   "strike": 54700.0,
+   "opt_type": "PE",
+   "expiry": "27-Oct-2026",
+   "premium": 372.25,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  },
+  {
+   "ts": "2026-10-22T11:54:05+05:30",
+   "symbol": "NIFTY",
+   "side": "PUT",
+   "score": -79.7,
+   "entry": 22634.45,
+   "sl": 22735.95,
+   "t1": 22532.95,
+   "t2": 22431.45,
+   "strike": 22650.0,
+   "opt_type": "PE",
+   "expiry": "27-Oct-2026",
+   "premium": 161.95,
    "status": "open",
    "exit_ts": null,
    "exit_spot": null,
@@ -409,5 +888,5 @@
    "r": null
   }
  ],
- "updated": "2026-10-22T11:21:26+05:30"
+ "updated": "2026-10-22T12:00:06+05:30"
 }
