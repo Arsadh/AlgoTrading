@@ -33,7 +33,13 @@
     "correct": false,
     "at": "2026-10-22T12:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22687.65,
+    "change": -64.5,
+    "change_pct": -0.283,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T11:BANKNIFTY",
@@ -68,7 +74,13 @@
     "correct": false,
     "at": "2026-10-22T12:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54925.7,
+    "change": 28.3,
+    "change_pct": 0.052,
+    "correct": true,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T11:CRUDEOIL",
@@ -432,7 +444,13 @@
     "correct": false,
     "at": "2026-10-22T13:00:09+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22687.65,
+    "change": 46.85,
+    "change_pct": 0.207,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T12:BANKNIFTY",
@@ -464,7 +482,13 @@
     "correct": false,
     "at": "2026-10-22T13:00:09+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54925.7,
+    "change": 174.45,
+    "change_pct": 0.319,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T12:CRUDEOIL",
@@ -837,7 +861,13 @@
     "correct": false,
     "at": "2026-10-22T14:00:12+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22687.65,
+    "change": -25.95,
+    "change_pct": -0.114,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T13:BANKNIFTY",
@@ -871,7 +901,13 @@
     "correct": false,
     "at": "2026-10-22T14:00:12+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54925.7,
+    "change": -1.45,
+    "change_pct": -0.003,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T13:CRUDEOIL",
@@ -1242,7 +1278,13 @@
     "correct": false,
     "at": "2026-10-22T15:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22687.65,
+    "change": 46.8,
+    "change_pct": 0.207,
+    "correct": false,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T14:BANKNIFTY",
@@ -1277,7 +1319,13 @@
     "correct": null,
     "at": "2026-10-22T15:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54925.7,
+    "change": 92.3,
+    "change_pct": 0.168,
+    "correct": null,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T14:CRUDEOIL",
@@ -1645,7 +1693,13 @@
     "Score -3 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22687.65,
+    "change": 22.7,
+    "change_pct": 0.1,
+    "correct": null,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T15:BANKNIFTY",
@@ -1675,7 +1729,13 @@
     "Score +7 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54925.7,
+    "change": 122.05,
+    "change_pct": 0.223,
+    "correct": null,
+    "at": "2026-10-22T15:48:31+05:30"
+   }
   },
   {
    "id": "2026-10-22T15:CRUDEOIL",
@@ -2108,11 +2168,11 @@
    "opt_type": "PE",
    "expiry": "27-Oct-2026",
    "premium": 161.95,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "eod",
+   "exit_ts": "2026-10-22T15:20:00+05:30",
+   "exit_spot": 22666.55,
+   "points": -32.1,
+   "r": -0.32
   },
   {
    "ts": "2026-10-22T12:41:12+05:30",
@@ -2170,7 +2230,45 @@
    "exit_spot": 420.56,
    "points": 0.19,
    "r": 0.3
+  },
+  {
+   "ts": "2026-10-22T15:48:26+05:30",
+   "symbol": "NATURALGAS",
+   "side": "PUT",
+   "score": -64.2,
+   "entry": 262.9,
+   "sl": 264.25,
+   "t1": 261.55,
+   "t2": 260.19,
+   "strike": 265.0,
+   "opt_type": "PE",
+   "expiry": "23-Oct-2026",
+   "premium": 6.4,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  },
+  {
+   "ts": "2026-10-22T15:48:27+05:30",
+   "symbol": "NATGASMINI",
+   "side": "PUT",
+   "score": -68.6,
+   "entry": 263.0,
+   "sl": 264.46,
+   "t1": 261.54,
+   "t2": 260.08,
+   "strike": 265.0,
+   "opt_type": "PE",
+   "expiry": "23-Oct-2026",
+   "premium": 6.4,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
   }
  ],
- "updated": "2026-10-22T15:00:02+05:30"
+ "updated": "2026-10-22T15:48:31+05:30"
 }

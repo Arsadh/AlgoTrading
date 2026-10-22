@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:00:02+05:30",
+ "updated": "2026-10-22T15:48:31+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
@@ -10,9 +10,9 @@
   },
   "close": {
    "calls": 128,
-   "graded": 8,
-   "correct": 0,
-   "accuracy": 0.0
+   "graded": 15,
+   "correct": 1,
+   "accuracy": 0.067
   }
  },
  "by_strength": {
@@ -25,9 +25,9 @@
    },
    "close": {
     "calls": 40,
-    "graded": 0,
-    "correct": 0,
-    "accuracy": null
+    "graded": 5,
+    "correct": 1,
+    "accuracy": 0.2
    }
   },
   "|score| 45-69": {
@@ -39,7 +39,7 @@
    },
    "close": {
     "calls": 52,
-    "graded": 2,
+    "graded": 3,
     "correct": 0,
     "accuracy": 0.0
    }
@@ -53,7 +53,7 @@
    },
    "close": {
     "calls": 36,
-    "graded": 6,
+    "graded": 7,
     "correct": 0,
     "accuracy": 0.0
    }
@@ -70,7 +70,7 @@
    },
    "close": {
     "calls": 8,
-    "graded": 4,
+    "graded": 8,
     "correct": 0,
     "accuracy": 0.0
    }
@@ -85,9 +85,9 @@
    },
    "close": {
     "calls": 7,
-    "graded": 4,
-    "correct": 0,
-    "accuracy": 0.0
+    "graded": 7,
+    "correct": 1,
+    "accuracy": 0.143
    }
   },
   "CRUDEOIL": {
@@ -246,7 +246,7 @@
    "date": "2026-10-22",
    "calls": 60,
    "directional": 42,
-   "signals": 11
+   "signals": 13
   },
   {
    "date": "2026-10-21",
@@ -256,10 +256,10 @@
   }
  ],
  "signals": {
-  "closed": 70,
+  "closed": 71,
   "wins": 33,
-  "win_rate": 0.471,
-  "avg_r": 0.199,
+  "win_rate": 0.465,
+  "avg_r": 0.192,
   "by_instrument": {
    "BANKNIFTY": {
     "trades": 10,
@@ -270,12 +270,12 @@
     "profit_factor": 1.32
    },
    "NIFTY": {
-    "trades": 10,
-    "win_rate": 0.6,
-    "t1_hit_rate": 0.5,
-    "avg_r": 0.542,
-    "total_points": 276.4,
-    "profit_factor": 2.81
+    "trades": 11,
+    "win_rate": 0.545,
+    "t1_hit_rate": 0.455,
+    "avg_r": 0.464,
+    "total_points": 244.3,
+    "profit_factor": 2.54
    },
    "NATURALGAS": {
     "trades": 4,
