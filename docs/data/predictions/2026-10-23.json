@@ -304,7 +304,13 @@
     "correct": null,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": -101.4,
+    "change_pct": -0.447,
+    "correct": null,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:BANKNIFTY",
@@ -338,7 +344,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": -391.9,
+    "change_pct": -0.717,
+    "correct": true,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:CRUDEOIL",
@@ -434,7 +446,13 @@
     "correct": true,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": -0.1,
+    "change_pct": -0.0,
+    "correct": true,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:BANKNIFTY",
@@ -468,7 +486,13 @@
     "correct": true,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": -139.4,
+    "change_pct": -0.256,
+    "correct": true,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:CRUDEOIL",
@@ -836,7 +860,13 @@
     "correct": true,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": 172.5,
+    "change_pct": 0.769,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:BANKNIFTY",
@@ -868,7 +898,13 @@
     "correct": false,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": 116.55,
+    "change_pct": 0.215,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:CRUDEOIL",
@@ -1229,7 +1265,13 @@
     "correct": true,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": 173.5,
+    "change_pct": 0.774,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:BANKNIFTY",
@@ -1261,7 +1303,13 @@
     "correct": true,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": 75.85,
+    "change_pct": 0.14,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:CRUDEOIL",
@@ -1623,7 +1671,13 @@
     "correct": false,
     "at": "2026-10-23T14:18:19+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": 187.65,
+    "change_pct": 0.837,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:BANKNIFTY",
@@ -1655,7 +1709,13 @@
     "correct": false,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": 270.65,
+    "change_pct": 0.501,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:CRUDEOIL",
@@ -2027,7 +2087,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": -31.2,
+    "change_pct": -0.057,
+    "correct": null,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:CRUDEOIL",
@@ -2406,7 +2472,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": 44.15,
+    "change_pct": 0.196,
+    "correct": null,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:NIFTY",
@@ -2435,7 +2507,13 @@
     "Score -32 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 22600.0,
+    "change": 88.45,
+    "change_pct": 0.393,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:BANKNIFTY",
@@ -2464,7 +2542,13 @@
     "Score is bearish but Supertrend is still up"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 54287.35,
+    "change": 189.25,
+    "change_pct": 0.35,
+    "correct": false,
+    "at": "2026-10-23T15:30:10+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:CRUDEOIL",
@@ -3130,7 +3214,45 @@
    "exit_spot": 260.71,
    "points": -0.91,
    "r": -1.0
+  },
+  {
+   "ts": "2026-10-23T15:04:14+05:30",
+   "symbol": "CRUDEOIL",
+   "side": "CALL",
+   "score": 87.1,
+   "entry": 9633.0,
+   "sl": 9569.22,
+   "t1": 9696.78,
+   "t2": 9760.57,
+   "strike": 9650.0,
+   "opt_type": "CE",
+   "expiry": "17-Nov-2026",
+   "premium": 573.5,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  },
+  {
+   "ts": "2026-10-23T15:09:06+05:30",
+   "symbol": "CRUDEOILM",
+   "side": "CALL",
+   "score": 92.8,
+   "entry": 9630.0,
+   "sl": 9569.02,
+   "t1": 9690.98,
+   "t2": 9751.97,
+   "strike": 9650.0,
+   "opt_type": "CE",
+   "expiry": "17-Nov-2026",
+   "premium": 583.25,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
   }
  ],
- "updated": "2026-10-23T15:00:05+05:30"
+ "updated": "2026-10-23T15:30:10+05:30"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:00:05+05:30",
+ "updated": "2026-10-23T15:30:10+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
@@ -10,9 +10,9 @@
   },
   "close": {
    "calls": 247,
-   "graded": 109,
-   "correct": 76,
-   "accuracy": 0.697
+   "graded": 120,
+   "correct": 79,
+   "accuracy": 0.658
   }
  },
  "by_strength": {
@@ -25,9 +25,9 @@
    },
    "close": {
     "calls": 64,
-    "graded": 36,
+    "graded": 37,
     "correct": 25,
-    "accuracy": 0.694
+    "accuracy": 0.676
    }
   },
   "|score| 45-69": {
@@ -39,9 +39,9 @@
    },
    "close": {
     "calls": 89,
-    "graded": 32,
-    "correct": 25,
-    "accuracy": 0.781
+    "graded": 34,
+    "correct": 26,
+    "accuracy": 0.765
    }
   },
   "|score| 70+": {
@@ -53,9 +53,9 @@
    },
    "close": {
     "calls": 94,
-    "graded": 41,
-    "correct": 26,
-    "accuracy": 0.634
+    "graded": 49,
+    "correct": 28,
+    "accuracy": 0.571
    }
   }
  },
@@ -70,9 +70,9 @@
    },
    "close": {
     "calls": 13,
-    "graded": 8,
-    "correct": 0,
-    "accuracy": 0.0
+    "graded": 13,
+    "correct": 1,
+    "accuracy": 0.077
    }
   },
   "BANKNIFTY": {
@@ -85,9 +85,9 @@
    },
    "close": {
     "calls": 13,
-    "graded": 7,
-    "correct": 1,
-    "accuracy": 0.143
+    "graded": 13,
+    "correct": 3,
+    "accuracy": 0.231
    }
   },
   "CRUDEOIL": {
@@ -246,7 +246,7 @@
    "date": "2026-10-23",
    "calls": 84,
    "directional": 59,
-   "signals": 20
+   "signals": 22
   },
   {
    "date": "2026-10-22",
