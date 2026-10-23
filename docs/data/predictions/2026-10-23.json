@@ -1,0 +1,250 @@
+{
+ "date": "2026-10-23",
+ "predictions": [
+  {
+   "id": "2026-10-23T09:NATURALGAS",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "NATURALGAS",
+   "name": "MCX Natural Gas",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 258.8,
+   "score": -54.6,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 260,
+    "expiry": "23-Oct-2026",
+    "premium": 4.0,
+    "entry": 258.8,
+    "sl": 261.87,
+    "t1": 255.73,
+    "t2": 252.67
+   },
+   "blockers": [
+    "RSI 21: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:NATGASMINI",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "NATGASMINI",
+   "name": "MCX Natural Gas Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 258.7,
+   "score": -58.4,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 260,
+    "expiry": "23-Oct-2026",
+    "premium": 4.0,
+    "entry": 258.7,
+    "sl": 261.75,
+    "t1": 255.65,
+    "t2": 252.59
+   },
+   "blockers": [
+    "RSI 19: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:GOLD",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "GOLD",
+   "name": "MCX Gold",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 141922.0,
+   "score": -84.2,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 142000,
+    "expiry": "30-Oct-2026",
+    "premium": 1925.0,
+    "entry": 141922.0,
+    "sl": 142524.32,
+    "t1": 141319.68,
+    "t2": 140717.35
+   },
+   "blockers": [
+    "RSI 21: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:GOLDM",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "GOLDM",
+   "name": "MCX Gold Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 140285.0,
+   "score": -86.9,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 140500,
+    "expiry": "29-Oct-2026",
+    "premium": 1780.5,
+    "entry": 140285.0,
+    "sl": 140870.13,
+    "t1": 139699.87,
+    "t2": 139114.74
+   },
+   "blockers": [
+    "RSI 17: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:SILVER",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "SILVER",
+   "name": "MCX Silver",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 194030.0,
+   "score": -83.8,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 194000,
+    "expiry": "27-Oct-2026",
+    "premium": 3645.5,
+    "entry": 194030.0,
+    "sl": 195717.01,
+    "t1": 192342.99,
+    "t2": 190655.98
+   },
+   "blockers": [
+    "RSI 20: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:SILVERM",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "SILVERM",
+   "name": "MCX Silver Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 196085.0,
+   "score": -83.8,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 196000,
+    "expiry": "27-Oct-2026",
+    "premium": 3629.5,
+    "entry": 196085.0,
+    "sl": 198150.05,
+    "t1": 194019.95,
+    "t2": 191954.91
+   },
+   "blockers": [
+    "RSI 18: already oversold, late to buy puts"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:COPPER",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "COPPER",
+   "name": "MCX Copper",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 1363.5,
+   "score": 19.3,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 1360,
+    "expiry": "23-Oct-2026",
+    "premium": 8.01,
+    "entry": 1363.5,
+    "sl": 1361.23,
+    "t1": 1365.77,
+    "t2": 1368.04
+   },
+   "blockers": [
+    "ADX 17 below 18: market is choppy, not trending",
+    "Score +19 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:ZINC",
+   "time": "2026-10-23T09:45:59+05:30",
+   "kind": "hourly",
+   "key": "ZINC",
+   "name": "MCX Zinc",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 410.75,
+   "score": -95.0,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 410,
+    "expiry": "23-Oct-2026",
+    "premium": 2.0,
+    "entry": 410.75,
+    "sl": 412.84,
+    "t1": 408.66,
+    "t2": 406.57
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  }
+ ],
+ "signals": [
+  {
+   "ts": "2026-10-23T09:45:56+05:30",
+   "symbol": "ZINC",
+   "side": "PUT",
+   "score": -95.0,
+   "entry": 410.75,
+   "sl": 412.84,
+   "t1": 408.66,
+   "t2": 406.57,
+   "strike": 410.0,
+   "opt_type": "PE",
+   "expiry": "23-Oct-2026",
+   "premium": 2.0,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  }
+ ],
+ "updated": "2026-10-23T09:45:59+05:30"
+}
