@@ -3757,7 +3757,13 @@
    "blockers": [
     "ADX 13 below 18: market is choppy, not trending"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 195850.0,
+    "change": 330.0,
+    "change_pct": 0.169,
+    "correct": false,
+    "at": "2026-10-23T21:45:04+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3786,7 +3792,13 @@
     "ADX 17 below 18: market is choppy, not trending",
     "Score is bearish but Supertrend is still up"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 197900.0,
+    "change": 291.0,
+    "change_pct": 0.147,
+    "correct": false,
+    "at": "2026-10-23T21:45:04+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3812,7 +3824,13 @@
     "t2": 1381.99
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 1379.05,
+    "change": 4.65,
+    "change_pct": 0.338,
+    "correct": true,
+    "at": "2026-10-23T21:45:04+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3840,6 +3858,121 @@
    "blockers": [
     "Score +30 is inside ±45: no clear edge"
    ],
+   "outcome_1h": {
+    "spot": 422.15,
+    "change": 3.95,
+    "change_pct": 0.945,
+    "correct": true,
+    "at": "2026-10-23T21:45:04+05:30"
+   },
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:SILVER",
+   "time": "2026-10-23T21:45:04+05:30",
+   "kind": "hourly",
+   "key": "SILVER",
+   "name": "MCX Silver",
+   "exchange": "MCX",
+   "source": "proxy: COMEX silver x USD/INR",
+   "spot": 195850.0,
+   "score": 13.2,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 196000,
+    "expiry": "27-Oct-2026",
+    "premium": 2939.5,
+    "entry": 195850.0,
+    "sl": 194602.28,
+    "t1": 197097.72,
+    "t2": 198345.43
+   },
+   "blockers": [
+    "ADX 14 below 18: market is choppy, not trending",
+    "Score +13 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:SILVERM",
+   "time": "2026-10-23T21:45:04+05:30",
+   "kind": "hourly",
+   "key": "SILVERM",
+   "name": "MCX Silver Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 197900.0,
+   "score": 4.0,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 198000,
+    "expiry": "27-Oct-2026",
+    "premium": 2814.5,
+    "entry": 197900.0,
+    "sl": 196499.67,
+    "t1": 199300.33,
+    "t2": 200700.65
+   },
+   "blockers": [
+    "Score +4 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:COPPER",
+   "time": "2026-10-23T21:45:04+05:30",
+   "kind": "hourly",
+   "key": "COPPER",
+   "name": "MCX Copper",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 1379.05,
+   "score": 45.5,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 1380,
+    "expiry": "23-Oct-2026",
+    "premium": 1.97,
+    "entry": 1379.05,
+    "sl": 1375.7,
+    "t1": 1382.4,
+    "t2": 1385.75
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:ZINC",
+   "time": "2026-10-23T21:45:04+05:30",
+   "kind": "hourly",
+   "key": "ZINC",
+   "name": "MCX Zinc",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 422.15,
+   "score": 65.0,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 420,
+    "expiry": "23-Oct-2026",
+    "premium": 1.8,
+    "entry": 422.15,
+    "sl": 421.28,
+    "t1": 423.02,
+    "t2": 423.9
+   },
+   "blockers": [],
    "outcome_1h": null,
    "outcome_close": null
   }
@@ -4276,11 +4409,11 @@
    "opt_type": "CE",
    "expiry": "23-Oct-2026",
    "premium": 6.89,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "locked",
+   "exit_ts": "2026-10-23T18:02:12+05:30",
+   "exit_spot": 1372.6,
+   "points": 0.8,
+   "r": 0.3
   },
   {
    "ts": "2026-10-23T16:53:59+05:30",
@@ -4314,12 +4447,12 @@
    "opt_type": "CE",
    "expiry": "17-Nov-2026",
    "premium": 575.6,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "target2",
+   "exit_ts": "2026-10-23T21:45:58+05:30",
+   "exit_spot": 9779.16,
+   "points": 122.16,
+   "r": 2.0
   }
  ],
- "updated": "2026-10-23T18:00:06+05:30"
+ "updated": "2026-10-23T21:45:04+05:30"
 }

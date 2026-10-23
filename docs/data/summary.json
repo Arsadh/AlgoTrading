@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-23T18:00:06+05:30",
+ "updated": "2026-10-23T21:45:04+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 264,
-   "graded": 234,
-   "correct": 122,
+   "calls": 266,
+   "graded": 238,
+   "correct": 124,
    "accuracy": 0.521
   },
   "close": {
-   "calls": 264,
+   "calls": 266,
    "graded": 120,
    "correct": 79,
    "accuracy": 0.658
@@ -19,9 +19,9 @@
   "|score| 20-44": {
    "1h": {
     "calls": 68,
-    "graded": 61,
-    "correct": 27,
-    "accuracy": 0.443
+    "graded": 62,
+    "correct": 28,
+    "accuracy": 0.452
    },
    "close": {
     "calls": 68,
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 96,
-    "graded": 88,
-    "correct": 52,
-    "accuracy": 0.591
+    "calls": 98,
+    "graded": 90,
+    "correct": 53,
+    "accuracy": 0.589
    },
    "close": {
-    "calls": 96,
+    "calls": 98,
     "graded": 34,
     "correct": 26,
     "accuracy": 0.765
@@ -47,9 +47,9 @@
   "|score| 70+": {
    "1h": {
     "calls": 100,
-    "graded": 85,
+    "graded": 86,
     "correct": 43,
-    "accuracy": 0.506
+    "accuracy": 0.5
    },
    "close": {
     "calls": 100,
@@ -169,9 +169,9 @@
    "name": "MCX Silver",
    "1h": {
     "calls": 26,
-    "graded": 23,
+    "graded": 24,
     "correct": 11,
-    "accuracy": 0.478
+    "accuracy": 0.458
    },
    "close": {
     "calls": 26,
@@ -184,9 +184,9 @@
    "name": "MCX Silver Mini",
    "1h": {
     "calls": 25,
-    "graded": 23,
+    "graded": 24,
     "correct": 11,
-    "accuracy": 0.478
+    "accuracy": 0.458
    },
    "close": {
     "calls": 25,
@@ -198,13 +198,13 @@
   "COPPER": {
    "name": "MCX Copper",
    "1h": {
-    "calls": 24,
-    "graded": 21,
-    "correct": 10,
-    "accuracy": 0.476
+    "calls": 25,
+    "graded": 22,
+    "correct": 11,
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 24,
+    "calls": 25,
     "graded": 11,
     "correct": 5,
     "accuracy": 0.455
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 23,
-    "graded": 21,
-    "correct": 10,
-    "accuracy": 0.476
+    "calls": 24,
+    "graded": 22,
+    "correct": 11,
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 23,
+    "calls": 24,
     "graded": 9,
     "correct": 9,
     "accuracy": 1.0
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-23",
-   "calls": 114,
-   "directional": 76,
+   "calls": 118,
+   "directional": 78,
    "signals": 25
   },
   {
@@ -262,10 +262,10 @@
   }
  ],
  "signals": {
-  "closed": 114,
-  "wins": 49,
-  "win_rate": 0.43,
-  "avg_r": 0.028,
+  "closed": 116,
+  "wins": 51,
+  "win_rate": 0.44,
+  "avg_r": 0.048,
   "by_instrument": {
    "BANKNIFTY": {
     "trades": 11,
@@ -332,12 +332,12 @@
     "profit_factor": 0.95
    },
    "CRUDEOILM": {
-    "trades": 9,
-    "win_rate": 0.444,
-    "t1_hit_rate": 0.444,
-    "avg_r": -0.329,
-    "total_points": -139.1,
-    "profit_factor": 0.26
+    "trades": 10,
+    "win_rate": 0.5,
+    "t1_hit_rate": 0.4,
+    "avg_r": -0.096,
+    "total_points": -16.9,
+    "profit_factor": 0.76
    },
    "SILVER": {
     "trades": 9,
@@ -356,12 +356,12 @@
     "profit_factor": 0.46
    },
    "COPPER": {
-    "trades": 8,
-    "win_rate": 0.125,
-    "t1_hit_rate": 0.125,
-    "avg_r": -0.838,
-    "total_points": -19.5,
-    "profit_factor": 0.04
+    "trades": 9,
+    "win_rate": 0.222,
+    "t1_hit_rate": 0.222,
+    "avg_r": -0.711,
+    "total_points": -18.7,
+    "profit_factor": 0.09
    }
   }
  }
