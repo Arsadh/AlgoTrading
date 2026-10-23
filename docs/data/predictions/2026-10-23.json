@@ -3590,7 +3590,13 @@
     "t2": 9725.72
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 9802.0,
+    "change": 172.0,
+    "change_pct": 1.786,
+    "correct": true,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3616,7 +3622,13 @@
     "t2": 9736.18
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 9806.0,
+    "change": 173.0,
+    "change_pct": 1.796,
+    "correct": true,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3644,7 +3656,13 @@
    "blockers": [
     "Score -9 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 252.2,
+    "change": -7.3,
+    "change_pct": -2.813,
+    "correct": null,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3672,7 +3690,13 @@
    "blockers": [
     "Score -5 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 252.3,
+    "change": -7.2,
+    "change_pct": -2.775,
+    "correct": null,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3701,7 +3725,13 @@
     "ADX 16 below 18: market is choppy, not trending",
     "Score +4 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 142068.0,
+    "change": -819.0,
+    "change_pct": -0.573,
+    "correct": null,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3729,7 +3759,13 @@
    "blockers": [
     "Score +4 is inside ±45: no clear edge"
    ],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 140425.0,
+    "change": -830.0,
+    "change_pct": -0.588,
+    "correct": null,
+    "at": "2026-10-23T21:47:15+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -3971,6 +4007,162 @@
     "sl": 421.28,
     "t1": 423.02,
     "t2": 423.9
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:CRUDEOIL",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOIL",
+   "name": "MCX Crude Oil",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9802.0,
+   "score": 82.4,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 9800,
+    "expiry": "17-Nov-2026",
+    "premium": 592.0,
+    "entry": 9802.0,
+    "sl": 9731.2,
+    "t1": 9872.8,
+    "t2": 9943.59
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:CRUDEOILM",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOILM",
+   "name": "MCX Crude Oil Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9806.0,
+   "score": 85.7,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 9800,
+    "expiry": "17-Nov-2026",
+    "premium": 598.55,
+    "entry": 9806.0,
+    "sl": 9734.49,
+    "t1": 9877.51,
+    "t2": 9949.03
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:NATURALGAS",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "NATURALGAS",
+   "name": "MCX Natural Gas",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 252.2,
+   "score": -75.5,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 250,
+    "expiry": "23-Oct-2026",
+    "premium": 0.4,
+    "entry": 252.2,
+    "sl": 254.49,
+    "t1": 249.91,
+    "t2": 247.61
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:NATGASMINI",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "NATGASMINI",
+   "name": "MCX Natural Gas Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 252.3,
+   "score": -75.5,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 250,
+    "expiry": "23-Oct-2026",
+    "premium": 0.45,
+    "entry": 252.3,
+    "sl": 254.63,
+    "t1": 249.97,
+    "t2": 247.64
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:GOLD",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "GOLD",
+   "name": "MCX Gold",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 142068.0,
+   "score": -58.8,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 142000,
+    "expiry": "30-Oct-2026",
+    "premium": 1777.0,
+    "entry": 142068.0,
+    "sl": 142316.66,
+    "t1": 141819.34,
+    "t2": 141570.68
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T21:GOLDM",
+   "time": "2026-10-23T21:47:15+05:30",
+   "kind": "hourly",
+   "key": "GOLDM",
+   "name": "MCX Gold Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 140425.0,
+   "score": -72.3,
+   "bias": "bearish",
+   "signal": "PUT",
+   "suggested": {
+    "type": "PE",
+    "strike": 140500,
+    "expiry": "29-Oct-2026",
+    "premium": 1604.0,
+    "entry": 140425.0,
+    "sl": 140744.07,
+    "t1": 140105.93,
+    "t2": 139786.87
    },
    "blockers": [],
    "outcome_1h": null,
@@ -4452,7 +4644,45 @@
    "exit_spot": 9779.16,
    "points": 122.16,
    "r": 2.0
+  },
+  {
+   "ts": "2026-10-23T21:46:26+05:30",
+   "symbol": "GOLD",
+   "side": "PUT",
+   "score": -58.8,
+   "entry": 142068.0,
+   "sl": 142316.66,
+   "t1": 141819.34,
+   "t2": 141570.68,
+   "strike": 142000.0,
+   "opt_type": "PE",
+   "expiry": "30-Oct-2026",
+   "premium": 1777.0,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  },
+  {
+   "ts": "2026-10-23T21:46:36+05:30",
+   "symbol": "GOLDM",
+   "side": "PUT",
+   "score": -72.3,
+   "entry": 140425.0,
+   "sl": 140744.07,
+   "t1": 140105.93,
+   "t2": 139786.87,
+   "strike": 140500.0,
+   "opt_type": "PE",
+   "expiry": "29-Oct-2026",
+   "premium": 1604.0,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
   }
  ],
- "updated": "2026-10-23T21:45:04+05:30"
+ "updated": "2026-10-23T21:47:15+05:30"
 }
