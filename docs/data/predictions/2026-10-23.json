@@ -223,6 +223,114 @@
    "blockers": [],
    "outcome_1h": null,
    "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:NIFTY",
+   "time": "2026-10-23T09:46:27+05:30",
+   "kind": "hourly",
+   "key": "NIFTY",
+   "name": "Nifty 50",
+   "exchange": "NSE",
+   "source": "yahoo",
+   "spot": 22701.4,
+   "score": 16.4,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 22700,
+    "expiry": "27-Oct-2026",
+    "premium": 181.3,
+    "entry": 22701.4,
+    "sl": 22647.6,
+    "t1": 22755.2,
+    "t2": 22809.0
+   },
+   "blockers": [
+    "Score +16 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:BANKNIFTY",
+   "time": "2026-10-23T09:46:27+05:30",
+   "kind": "hourly",
+   "key": "BANKNIFTY",
+   "name": "Bank Nifty",
+   "exchange": "NSE",
+   "source": "yahoo",
+   "spot": 54679.25,
+   "score": -69.2,
+   "bias": "bearish",
+   "signal": "",
+   "suggested": {
+    "type": "PE",
+    "strike": 54700,
+    "expiry": "27-Oct-2026",
+    "premium": 344.9,
+    "entry": 54679.25,
+    "sl": 54905.69,
+    "t1": 54452.81,
+    "t2": 54226.36
+   },
+   "blockers": [
+    "ADX 13 below 18: market is choppy, not trending"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:CRUDEOIL",
+   "time": "2026-10-23T09:46:27+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOIL",
+   "name": "MCX Crude Oil",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9514.0,
+   "score": 53.9,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 9500,
+    "expiry": "17-Nov-2026",
+    "premium": 572.0,
+    "entry": 9514.0,
+    "sl": 9471.32,
+    "t1": 9556.68,
+    "t2": 9599.36
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T09:CRUDEOILM",
+   "time": "2026-10-23T09:46:27+05:30",
+   "kind": "hourly",
+   "key": "CRUDEOILM",
+   "name": "MCX Crude Oil Mini",
+   "exchange": "MCX",
+   "source": "mcx",
+   "spot": 9515.0,
+   "score": 62.3,
+   "bias": "bullish",
+   "signal": "CALL",
+   "suggested": {
+    "type": "CE",
+    "strike": 9500,
+    "expiry": "17-Nov-2026",
+    "premium": 576.65,
+    "entry": 9515.0,
+    "sl": 9448.26,
+    "t1": 9581.74,
+    "t2": 9648.47
+   },
+   "blockers": [],
+   "outcome_1h": null,
+   "outcome_close": null
   }
  ],
  "signals": [
@@ -244,7 +352,45 @@
    "exit_spot": null,
    "points": null,
    "r": null
+  },
+  {
+   "ts": "2026-10-23T09:46:13+05:30",
+   "symbol": "CRUDEOIL",
+   "side": "CALL",
+   "score": 53.9,
+   "entry": 9514.0,
+   "sl": 9471.32,
+   "t1": 9556.68,
+   "t2": 9599.36,
+   "strike": 9500.0,
+   "opt_type": "CE",
+   "expiry": "17-Nov-2026",
+   "premium": 572.0,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
+  },
+  {
+   "ts": "2026-10-23T09:46:16+05:30",
+   "symbol": "CRUDEOILM",
+   "side": "CALL",
+   "score": 62.3,
+   "entry": 9515.0,
+   "sl": 9448.26,
+   "t1": 9581.74,
+   "t2": 9648.47,
+   "strike": 9500.0,
+   "opt_type": "CE",
+   "expiry": "17-Nov-2026",
+   "premium": 576.65,
+   "status": "open",
+   "exit_ts": null,
+   "exit_spot": null,
+   "points": null,
+   "r": null
   }
  ],
- "updated": "2026-10-23T09:45:59+05:30"
+ "updated": "2026-10-23T09:46:27+05:30"
 }

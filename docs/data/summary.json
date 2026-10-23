@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-23T09:45:59+05:30",
+ "updated": "2026-10-23T09:46:27+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 195,
+   "calls": 198,
    "graded": 166,
    "correct": 90,
    "accuracy": 0.542
   },
   "close": {
-   "calls": 195,
+   "calls": 198,
    "graded": 109,
    "correct": 76,
    "accuracy": 0.697
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 69,
+    "calls": 72,
     "graded": 62,
     "correct": 38,
     "accuracy": 0.613
    },
    "close": {
-    "calls": 69,
+    "calls": 72,
     "graded": 32,
     "correct": 25,
     "accuracy": 0.781
@@ -78,13 +78,13 @@
   "BANKNIFTY": {
    "name": "Bank Nifty",
    "1h": {
-    "calls": 7,
+    "calls": 8,
     "graded": 6,
     "correct": 3,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 7,
+    "calls": 8,
     "graded": 7,
     "correct": 1,
     "accuracy": 0.143
@@ -93,13 +93,13 @@
   "CRUDEOIL": {
    "name": "MCX Crude Oil",
    "1h": {
-    "calls": 16,
+    "calls": 17,
     "graded": 14,
     "correct": 8,
     "accuracy": 0.571
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 7,
     "correct": 6,
     "accuracy": 0.857
@@ -108,13 +108,13 @@
   "CRUDEOILM": {
    "name": "MCX Crude Oil Mini",
    "1h": {
-    "calls": 16,
+    "calls": 17,
     "graded": 14,
     "correct": 8,
     "accuracy": 0.571
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 7,
     "correct": 6,
     "accuracy": 0.857
@@ -244,9 +244,9 @@
  "days": [
   {
    "date": "2026-10-23",
-   "calls": 8,
-   "directional": 7,
-   "signals": 1
+   "calls": 12,
+   "directional": 10,
+   "signals": 3
   },
   {
    "date": "2026-10-22",
