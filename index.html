@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AlgTrd Live</title>
+<link rel="stylesheet" href="static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand">AlgTrd <span class="muted">Live NSE &amp; MCX analysis</span></div>
+  <nav id="tabs">
+    <button data-tab="live" class="active">Live</button>
+    <button data-tab="market">Market</button>
+    <button data-tab="signals">Signals</button>
+    <button data-tab="quant">Quant Lab</button>
+    <button data-tab="news">News</button>
+    <button data-tab="history">History</button>
+  </nav>
+  <div class="pills">
+    <label class="pill clickable" title="Sound + desktop notification when a new call/put signal appears"><input type="checkbox" id="chkAlerts"> Alerts</label>
+    <span id="mktPill" class="pill">…</span>
+    <span id="wsPill" class="pill">offline</span>
+  </div>
+</header>
+
+<main>
+<div id="errBanner" class="banner warn hidden"></div>
+
+<!-- ================================================================ LIVE -->
+<section id="tab-live" class="tab active">
+  <div class="instr" id="instrButtons"></div>
+
+  <div class="tiles">
+    <div class="tile"><div class="label" id="tSpotLabel">Spot</div><div class="value" id="tSpot">–</div><div class="sub" id="tSpotSub"></div></div>
+    <div class="tile"><div class="label">Day range</div><div class="value small-v" id="tRange">–</div><div class="sub" id="tUpdated"></div></div>
+    <div class="tile"><div class="label" id="tVixLabel">India VIX</div><div class="value" id="tVix">–</div><div class="sub" id="tVixSub"></div></div>
+    <div class="tile"><div class="label">Put/Call ratio (OI)</div><div class="value" id="tPcr">–</div><div class="sub" id="tPcrSub"></div></div>
+    <div class="tile"><div class="label">Max pain</div><div class="value" id="tPain">–</div><div class="sub" id="tWalls"></div></div>
+    <div class="tile"><div class="label">News mood</div><div class="value small-v" id="tMood">–</div><div class="sub" id="tMoodSub"></div></div>
+  </div>
+
+  <div class="livegrid">
+    <div class="card chartcard">
+      <div class="row between">
+        <h3 id="chartTitle">Chart</h3>
+        <div class="row">
+          <div class="seg" id="zoomButtons" title="Zoom: also mouse wheel / pinch on the chart, drag to pan, drag the price axis to stretch it. Keys: + − 0">
+            <button data-zoom="out" aria-label="Zoom out">−</button><button data-zoom="in" aria-label="Zoom in">+</button>
+            <button data-zoom="fit" title="Show all candles and reset the price scale">Fit</button>
+            <button data-zoom="latest" title="Jump to the latest candle">Latest</button>
+            <button data-zoom="full" aria-label="Full screen" title="Full screen chart">⛶</button>
+          </div>
+          <div class="seg" id="tfButtons">
+            <button data-tf="1">1m</button><button data-tf="3">3m</button><button data-tf="5" class="active">5m</button><button data-tf="15">15m</button>
+          </div>
+        </div>
+      </div>
+      <div class="legend small">
+        <span><i class="key k-up"></i>Up candle</span><span><i class="key k-down"></i>Down candle</span>
+        <span><i class="key line k-ema9"></i>EMA 9</span><span><i class="key line k-ema21"></i>EMA 21</span>
+        <span><i class="key line k-st"></i>Supertrend</span><span>● C / P = rule fired (history)</span><span>▲▼ = live signal</span>
+      </div>
+      <div id="priceChart" class="lwc"></div>
+      <div class="small muted rsi-label">RSI (14): 70 overbought · 30 oversold</div>
+      <div id="rsiChart" class="lwc rsi"></div>
+    </div>
+
+    <div class="card signalcard" id="signalCard">
+      <div class="verdict" id="verdict">Loading…</div>
+      <div class="verdict-sub" id="verdictSub"></div>
+      <div class="meter" aria-label="Signal score">
+        <div class="meter-track"><div class="meter-mid"></div><div class="meter-fill" id="meterFill"></div></div>
+        <div class="meter-labels small"><span>−100 bearish</span><span id="scoreText">0</span><span>bullish +100</span></div>
+      </div>
+      <div id="activeBox" class="active-box hidden"></div>
+      <table class="lv" id="levelsTable"></table>
+      <p class="small muted" id="levelsNote"></p>
+      <div id="blockers"></div>
+      <div id="warnings"></div>
+      <h4>Why (indicator votes)</h4>
+      <ul class="reasons" id="reasons"></ul>
+      <div class="bt small" id="setupBox"></div>
+      <div class="bt small" id="btSummary"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row between">
+      <h3>Option chain <span class="muted small" id="chainMeta"></span></h3>
+      <select id="selExpiry" aria-label="Expiry"></select>
+    </div>
+    <div class="chain-stats small" id="chainStats"></div>
+    <div class="tablewrap"><table id="chainTable" class="chain"></table></div>
+    <p class="small muted">Highest call OI above spot acts as resistance (call writers defend it), highest put OI below spot as support. Rising put OI with falling call OI is read as bullish, and the reverse as bearish.</p>
+  </div>
+</section>
+
+<!-- ============================================================== MARKET -->
+<section id="tab-market" class="tab">
+  <div class="tiles">
+    <div class="tile"><div class="label">India VIX</div><div class="value" id="mVix">–</div><div class="sub" id="mVixSub"></div></div>
+    <div class="tile"><div class="label">Advancing</div><div class="value up" id="mAdv">–</div></div>
+    <div class="tile"><div class="label">Declining</div><div class="value down" id="mDec">–</div></div>
+    <div class="tile"><div class="label">News mood</div><div class="value small-v" id="mMood">–</div></div>
+  </div>
+  <div class="card">
+    <h3>Large caps today</h3>
+    <p class="small muted">Day change vs previous close. Blue is up and red is down; darker means a bigger move.</p>
+    <div class="heatgrid" id="heatGrid"></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Top gainers</h3><div class="tablewrap"><table id="gainTable"></table></div></div>
+    <div class="card"><h3>Top losers</h3><div class="tablewrap"><table id="loseTable"></table></div></div>
+  </div>
+</section>
+
+<!-- ============================================================= SIGNALS -->
+<section id="tab-signals" class="tab">
+  <div class="card">
+    <h3>Backtest of these exact rules (last ~60 trading days, 5-min candles)</h3>
+    <p class="small" id="btCompare"></p>
+    <p class="small muted">Simulated on the underlying (index, or for MCX the global-future proxy in rupees): enter on the next candle after a signal, exit at the stop-loss, at target 2, or 15 minutes before the close (15:20 on NSE). After target 1 the stop moves to entry. When the stop and target fall in the same candle, it assumes the stop hit first. The option-chain and news votes are not in the backtest (no history). "After costs" subtracts an estimated round-trip option cost in points of the underlying. The chart shows each instrument's cumulative result in % of its price, so contracts of very different sizes can be compared. Zinc and the Bullion Index have no free history and no backtest. Option time decay is not modelled, so option-buyer results would be worse.</p>
+    <div class="grid2" id="btCards"></div>
+    <div class="chartbox"><canvas id="btChart"></canvas></div>
+  </div>
+  <div class="card">
+    <h3>Live scorecard</h3>
+    <div class="tablewrap"><table id="scoreTable"></table></div>
+  </div>
+  <div class="card">
+    <h3>Signal log</h3>
+    <div class="tablewrap"><table id="sigTable"></table></div>
+  </div>
+</section>
+
+
+<!-- =========================================================== QUANT LAB -->
+<section id="tab-quant" class="tab">
+  <div class="card">
+    <div class="row between">
+      <div><h3>Quant Lab: every rule, every market, every decade</h3><p class="muted small" id="qMeta">Loading…</p></div>
+      <button id="btnQuant" class="primary">Re-run study</button>
+    </div>
+    <ul id="qFindings" class="findings"></ul>
+  </div>
+  <div class="tiles" id="qCoverage"></div>
+
+  <div class="card">
+    <div class="row between">
+      <h3>The algorithm (combined daily rules)</h3>
+      <div class="seg" id="qEnsMarkets"></div>
+    </div>
+    <p class="small muted" id="qEnsRule"></p>
+    <div class="chips" id="qMembers"></div>
+    <div class="grid2">
+      <div>
+        <h4>Today's daily bias</h4>
+        <div class="verdict small-v" id="qBias">–</div>
+        <div class="meter"><div class="meter-track"><div class="meter-mid"></div><div class="meter-fill" id="qBiasFill"></div></div>
+          <div class="meter-labels small"><span>−1 all rules bearish</span><span>all bullish +1</span></div></div>
+        <h4>Results by period</h4>
+        <div class="tablewrap"><table id="qEnsTable"></table></div>
+        <p class="small muted">Train = the years used to choose the rules. Test and holdout years were never seen when choosing, so they show real out-of-sample performance. Long/short means following the bias both ways (calls when bullish, puts when bearish).</p>
+      </div>
+      <div>
+        <h4>Growth of 1 (log scale)</h4>
+        <div class="chartbox tall"><canvas id="qCurve"></canvas></div>
+      </div>
+    </div>
+    <h4>Does the bias call tomorrow's direction? (holdout years)</h4>
+    <div class="tablewrap"><table id="qHits"></table></div>
+  </div>
+
+  <div class="card">
+    <div class="row between">
+      <h3>Rule leaderboard</h3>
+      <div class="row">
+        <select id="qVerdict" aria-label="Verdict filter"><option value="">All verdicts</option><option>robust</option><option>promising</option><option>fails</option></select>
+        <select id="qCategory" aria-label="Category filter"><option value="">All categories</option></select>
+      </div>
+    </div>
+    <p class="small muted">Sharpe ratios of each rule traded long/short with 0.05% cost per trade. <b>Robust</b> means positive on Nifty in all three periods, better than 95% of 200 random strategies with the same exposure, and positive in other markets. ✓ marks rules inside the algorithm.</p>
+    <div class="tablewrap"><table id="qRules"></table></div>
+  </div>
+
+  <div class="card">
+    <div class="row between">
+      <h3>How the market moves after its own moves</h3>
+      <div class="row">
+        <div class="seg" id="qMoveMarkets"></div>
+        <div class="seg" id="qMovePeriod"><button data-p="all" class="active">All years</button><button data-p="recent">Recent decade</button></div>
+      </div>
+    </div>
+    <p class="small muted" id="qMoveMeta"></p>
+    <ul id="qMoveFindings" class="findings"></ul>
+    <div class="grid2">
+      <div class="card inner"><h4>Today's setup and the 40 most similar days in history</h4><div id="qToday"></div></div>
+      <div class="card inner"><h4>Next-day odds after a streak (base rate dashed)</h4><div class="chartbox"><canvas id="qStreakChart"></canvas></div></div>
+    </div>
+    <p class="small muted">p(up) is how often the market rose afterwards. z compares it with the normal rate: |z| ≥ 2 with 30+ cases is marked ★ (unlikely to be chance). Small samples and old decades can mislead, so check "Recent decade".</p>
+    <div class="grid2">
+      <div><h4>After a day's move → next day</h4><div class="tablewrap"><table id="qDay"></table></div></div>
+      <div><h4>After a week's move → next 5 days</h4><div class="tablewrap"><table id="qWeek"></table></div></div>
+    </div>
+    <div class="grid2">
+      <div><h4>Yesterday's direction → today (Markov)</h4><div class="tablewrap"><table id="qMarkov"></table></div></div>
+      <div><h4>Day-to-day memory by decade</h4><div class="chartbox"><canvas id="qAuto"></canvas></div>
+        <p class="small muted">Lag-1 autocorrelation of daily returns. Above 0, moves tended to continue; below 0, they tended to reverse.</p></div>
+    </div>
+    <div class="grid2">
+      <div><h4>Fall from all-time high → next year</h4><div class="tablewrap"><table id="qDD"></table></div></div>
+      <div><h4>Distance from 200-day average → next 20 / 60 days</h4><div class="tablewrap"><table id="qDist"></table></div></div>
+    </div>
+    <div class="grid2">
+      <div><h4>RSI(14) level → next 5 / 20 days</h4><div class="tablewrap"><table id="qRsi"></table></div></div>
+      <div><h4>New 52-week highs / lows → next 20 / 60 days</h4><div class="tablewrap"><table id="qHL"></table></div>
+        <h4>Volatility clustering</h4><div id="qVol" class="small"></div></div>
+    </div>
+    <div class="grid2">
+      <div><h4>Opening gaps → same day</h4><div class="tablewrap"><table id="qGaps"></table></div></div>
+      <div><h4>Turn of month</h4><div class="tablewrap"><table id="qTom"></table></div>
+        <h4>Weekday</h4><div class="tablewrap"><table id="qDow"></table></div></div>
+    </div>
+    <h4>Month of year</h4>
+    <div class="tablewrap"><table id="qMonth"></table></div>
+  </div>
+</section>
+
+<!-- ================================================================ NEWS -->
+<section id="tab-news" class="tab">
+  <div class="tiles">
+    <div class="tile"><div class="label">Market mood (last 3 h)</div><div class="value small-v" id="nMood">–</div><div class="sub" id="nMoodSub"></div></div>
+    <div class="tile"><div class="label">Positive</div><div class="value" id="nPos">–</div></div>
+    <div class="tile"><div class="label">Negative</div><div class="value" id="nNeg">–</div></div>
+    <div class="tile"><div class="label">Neutral</div><div class="value" id="nNeu">–</div></div>
+  </div>
+  <div class="card">
+    <div class="row between">
+      <h3>Headlines</h3>
+      <div class="row">
+        <label class="small"><input type="checkbox" id="chkSpeak"> Read high-impact news aloud</label>
+        <select id="selImpact" aria-label="Impact filter">
+          <option value="">All impact</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option>
+        </select>
+        <button id="btnNews">Refresh now</button>
+      </div>
+    </div>
+    <p class="muted small">News mood is one of the votes in the call/put score (weight 5 of 115).</p>
+    <ul id="newsList" class="news"></ul>
+  </div>
+</section>
+
+<!-- ============================================================= HISTORY -->
+<section id="tab-history" class="tab">
+  <div class="card">
+    <div class="row between">
+      <div><h3>19 years of market behaviour</h3><p class="muted small" id="resMeta">No report yet.</p></div>
+      <button id="btnResearch" class="primary">Re-run analysis</button>
+    </div>
+    <ul id="findings" class="findings"></ul>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>India VIX vs next-20-day Nifty return</h3><div class="chartbox"><canvas id="vixChart"></canvas></div></div>
+    <div class="card"><h3>Average Nifty return by month</h3><div class="chartbox"><canvas id="monthChart"></canvas></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Overnight gaps</h3><div class="tablewrap"><table id="gapTable"></table></div></div>
+    <div class="card"><h3>After shock days</h3><div class="tablewrap"><table id="shockTable"></table></div>
+      <h3 class="mt">Trend regimes</h3><div class="tablewrap"><table id="trendTable"></table></div></div>
+  </div>
+  <div class="card">
+    <h3>Event study: how Nifty reacted to major news</h3>
+    <p class="muted small">Returns are measured from the close before the event. Add your own events in <code>events/events.csv</code>.</p>
+    <div class="tablewrap"><table id="eventTable"></table></div>
+  </div>
+  <div class="card">
+    <h3>Long-term strategy comparison (daily, stocks)</h3>
+    <div class="tablewrap"><table id="stratTable"></table></div>
+  </div>
+</section>
+</main>
+
+<footer class="muted small">For education and analysis only, not investment advice. SEBI studies found about 9 in 10 individual F&amp;O traders lose money. Never trade money you cannot afford to lose.</footer>
+<script>window.ALGTRD_STATIC = true;</script>
+<script src="static/app.js"></script>
+<script src="static/quant.js"></script>
+</body>
+</html>
