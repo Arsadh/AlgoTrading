@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T22:00:00+05:30",
+ "updated": "2026-10-23T23:53:07+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
@@ -10,9 +10,9 @@
   },
   "close": {
    "calls": 280,
-   "graded": 120,
-   "correct": 79,
-   "accuracy": 0.658
+   "graded": 201,
+   "correct": 124,
+   "accuracy": 0.617
   }
  },
  "by_strength": {
@@ -25,9 +25,9 @@
    },
    "close": {
     "calls": 68,
-    "graded": 37,
-    "correct": 25,
-    "accuracy": 0.676
+    "graded": 48,
+    "correct": 31,
+    "accuracy": 0.646
    }
   },
   "|score| 45-69": {
@@ -39,9 +39,9 @@
    },
    "close": {
     "calls": 102,
-    "graded": 34,
-    "correct": 26,
-    "accuracy": 0.765
+    "graded": 67,
+    "correct": 47,
+    "accuracy": 0.701
    }
   },
   "|score| 70+": {
@@ -53,9 +53,9 @@
    },
    "close": {
     "calls": 110,
-    "graded": 49,
-    "correct": 28,
-    "accuracy": 0.571
+    "graded": 86,
+    "correct": 46,
+    "accuracy": 0.535
    }
   }
  },
@@ -100,9 +100,9 @@
    },
    "close": {
     "calls": 27,
-    "graded": 7,
-    "correct": 6,
-    "accuracy": 0.857
+    "graded": 18,
+    "correct": 17,
+    "accuracy": 0.944
    }
   },
   "CRUDEOILM": {
@@ -115,9 +115,9 @@
    },
    "close": {
     "calls": 27,
-    "graded": 7,
-    "correct": 6,
-    "accuracy": 0.857
+    "graded": 18,
+    "correct": 17,
+    "accuracy": 0.944
    }
   },
   "NATURALGAS": {
@@ -130,9 +130,9 @@
    },
    "close": {
     "calls": 29,
-    "graded": 9,
-    "correct": 5,
-    "accuracy": 0.556
+    "graded": 19,
+    "correct": 15,
+    "accuracy": 0.789
    }
   },
   "GOLD": {
@@ -145,9 +145,9 @@
    },
    "close": {
     "calls": 19,
-    "graded": 9,
-    "correct": 9,
-    "accuracy": 1.0
+    "graded": 15,
+    "correct": 10,
+    "accuracy": 0.667
    }
   },
   "GOLDM": {
@@ -160,9 +160,9 @@
    },
    "close": {
     "calls": 22,
-    "graded": 9,
-    "correct": 8,
-    "accuracy": 0.889
+    "graded": 14,
+    "correct": 9,
+    "accuracy": 0.643
    }
   },
   "SILVER": {
@@ -175,9 +175,9 @@
    },
    "close": {
     "calls": 26,
-    "graded": 12,
+    "graded": 18,
     "correct": 11,
-    "accuracy": 0.917
+    "accuracy": 0.611
    }
   },
   "SILVERM": {
@@ -190,9 +190,9 @@
    },
    "close": {
     "calls": 25,
-    "graded": 12,
+    "graded": 18,
     "correct": 11,
-    "accuracy": 0.917
+    "accuracy": 0.611
    }
   },
   "COPPER": {
@@ -205,9 +205,9 @@
    },
    "close": {
     "calls": 26,
-    "graded": 11,
-    "correct": 5,
-    "accuracy": 0.455
+    "graded": 18,
+    "correct": 10,
+    "accuracy": 0.556
    }
   },
   "ZINC": {
@@ -220,9 +220,9 @@
    },
    "close": {
     "calls": 25,
-    "graded": 9,
-    "correct": 9,
-    "accuracy": 1.0
+    "graded": 18,
+    "correct": 15,
+    "accuracy": 0.833
    }
   },
   "NATGASMINI": {
@@ -235,9 +235,9 @@
    },
    "close": {
     "calls": 28,
-    "graded": 9,
+    "graded": 19,
     "correct": 5,
-    "accuracy": 0.556
+    "accuracy": 0.263
    }
   }
  },
@@ -262,10 +262,10 @@
   }
  ],
  "signals": {
-  "closed": 116,
-  "wins": 51,
-  "win_rate": 0.44,
-  "avg_r": 0.048,
+  "closed": 118,
+  "wins": 53,
+  "win_rate": 0.449,
+  "avg_r": 0.052,
   "by_instrument": {
    "BANKNIFTY": {
     "trades": 11,
@@ -308,20 +308,20 @@
     "profit_factor": 1.13
    },
    "GOLD": {
-    "trades": 8,
-    "win_rate": 0.5,
-    "t1_hit_rate": 0.5,
-    "avg_r": 0.455,
-    "total_points": 220.8,
-    "profit_factor": 2.21
+    "trades": 9,
+    "win_rate": 0.556,
+    "t1_hit_rate": 0.444,
+    "avg_r": 0.457,
+    "total_points": 338.8,
+    "profit_factor": 2.37
    },
    "GOLDM": {
-    "trades": 8,
-    "win_rate": 0.5,
-    "t1_hit_rate": 0.625,
-    "avg_r": 0.519,
-    "total_points": 45.5,
-    "profit_factor": 2.38
+    "trades": 9,
+    "win_rate": 0.556,
+    "t1_hit_rate": 0.556,
+    "avg_r": 0.476,
+    "total_points": 85.5,
+    "profit_factor": 2.43
    },
    "CRUDEOIL": {
     "trades": 10,

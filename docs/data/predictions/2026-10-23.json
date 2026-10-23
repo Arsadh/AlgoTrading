@@ -33,7 +33,13 @@
     "correct": false,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -6.9,
+    "change_pct": -2.666,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:NATGASMINI",
@@ -67,7 +73,13 @@
     "correct": false,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 31.79,
+    "change_pct": 12.288,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:GOLD",
@@ -101,7 +113,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": 228.0,
+    "change_pct": 0.161,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:GOLDM",
@@ -135,7 +153,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": 326.0,
+    "change_pct": 0.232,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:SILVER",
@@ -169,7 +193,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 2070.0,
+    "change_pct": 1.067,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:SILVERM",
@@ -203,7 +233,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 1816.0,
+    "change_pct": 0.926,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:COPPER",
@@ -238,7 +274,13 @@
     "correct": null,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 14.85,
+    "change_pct": 1.089,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:ZINC",
@@ -270,7 +312,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 11.65,
+    "change_pct": 2.836,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:NIFTY",
@@ -382,7 +430,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 301.0,
+    "change_pct": 3.164,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T09:CRUDEOILM",
@@ -414,7 +468,13 @@
     "correct": true,
     "at": "2026-10-23T10:00:02+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 297.0,
+    "change_pct": 3.121,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:NIFTY",
@@ -524,7 +584,13 @@
     "correct": true,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 285.0,
+    "change_pct": 2.991,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:CRUDEOILM",
@@ -558,7 +624,13 @@
     "correct": true,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 283.0,
+    "change_pct": 2.97,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:NATURALGAS",
@@ -592,7 +664,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -7.5,
+    "change_pct": -2.891,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:NATGASMINI",
@@ -626,7 +704,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 30.99,
+    "change_pct": 11.942,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:GOLD",
@@ -660,7 +744,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": 265.0,
+    "change_pct": 0.187,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:GOLDM",
@@ -694,7 +784,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": 422.0,
+    "change_pct": 0.301,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:SILVER",
@@ -728,7 +824,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 3050.0,
+    "change_pct": 1.58,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:SILVERM",
@@ -762,7 +864,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 2951.0,
+    "change_pct": 1.514,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:COPPER",
@@ -796,7 +904,13 @@
     "correct": null,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 13.85,
+    "change_pct": 1.015,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T10:ZINC",
@@ -828,7 +942,13 @@
     "correct": false,
     "at": "2026-10-23T11:00:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 12.0,
+    "change_pct": 2.924,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:NIFTY",
@@ -936,7 +1056,13 @@
     "correct": true,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 238.0,
+    "change_pct": 2.485,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:CRUDEOILM",
@@ -968,7 +1094,13 @@
     "correct": true,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 237.0,
+    "change_pct": 2.475,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:NATURALGAS",
@@ -1000,7 +1132,13 @@
     "correct": true,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -8.1,
+    "change_pct": -3.115,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:NATGASMINI",
@@ -1032,7 +1170,13 @@
     "correct": true,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 30.49,
+    "change_pct": 11.727,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:GOLD",
@@ -1064,7 +1208,13 @@
     "correct": false,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -302.0,
+    "change_pct": -0.212,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:GOLDM",
@@ -1096,7 +1246,13 @@
     "correct": false,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -223.0,
+    "change_pct": -0.158,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:SILVER",
@@ -1130,7 +1286,13 @@
     "correct": false,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 194.0,
+    "change_pct": 0.099,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:SILVERM",
@@ -1164,7 +1326,13 @@
     "correct": false,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 77.0,
+    "change_pct": 0.039,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:COPPER",
@@ -1199,7 +1367,13 @@
     "correct": null,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 11.1,
+    "change_pct": 0.812,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T11:ZINC",
@@ -1233,7 +1407,13 @@
     "correct": null,
     "at": "2026-10-23T12:00:07+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 7.4,
+    "change_pct": 1.783,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:NIFTY",
@@ -1341,7 +1521,13 @@
     "correct": false,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 219.0,
+    "change_pct": 2.282,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:CRUDEOILM",
@@ -1373,7 +1559,13 @@
     "correct": false,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 220.0,
+    "change_pct": 2.294,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:NATURALGAS",
@@ -1405,7 +1597,13 @@
     "correct": false,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -7.6,
+    "change_pct": -2.929,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:NATGASMINI",
@@ -1437,7 +1635,13 @@
     "correct": true,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 30.69,
+    "change_pct": 11.813,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:GOLD",
@@ -1471,7 +1675,13 @@
     "correct": null,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -307.0,
+    "change_pct": -0.216,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:GOLDM",
@@ -1505,7 +1715,13 @@
     "correct": null,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -249.0,
+    "change_pct": -0.177,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:SILVER",
@@ -1539,7 +1755,13 @@
     "correct": null,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": -137.0,
+    "change_pct": -0.07,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:SILVERM",
@@ -1573,7 +1795,13 @@
     "correct": null,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": -399.0,
+    "change_pct": -0.201,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:COPPER",
@@ -1607,7 +1835,13 @@
     "correct": false,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 5.8,
+    "change_pct": 0.423,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T12:ZINC",
@@ -1639,7 +1873,13 @@
     "correct": true,
     "at": "2026-10-23T13:28:14+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 5.0,
+    "change_pct": 1.198,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:NIFTY",
@@ -1747,7 +1987,13 @@
     "correct": false,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 220.0,
+    "change_pct": 2.293,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:CRUDEOILM",
@@ -1781,7 +2027,13 @@
     "correct": false,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 222.0,
+    "change_pct": 2.315,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:NATURALGAS",
@@ -1813,7 +2065,13 @@
     "correct": true,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -7.8,
+    "change_pct": -3.003,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:NATGASMINI",
@@ -1845,7 +2103,13 @@
     "correct": true,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 30.89,
+    "change_pct": 11.899,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:GOLD",
@@ -1880,7 +2144,13 @@
     "correct": null,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -207.0,
+    "change_pct": -0.145,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:GOLDM",
@@ -1915,7 +2185,13 @@
     "correct": null,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -158.0,
+    "change_pct": -0.112,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:SILVER",
@@ -1950,7 +2226,13 @@
     "correct": false,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 765.0,
+    "change_pct": 0.392,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:SILVERM",
@@ -1985,7 +2267,13 @@
     "correct": false,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 566.0,
+    "change_pct": 0.287,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:COPPER",
@@ -2019,7 +2307,13 @@
     "correct": null,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 10.0,
+    "change_pct": 0.731,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T13:ZINC",
@@ -2053,7 +2347,13 @@
     "correct": true,
     "at": "2026-10-23T14:16:35+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 4.75,
+    "change_pct": 1.137,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:BANKNIFTY",
@@ -2128,7 +2428,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 293.0,
+    "change_pct": 3.077,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:CRUDEOILM",
@@ -2163,7 +2469,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 291.0,
+    "change_pct": 3.056,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:NATURALGAS",
@@ -2197,7 +2509,13 @@
     "correct": false,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -6.9,
+    "change_pct": -2.666,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:NATGASMINI",
@@ -2229,7 +2547,13 @@
     "correct": false,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 31.69,
+    "change_pct": 12.245,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:GOLD",
@@ -2264,7 +2588,13 @@
     "correct": true,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -485.0,
+    "change_pct": -0.34,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:GOLDM",
@@ -2299,7 +2629,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -425.0,
+    "change_pct": -0.301,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:SILVER",
@@ -2334,7 +2670,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 241.0,
+    "change_pct": 0.123,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:SILVERM",
@@ -2369,7 +2711,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": -29.0,
+    "change_pct": -0.015,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:COPPER",
@@ -2404,7 +2752,13 @@
     "correct": true,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 8.5,
+    "change_pct": 0.621,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:ZINC",
@@ -2438,7 +2792,13 @@
     "correct": null,
     "at": "2026-10-23T15:00:05+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 4.6,
+    "change_pct": 1.101,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T14:NIFTY",
@@ -2582,7 +2942,13 @@
     "correct": true,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 231.0,
+    "change_pct": 2.41,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:CRUDEOILM",
@@ -2616,7 +2982,13 @@
     "correct": true,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 225.0,
+    "change_pct": 2.347,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:NATURALGAS",
@@ -2650,7 +3022,13 @@
     "correct": false,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -7.1,
+    "change_pct": -2.741,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:NATGASMINI",
@@ -2684,7 +3062,13 @@
     "correct": false,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 31.59,
+    "change_pct": 12.202,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:GOLD",
@@ -2718,7 +3102,13 @@
     "correct": null,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -750.0,
+    "change_pct": -0.525,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:GOLDM",
@@ -2752,7 +3142,13 @@
     "correct": null,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -677.0,
+    "change_pct": -0.479,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:SILVER",
@@ -2787,7 +3183,13 @@
     "correct": null,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 131.0,
+    "change_pct": 0.067,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:SILVERM",
@@ -2822,7 +3224,13 @@
     "correct": null,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": -168.0,
+    "change_pct": -0.085,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:COPPER",
@@ -2857,7 +3265,13 @@
     "correct": false,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 8.45,
+    "change_pct": 0.617,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T15:ZINC",
@@ -2891,7 +3305,13 @@
     "correct": null,
     "at": "2026-10-23T16:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 4.35,
+    "change_pct": 1.041,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:CRUDEOIL",
@@ -2923,7 +3343,13 @@
     "correct": false,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 199.0,
+    "change_pct": 2.069,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:CRUDEOILM",
@@ -2955,7 +3381,13 @@
     "correct": false,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 200.0,
+    "change_pct": 2.081,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:NATURALGAS",
@@ -2989,7 +3421,13 @@
     "correct": null,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -9.7,
+    "change_pct": -3.708,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:NATGASMINI",
@@ -3023,7 +3461,13 @@
     "correct": null,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 28.89,
+    "change_pct": 11.044,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:GOLD",
@@ -3057,7 +3501,13 @@
     "correct": null,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -689.0,
+    "change_pct": -0.482,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:GOLDM",
@@ -3091,7 +3541,13 @@
     "correct": null,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -608.0,
+    "change_pct": -0.431,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:SILVER",
@@ -3126,7 +3582,13 @@
     "correct": false,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 537.0,
+    "change_pct": 0.275,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:SILVERM",
@@ -3161,7 +3623,13 @@
     "correct": false,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 274.0,
+    "change_pct": 0.139,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:COPPER",
@@ -3195,7 +3663,13 @@
     "correct": null,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 10.35,
+    "change_pct": 0.757,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T16:ZINC",
@@ -3229,7 +3703,13 @@
     "correct": false,
     "at": "2026-10-23T17:00:03+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 5.5,
+    "change_pct": 1.319,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:CRUDEOIL",
@@ -3261,7 +3741,13 @@
     "correct": true,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 212.0,
+    "change_pct": 2.208,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:CRUDEOILM",
@@ -3293,7 +3779,13 @@
     "correct": true,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 210.0,
+    "change_pct": 2.187,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:NATURALGAS",
@@ -3327,7 +3819,13 @@
     "correct": false,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -3.4,
+    "change_pct": -1.332,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:NATGASMINI",
@@ -3361,7 +3859,13 @@
     "correct": false,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 35.19,
+    "change_pct": 13.784,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:GOLD",
@@ -3395,7 +3899,13 @@
     "correct": null,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -713.0,
+    "change_pct": -0.499,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:GOLDM",
@@ -3429,7 +3939,13 @@
     "correct": null,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -656.0,
+    "change_pct": -0.464,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:SILVER",
@@ -3464,7 +3980,13 @@
     "correct": null,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 350.0,
+    "change_pct": 0.179,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:SILVERM",
@@ -3499,7 +4021,13 @@
     "correct": null,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 130.0,
+    "change_pct": 0.066,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:COPPER",
@@ -3531,7 +4059,13 @@
     "correct": true,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 7.0,
+    "change_pct": 0.51,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T17:ZINC",
@@ -3565,7 +4099,13 @@
     "correct": true,
     "at": "2026-10-23T18:00:06+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 4.8,
+    "change_pct": 1.149,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:CRUDEOIL",
@@ -3597,7 +4137,13 @@
     "correct": true,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 185.0,
+    "change_pct": 1.921,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:CRUDEOILM",
@@ -3629,7 +4175,13 @@
     "correct": true,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 179.0,
+    "change_pct": 1.858,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:NATURALGAS",
@@ -3663,7 +4215,13 @@
     "correct": null,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -7.6,
+    "change_pct": -2.929,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:NATGASMINI",
@@ -3697,7 +4255,13 @@
     "correct": null,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 30.99,
+    "change_pct": 11.942,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:GOLD",
@@ -3732,7 +4296,13 @@
     "correct": null,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": -737.0,
+    "change_pct": -0.516,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:GOLDM",
@@ -3766,7 +4336,13 @@
     "correct": null,
     "at": "2026-10-23T21:47:15+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": -644.0,
+    "change_pct": -0.456,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:SILVER",
@@ -3800,7 +4376,13 @@
     "correct": false,
     "at": "2026-10-23T21:45:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 580.0,
+    "change_pct": 0.297,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:SILVERM",
@@ -3835,7 +4417,13 @@
     "correct": false,
     "at": "2026-10-23T21:45:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 292.0,
+    "change_pct": 0.148,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:COPPER",
@@ -3867,7 +4455,13 @@
     "correct": true,
     "at": "2026-10-23T21:45:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": 3.95,
+    "change_pct": 0.287,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T18:ZINC",
@@ -3901,7 +4495,13 @@
     "correct": true,
     "at": "2026-10-23T21:45:04+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 4.2,
+    "change_pct": 1.004,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:SILVER",
@@ -3936,7 +4536,13 @@
     "correct": null,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 250.0,
+    "change_pct": 0.128,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:SILVERM",
@@ -3970,7 +4576,13 @@
     "correct": null,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 1.0,
+    "change_pct": 0.001,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:COPPER",
@@ -4002,7 +4614,13 @@
     "correct": true,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": -0.7,
+    "change_pct": -0.051,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:ZINC",
@@ -4034,7 +4652,13 @@
     "correct": false,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 0.25,
+    "change_pct": 0.059,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:CRUDEOIL",
@@ -4066,7 +4690,13 @@
     "correct": true,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 13.0,
+    "change_pct": 0.133,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:CRUDEOILM",
@@ -4098,7 +4728,13 @@
     "correct": false,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 6.0,
+    "change_pct": 0.061,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:NATURALGAS",
@@ -4130,7 +4766,13 @@
     "correct": true,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -0.3,
+    "change_pct": -0.119,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:NATGASMINI",
@@ -4162,7 +4804,13 @@
     "correct": true,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 38.19,
+    "change_pct": 15.137,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:GOLD",
@@ -4194,7 +4842,13 @@
     "correct": true,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": 82.0,
+    "change_pct": 0.058,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T21:GOLDM",
@@ -4226,7 +4880,13 @@
     "correct": false,
     "at": "2026-10-23T22:00:00+05:30"
    },
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": 186.0,
+    "change_pct": 0.132,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:CRUDEOIL",
@@ -4252,7 +4912,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9815.0,
+    "change": 12.0,
+    "change_pct": 0.122,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:CRUDEOILM",
@@ -4278,7 +4944,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 9812.0,
+    "change": 9.0,
+    "change_pct": 0.092,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:NATURALGAS",
@@ -4304,7 +4976,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 251.9,
+    "change": -0.1,
+    "change_pct": -0.04,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:NATGASMINI",
@@ -4330,7 +5008,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 290.49,
+    "change": 38.49,
+    "change_pct": 15.274,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:GOLD",
@@ -4356,7 +5040,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 142150.0,
+    "change": 92.0,
+    "change_pct": 0.065,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:GOLDM",
@@ -4382,7 +5072,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 140611.0,
+    "change": 185.0,
+    "change_pct": 0.132,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:SILVER",
@@ -4410,7 +5106,13 @@
     "Score -19 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 196100.0,
+    "change": 427.0,
+    "change_pct": 0.218,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:SILVERM",
@@ -4439,7 +5141,13 @@
     "Score -15 is inside ±45: no clear edge"
    ],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 197901.0,
+    "change": 114.0,
+    "change_pct": 0.058,
+    "correct": null,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:COPPER",
@@ -4465,7 +5173,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 1378.35,
+    "change": -4.35,
+    "change_pct": -0.315,
+    "correct": false,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   },
   {
    "id": "2026-10-23T22:ZINC",
@@ -4491,7 +5205,13 @@
    },
    "blockers": [],
    "outcome_1h": null,
-   "outcome_close": null
+   "outcome_close": {
+    "spot": 422.4,
+    "change": 0.3,
+    "change_pct": 0.071,
+    "correct": true,
+    "at": "2026-10-23T23:53:07+05:30"
+   }
   }
  ],
  "signals": [
@@ -4983,11 +5703,11 @@
    "opt_type": "PE",
    "expiry": "30-Oct-2026",
    "premium": 1777.0,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "eod",
+   "exit_ts": "2026-10-23T23:15:00+05:30",
+   "exit_spot": 141950.0,
+   "points": 118.0,
+   "r": 0.47
   },
   {
    "ts": "2026-10-23T21:46:36+05:30",
@@ -5002,12 +5722,12 @@
    "opt_type": "PE",
    "expiry": "29-Oct-2026",
    "premium": 1604.0,
-   "status": "open",
-   "exit_ts": null,
-   "exit_spot": null,
-   "points": null,
-   "r": null
+   "status": "eod",
+   "exit_ts": "2026-10-23T23:15:00+05:30",
+   "exit_spot": 140385.0,
+   "points": 40.0,
+   "r": 0.13
   }
  ],
- "updated": "2026-10-23T22:00:00+05:30"
+ "updated": "2026-10-23T23:53:07+05:30"
 }
