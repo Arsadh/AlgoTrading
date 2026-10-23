@@ -1616,7 +1616,13 @@
     "t2": 22297.5
    },
    "blockers": [],
-   "outcome_1h": null,
+   "outcome_1h": {
+    "spot": 22555.85,
+    "change": 143.5,
+    "change_pct": 0.64,
+    "correct": false,
+    "at": "2026-10-23T14:18:19+05:30"
+   },
    "outcome_close": null
   },
   {
@@ -2301,6 +2307,34 @@
    ],
    "outcome_1h": null,
    "outcome_close": null
+  },
+  {
+   "id": "2026-10-23T14:NIFTY",
+   "time": "2026-10-23T14:18:19+05:30",
+   "kind": "hourly",
+   "key": "NIFTY",
+   "name": "Nifty 50",
+   "exchange": "NSE",
+   "source": "yahoo",
+   "spot": 22555.85,
+   "score": 0.3,
+   "bias": "neutral",
+   "signal": "",
+   "suggested": {
+    "type": "CE",
+    "strike": 22550,
+    "expiry": "27-Oct-2026",
+    "premium": 184.35,
+    "entry": 22555.85,
+    "sl": 22461.1,
+    "t1": 22650.6,
+    "t2": 22745.35
+   },
+   "blockers": [
+    "Score +0 is inside ±45: no clear edge"
+   ],
+   "outcome_1h": null,
+   "outcome_close": null
   }
  ],
  "signals": [
@@ -2685,5 +2719,5 @@
    "r": -1.0
   }
  ],
- "updated": "2026-10-23T14:16:35+05:30"
+ "updated": "2026-10-23T14:18:19+05:30"
 }

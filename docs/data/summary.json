@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-23T14:16:35+05:30",
+ "updated": "2026-10-23T14:18:19+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
    "calls": 240,
-   "graded": 213,
+   "graded": 214,
    "correct": 114,
-   "accuracy": 0.535
+   "accuracy": 0.533
   },
   "close": {
    "calls": 240,
@@ -47,9 +47,9 @@
   "|score| 70+": {
    "1h": {
     "calls": 92,
-    "graded": 77,
+    "graded": 78,
     "correct": 41,
-    "accuracy": 0.532
+    "accuracy": 0.526
    },
    "close": {
     "calls": 92,
@@ -64,9 +64,9 @@
    "name": "Nifty 50",
    "1h": {
     "calls": 12,
-    "graded": 10,
+    "graded": 11,
     "correct": 6,
-    "accuracy": 0.6
+    "accuracy": 0.545
    },
    "close": {
     "calls": 12,
@@ -244,7 +244,7 @@
  "days": [
   {
    "date": "2026-10-23",
-   "calls": 71,
+   "calls": 72,
    "directional": 52,
    "signals": 20
   },
