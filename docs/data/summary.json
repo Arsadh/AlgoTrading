@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-23T15:30:10+05:30",
+ "updated": "2026-10-23T16:00:06+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 247,
-   "graded": 218,
-   "correct": 116,
-   "accuracy": 0.532
+   "calls": 252,
+   "graded": 223,
+   "correct": 118,
+   "accuracy": 0.529
   },
   "close": {
-   "calls": 247,
+   "calls": 252,
    "graded": 120,
    "correct": 79,
    "accuracy": 0.658
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 64,
-    "graded": 57,
+    "calls": 66,
+    "graded": 58,
     "correct": 26,
-    "accuracy": 0.456
+    "accuracy": 0.448
    },
    "close": {
-    "calls": 64,
+    "calls": 66,
     "graded": 37,
     "correct": 25,
     "accuracy": 0.676
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 89,
-    "graded": 81,
+    "calls": 91,
+    "graded": 83,
     "correct": 49,
-    "accuracy": 0.605
+    "accuracy": 0.59
    },
    "close": {
-    "calls": 89,
+    "calls": 91,
     "graded": 34,
     "correct": 26,
     "accuracy": 0.765
@@ -46,13 +46,13 @@
   },
   "|score| 70+": {
    "1h": {
-    "calls": 94,
-    "graded": 80,
-    "correct": 41,
-    "accuracy": 0.512
+    "calls": 95,
+    "graded": 82,
+    "correct": 43,
+    "accuracy": 0.524
    },
    "close": {
-    "calls": 94,
+    "calls": 95,
     "graded": 49,
     "correct": 28,
     "accuracy": 0.571
@@ -93,13 +93,13 @@
   "CRUDEOIL": {
    "name": "MCX Crude Oil",
    "1h": {
-    "calls": 22,
-    "graded": 19,
-    "correct": 11,
-    "accuracy": 0.579
+    "calls": 23,
+    "graded": 20,
+    "correct": 12,
+    "accuracy": 0.6
    },
    "close": {
-    "calls": 22,
+    "calls": 23,
     "graded": 7,
     "correct": 6,
     "accuracy": 0.857
@@ -108,13 +108,13 @@
   "CRUDEOILM": {
    "name": "MCX Crude Oil Mini",
    "1h": {
-    "calls": 22,
-    "graded": 19,
-    "correct": 11,
-    "accuracy": 0.579
+    "calls": 23,
+    "graded": 20,
+    "correct": 12,
+    "accuracy": 0.6
    },
    "close": {
-    "calls": 22,
+    "calls": 23,
     "graded": 7,
     "correct": 6,
     "accuracy": 0.857
@@ -124,9 +124,9 @@
    "name": "MCX Natural Gas",
    "1h": {
     "calls": 26,
-    "graded": 21,
+    "graded": 22,
     "correct": 13,
-    "accuracy": 0.619
+    "accuracy": 0.591
    },
    "close": {
     "calls": 26,
@@ -168,13 +168,13 @@
   "SILVER": {
    "name": "MCX Silver",
    "1h": {
-    "calls": 24,
+    "calls": 25,
     "graded": 22,
     "correct": 11,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 24,
+    "calls": 25,
     "graded": 12,
     "correct": 11,
     "accuracy": 0.917
@@ -183,13 +183,13 @@
   "SILVERM": {
    "name": "MCX Silver Mini",
    "1h": {
-    "calls": 23,
+    "calls": 24,
     "graded": 22,
     "correct": 11,
     "accuracy": 0.5
    },
    "close": {
-    "calls": 23,
+    "calls": 24,
     "graded": 12,
     "correct": 11,
     "accuracy": 0.917
@@ -199,9 +199,9 @@
    "name": "MCX Copper",
    "1h": {
     "calls": 22,
-    "graded": 19,
+    "graded": 20,
     "correct": 9,
-    "accuracy": 0.474
+    "accuracy": 0.45
    },
    "close": {
     "calls": 22,
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 20,
+    "calls": 21,
     "graded": 19,
     "correct": 9,
     "accuracy": 0.474
    },
    "close": {
-    "calls": 20,
+    "calls": 21,
     "graded": 9,
     "correct": 9,
     "accuracy": 1.0
@@ -229,9 +229,9 @@
    "name": "MCX Natural Gas Mini",
    "1h": {
     "calls": 25,
-    "graded": 21,
+    "graded": 22,
     "correct": 15,
-    "accuracy": 0.714
+    "accuracy": 0.682
    },
    "close": {
     "calls": 25,
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-23",
-   "calls": 84,
-   "directional": 59,
+   "calls": 94,
+   "directional": 64,
    "signals": 22
   },
   {
@@ -262,10 +262,10 @@
   }
  ],
  "signals": {
-  "closed": 110,
-  "wins": 47,
-  "win_rate": 0.427,
-  "avg_r": 0.041,
+  "closed": 111,
+  "wins": 48,
+  "win_rate": 0.432,
+  "avg_r": 0.045,
   "by_instrument": {
    "BANKNIFTY": {
     "trades": 11,
@@ -300,12 +300,12 @@
     "profit_factor": 0.96
    },
    "ZINC": {
-    "trades": 9,
-    "win_rate": 0.444,
-    "t1_hit_rate": 0.333,
-    "avg_r": 0.03,
-    "total_points": -2.4,
-    "profit_factor": 1.05
+    "trades": 10,
+    "win_rate": 0.5,
+    "t1_hit_rate": 0.3,
+    "avg_r": 0.067,
+    "total_points": -1.4,
+    "profit_factor": 1.13
    },
    "GOLD": {
     "trades": 8,
