@@ -819,8 +819,172 @@
      "max_losing_streak": 4
     }
    }
+  },
+  {
+   "date": "2026-10-26",
+   "updated": "2026-10-26T00:02:26+05:30",
+   "rules": {
+    "signal_threshold": 45,
+    "min_adx": 18,
+    "no_signal_before": "09:30",
+    "no_signal_after": "14:45",
+    "sl_atr": [
+     1.5,
+     2.5
+    ],
+    "t1_r": 1,
+    "t2_r": 2,
+    "lock_r_after_t1": 0.3,
+    "max_signals_per_day": 3
+   },
+   "instruments": {
+    "NIFTY": {
+     "name": "Nifty 50",
+     "trades": 102,
+     "win_rate": 0.51,
+     "t1_hit_rate": 0.441,
+     "avg_points": 10.0,
+     "avg_points_after_costs": 6.0,
+     "total_points_after_costs": 616.7,
+     "avg_r": 0.143,
+     "profit_factor": 1.32,
+     "max_losing_streak": 5
+    },
+    "BANKNIFTY": {
+     "name": "Bank Nifty",
+     "trades": 97,
+     "win_rate": 0.402,
+     "t1_hit_rate": 0.351,
+     "avg_points": -32.6,
+     "avg_points_after_costs": -42.6,
+     "total_points_after_costs": -4128.8,
+     "avg_r": -0.18,
+     "profit_factor": 0.66,
+     "max_losing_streak": 10
+    },
+    "CRUDEOIL": {
+     "name": "MCX Crude Oil",
+     "trades": 102,
+     "win_rate": 0.549,
+     "t1_hit_rate": 0.5,
+     "avg_points": 6.0,
+     "avg_points_after_costs": 0.0,
+     "total_points_after_costs": 2.3,
+     "avg_r": 0.179,
+     "profit_factor": 1.41,
+     "max_losing_streak": 6
+    },
+    "CRUDEOILM": {
+     "name": "MCX Crude Oil Mini",
+     "trades": 111,
+     "win_rate": 0.532,
+     "t1_hit_rate": 0.486,
+     "avg_points": 0.5,
+     "avg_points_after_costs": -15.5,
+     "total_points_after_costs": -1724.8,
+     "avg_r": 0.063,
+     "profit_factor": 1.13,
+     "max_losing_streak": 7
+    },
+    "NATURALGAS": {
+     "name": "MCX Natural Gas",
+     "trades": 114,
+     "win_rate": 0.412,
+     "t1_hit_rate": 0.386,
+     "avg_points": -0.2,
+     "avg_points_after_costs": -0.7,
+     "total_points_after_costs": -77.0,
+     "avg_r": -0.117,
+     "profit_factor": 0.8,
+     "max_losing_streak": 8
+    },
+    "NATGASMINI": {
+     "name": "MCX Natural Gas Mini",
+     "trades": 101,
+     "win_rate": 0.465,
+     "t1_hit_rate": 0.436,
+     "avg_points": 0.1,
+     "avg_points_after_costs": -1.1,
+     "total_points_after_costs": -111.8,
+     "avg_r": 0.008,
+     "profit_factor": 1.01,
+     "max_losing_streak": 6
+    },
+    "GOLD": {
+     "name": "MCX Gold",
+     "trades": 117,
+     "win_rate": 0.462,
+     "t1_hit_rate": 0.436,
+     "avg_points": -43.3,
+     "avg_points_after_costs": -103.3,
+     "total_points_after_costs": -12085.8,
+     "avg_r": -0.107,
+     "profit_factor": 0.8,
+     "max_losing_streak": 7
+    },
+    "GOLDM": {
+     "name": "MCX Gold Mini",
+     "trades": 115,
+     "win_rate": 0.461,
+     "t1_hit_rate": 0.426,
+     "avg_points": -31.8,
+     "avg_points_after_costs": -151.8,
+     "total_points_after_costs": -17459.7,
+     "avg_r": -0.035,
+     "profit_factor": 0.93,
+     "max_losing_streak": 10
+    },
+    "SILVER": {
+     "name": "MCX Silver",
+     "trades": 114,
+     "win_rate": 0.526,
+     "t1_hit_rate": 0.474,
+     "avg_points": 0.0,
+     "avg_points_after_costs": -150.0,
+     "total_points_after_costs": -17098.0,
+     "avg_r": 0.069,
+     "profit_factor": 1.15,
+     "max_losing_streak": 8
+    },
+    "SILVERM": {
+     "name": "MCX Silver Mini",
+     "trades": 115,
+     "win_rate": 0.53,
+     "t1_hit_rate": 0.487,
+     "avg_points": -19.4,
+     "avg_points_after_costs": -369.4,
+     "total_points_after_costs": -42480.0,
+     "avg_r": 0.036,
+     "profit_factor": 1.08,
+     "max_losing_streak": 9
+    },
+    "COPPER": {
+     "name": "MCX Copper",
+     "trades": 111,
+     "win_rate": 0.387,
+     "t1_hit_rate": 0.342,
+     "avg_points": -0.5,
+     "avg_points_after_costs": -1.7,
+     "total_points_after_costs": -194.1,
+     "avg_r": -0.241,
+     "profit_factor": 0.61,
+     "max_losing_streak": 9
+    },
+    "ZINC": {
+     "name": "MCX Zinc",
+     "trades": 80,
+     "win_rate": 0.487,
+     "t1_hit_rate": 0.4,
+     "avg_points": 0.0,
+     "avg_points_after_costs": -0.8,
+     "total_points_after_costs": -60.5,
+     "avg_r": 0.009,
+     "profit_factor": 1.02,
+     "max_losing_streak": 4
+    }
+   }
   }
  ],
- "updated": "2026-10-25T00:02:19+05:30",
+ "updated": "2026-10-26T00:02:26+05:30",
  "note": "60-day backtest of the live CALL/PUT rules, re-run every hour while a market is open. Points are on the underlying; 'after costs' subtracts the estimated round-trip cost per trade. Full trades: track_record/YYYY-MM-DD.json."
 }
