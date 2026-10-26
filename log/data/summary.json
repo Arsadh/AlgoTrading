@@ -1,0 +1,374 @@
+{
+ "updated": "2026-10-26T13:47:55+05:30",
+ "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
+ "total": {
+  "1h": {
+   "calls": 307,
+   "graded": 264,
+   "correct": 140,
+   "accuracy": 0.53
+  },
+  "close": {
+   "calls": 307,
+   "graded": 201,
+   "correct": 124,
+   "accuracy": 0.617
+  }
+ },
+ "by_strength": {
+  "|score| 20-44": {
+   "1h": {
+    "calls": 82,
+    "graded": 69,
+    "correct": 33,
+    "accuracy": 0.478
+   },
+   "close": {
+    "calls": 82,
+    "graded": 48,
+    "correct": 31,
+    "accuracy": 0.646
+   }
+  },
+  "|score| 45-69": {
+   "1h": {
+    "calls": 111,
+    "graded": 100,
+    "correct": 57,
+    "accuracy": 0.57
+   },
+   "close": {
+    "calls": 111,
+    "graded": 67,
+    "correct": 47,
+    "accuracy": 0.701
+   }
+  },
+  "|score| 70+": {
+   "1h": {
+    "calls": 114,
+    "graded": 95,
+    "correct": 50,
+    "accuracy": 0.526
+   },
+   "close": {
+    "calls": 114,
+    "graded": 86,
+    "correct": 46,
+    "accuracy": 0.535
+   }
+  }
+ },
+ "by_instrument": {
+  "NIFTY": {
+   "name": "Nifty 50",
+   "1h": {
+    "calls": 16,
+    "graded": 13,
+    "correct": 7,
+    "accuracy": 0.538
+   },
+   "close": {
+    "calls": 16,
+    "graded": 13,
+    "correct": 1,
+    "accuracy": 0.077
+   }
+  },
+  "BANKNIFTY": {
+   "name": "Bank Nifty",
+   "1h": {
+    "calls": 15,
+    "graded": 13,
+    "correct": 6,
+    "accuracy": 0.462
+   },
+   "close": {
+    "calls": 15,
+    "graded": 13,
+    "correct": 3,
+    "accuracy": 0.231
+   }
+  },
+  "CRUDEOIL": {
+   "name": "MCX Crude Oil",
+   "1h": {
+    "calls": 28,
+    "graded": 24,
+    "correct": 15,
+    "accuracy": 0.625
+   },
+   "close": {
+    "calls": 28,
+    "graded": 18,
+    "correct": 17,
+    "accuracy": 0.944
+   }
+  },
+  "CRUDEOILM": {
+   "name": "MCX Crude Oil Mini",
+   "1h": {
+    "calls": 28,
+    "graded": 24,
+    "correct": 14,
+    "accuracy": 0.583
+   },
+   "close": {
+    "calls": 28,
+    "graded": 18,
+    "correct": 17,
+    "accuracy": 0.944
+   }
+  },
+  "NATURALGAS": {
+   "name": "MCX Natural Gas",
+   "1h": {
+    "calls": 32,
+    "graded": 26,
+    "correct": 14,
+    "accuracy": 0.538
+   },
+   "close": {
+    "calls": 32,
+    "graded": 19,
+    "correct": 15,
+    "accuracy": 0.789
+   }
+  },
+  "GOLD": {
+   "name": "MCX Gold",
+   "1h": {
+    "calls": 22,
+    "graded": 19,
+    "correct": 10,
+    "accuracy": 0.526
+   },
+   "close": {
+    "calls": 22,
+    "graded": 15,
+    "correct": 10,
+    "accuracy": 0.667
+   }
+  },
+  "GOLDM": {
+   "name": "MCX Gold Mini",
+   "1h": {
+    "calls": 25,
+    "graded": 21,
+    "correct": 9,
+    "accuracy": 0.429
+   },
+   "close": {
+    "calls": 25,
+    "graded": 14,
+    "correct": 9,
+    "accuracy": 0.643
+   }
+  },
+  "SILVER": {
+   "name": "MCX Silver",
+   "1h": {
+    "calls": 28,
+    "graded": 25,
+    "correct": 12,
+    "accuracy": 0.48
+   },
+   "close": {
+    "calls": 28,
+    "graded": 18,
+    "correct": 11,
+    "accuracy": 0.611
+   }
+  },
+  "SILVERM": {
+   "name": "MCX Silver Mini",
+   "1h": {
+    "calls": 26,
+    "graded": 24,
+    "correct": 11,
+    "accuracy": 0.458
+   },
+   "close": {
+    "calls": 26,
+    "graded": 18,
+    "correct": 11,
+    "accuracy": 0.611
+   }
+  },
+  "COPPER": {
+   "name": "MCX Copper",
+   "1h": {
+    "calls": 28,
+    "graded": 24,
+    "correct": 13,
+    "accuracy": 0.542
+   },
+   "close": {
+    "calls": 28,
+    "graded": 18,
+    "correct": 10,
+    "accuracy": 0.556
+   }
+  },
+  "ZINC": {
+   "name": "MCX Zinc",
+   "1h": {
+    "calls": 28,
+    "graded": 25,
+    "correct": 13,
+    "accuracy": 0.52
+   },
+   "close": {
+    "calls": 28,
+    "graded": 18,
+    "correct": 15,
+    "accuracy": 0.833
+   }
+  },
+  "NATGASMINI": {
+   "name": "MCX Natural Gas Mini",
+   "1h": {
+    "calls": 31,
+    "graded": 26,
+    "correct": 16,
+    "accuracy": 0.615
+   },
+   "close": {
+    "calls": 31,
+    "graded": 19,
+    "correct": 5,
+    "accuracy": 0.263
+   }
+  }
+ },
+ "days": [
+  {
+   "date": "2026-10-26",
+   "calls": 36,
+   "directional": 27,
+   "signals": 13
+  },
+  {
+   "date": "2026-10-23",
+   "calls": 134,
+   "directional": 92,
+   "signals": 27
+  },
+  {
+   "date": "2026-10-22",
+   "calls": 140,
+   "directional": 102,
+   "signals": 31
+  },
+  {
+   "date": "2026-10-21",
+   "calls": 108,
+   "directional": 86,
+   "signals": 36
+  }
+ ],
+ "signals": {
+  "closed": 128,
+  "wins": 56,
+  "win_rate": 0.438,
+  "avg_r": 0.062,
+  "by_instrument": {
+   "BANKNIFTY": {
+    "trades": 11,
+    "win_rate": 0.455,
+    "t1_hit_rate": 0.545,
+    "avg_r": 0.171,
+    "total_points": 171.2,
+    "profit_factor": 1.38
+   },
+   "NIFTY": {
+    "trades": 14,
+    "win_rate": 0.571,
+    "t1_hit_rate": 0.5,
+    "avg_r": 0.457,
+    "total_points": 321.7,
+    "profit_factor": 2.48
+   },
+   "NATURALGAS": {
+    "trades": 13,
+    "win_rate": 0.308,
+    "t1_hit_rate": 0.308,
+    "avg_r": -0.281,
+    "total_points": -10.6,
+    "profit_factor": 0.47
+   },
+   "NATGASMINI": {
+    "trades": 13,
+    "win_rate": 0.308,
+    "t1_hit_rate": 0.231,
+    "avg_r": -0.062,
+    "total_points": -3.8,
+    "profit_factor": 0.86
+   },
+   "ZINC": {
+    "trades": 12,
+    "win_rate": 0.583,
+    "t1_hit_rate": 0.333,
+    "avg_r": 0.388,
+    "total_points": 6.6,
+    "profit_factor": 1.93
+   },
+   "GOLD": {
+    "trades": 9,
+    "win_rate": 0.556,
+    "t1_hit_rate": 0.444,
+    "avg_r": 0.457,
+    "total_points": 338.8,
+    "profit_factor": 2.37
+   },
+   "GOLDM": {
+    "trades": 9,
+    "win_rate": 0.556,
+    "t1_hit_rate": 0.556,
+    "avg_r": 0.476,
+    "total_points": 85.5,
+    "profit_factor": 2.43
+   },
+   "CRUDEOIL": {
+    "trades": 10,
+    "win_rate": 0.5,
+    "t1_hit_rate": 0.5,
+    "avg_r": -0.019,
+    "total_points": 12.7,
+    "profit_factor": 0.95
+   },
+   "CRUDEOILM": {
+    "trades": 10,
+    "win_rate": 0.5,
+    "t1_hit_rate": 0.4,
+    "avg_r": -0.096,
+    "total_points": -16.9,
+    "profit_factor": 0.76
+   },
+   "SILVER": {
+    "trades": 9,
+    "win_rate": 0.333,
+    "t1_hit_rate": 0.222,
+    "avg_r": 0.111,
+    "total_points": 1279.0,
+    "profit_factor": 1.2
+   },
+   "SILVERM": {
+    "trades": 8,
+    "win_rate": 0.25,
+    "t1_hit_rate": 0.25,
+    "avg_r": -0.338,
+    "total_points": -2826.3,
+    "profit_factor": 0.46
+   },
+   "COPPER": {
+    "trades": 10,
+    "win_rate": 0.3,
+    "t1_hit_rate": 0.3,
+    "avg_r": -0.61,
+    "total_points": -17.5,
+    "profit_factor": 0.13
+   }
+  }
+ }
+}
