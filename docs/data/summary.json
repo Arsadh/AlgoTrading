@@ -1,15 +1,15 @@
 {
- "updated": "2026-10-26T13:47:55+05:30",
+ "updated": "2026-10-26T14:00:08+05:30",
  "note": "A bullish/bearish call is correct when the price moved that way 1 hour later (or by the close). 50% is a coin flip. Neutral calls are not graded.",
  "total": {
   "1h": {
-   "calls": 307,
-   "graded": 264,
-   "correct": 140,
-   "accuracy": 0.53
+   "calls": 318,
+   "graded": 274,
+   "correct": 141,
+   "accuracy": 0.515
   },
   "close": {
-   "calls": 307,
+   "calls": 318,
    "graded": 201,
    "correct": 124,
    "accuracy": 0.617
@@ -18,13 +18,13 @@
  "by_strength": {
   "|score| 20-44": {
    "1h": {
-    "calls": 82,
-    "graded": 69,
+    "calls": 89,
+    "graded": 75,
     "correct": 33,
-    "accuracy": 0.478
+    "accuracy": 0.44
    },
    "close": {
-    "calls": 82,
+    "calls": 89,
     "graded": 48,
     "correct": 31,
     "accuracy": 0.646
@@ -32,13 +32,13 @@
   },
   "|score| 45-69": {
    "1h": {
-    "calls": 111,
-    "graded": 100,
+    "calls": 113,
+    "graded": 102,
     "correct": 57,
-    "accuracy": 0.57
+    "accuracy": 0.559
    },
    "close": {
-    "calls": 111,
+    "calls": 113,
     "graded": 67,
     "correct": 47,
     "accuracy": 0.701
@@ -46,13 +46,13 @@
   },
   "|score| 70+": {
    "1h": {
-    "calls": 114,
-    "graded": 95,
-    "correct": 50,
+    "calls": 116,
+    "graded": 97,
+    "correct": 51,
     "accuracy": 0.526
    },
    "close": {
-    "calls": 114,
+    "calls": 116,
     "graded": 86,
     "correct": 46,
     "accuracy": 0.535
@@ -63,13 +63,13 @@
   "NIFTY": {
    "name": "Nifty 50",
    "1h": {
-    "calls": 16,
-    "graded": 13,
+    "calls": 17,
+    "graded": 14,
     "correct": 7,
-    "accuracy": 0.538
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 16,
+    "calls": 17,
     "graded": 13,
     "correct": 1,
     "accuracy": 0.077
@@ -93,13 +93,13 @@
   "CRUDEOIL": {
    "name": "MCX Crude Oil",
    "1h": {
-    "calls": 28,
-    "graded": 24,
+    "calls": 29,
+    "graded": 25,
     "correct": 15,
-    "accuracy": 0.625
+    "accuracy": 0.6
    },
    "close": {
-    "calls": 28,
+    "calls": 29,
     "graded": 18,
     "correct": 17,
     "accuracy": 0.944
@@ -108,13 +108,13 @@
   "CRUDEOILM": {
    "name": "MCX Crude Oil Mini",
    "1h": {
-    "calls": 28,
-    "graded": 24,
+    "calls": 29,
+    "graded": 25,
     "correct": 14,
-    "accuracy": 0.583
+    "accuracy": 0.56
    },
    "close": {
-    "calls": 28,
+    "calls": 29,
     "graded": 18,
     "correct": 17,
     "accuracy": 0.944
@@ -123,13 +123,13 @@
   "NATURALGAS": {
    "name": "MCX Natural Gas",
    "1h": {
-    "calls": 32,
+    "calls": 33,
     "graded": 26,
     "correct": 14,
     "accuracy": 0.538
    },
    "close": {
-    "calls": 32,
+    "calls": 33,
     "graded": 19,
     "correct": 15,
     "accuracy": 0.789
@@ -138,13 +138,13 @@
   "GOLD": {
    "name": "MCX Gold",
    "1h": {
-    "calls": 22,
-    "graded": 19,
+    "calls": 23,
+    "graded": 20,
     "correct": 10,
-    "accuracy": 0.526
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 22,
+    "calls": 23,
     "graded": 15,
     "correct": 10,
     "accuracy": 0.667
@@ -153,13 +153,13 @@
   "GOLDM": {
    "name": "MCX Gold Mini",
    "1h": {
-    "calls": 25,
-    "graded": 21,
+    "calls": 26,
+    "graded": 22,
     "correct": 9,
-    "accuracy": 0.429
+    "accuracy": 0.409
    },
    "close": {
-    "calls": 25,
+    "calls": 26,
     "graded": 14,
     "correct": 9,
     "accuracy": 0.643
@@ -168,13 +168,13 @@
   "SILVER": {
    "name": "MCX Silver",
    "1h": {
-    "calls": 28,
-    "graded": 25,
+    "calls": 29,
+    "graded": 26,
     "correct": 12,
-    "accuracy": 0.48
+    "accuracy": 0.462
    },
    "close": {
-    "calls": 28,
+    "calls": 29,
     "graded": 18,
     "correct": 11,
     "accuracy": 0.611
@@ -183,13 +183,13 @@
   "SILVERM": {
    "name": "MCX Silver Mini",
    "1h": {
-    "calls": 26,
-    "graded": 24,
+    "calls": 27,
+    "graded": 25,
     "correct": 11,
-    "accuracy": 0.458
+    "accuracy": 0.44
    },
    "close": {
-    "calls": 26,
+    "calls": 27,
     "graded": 18,
     "correct": 11,
     "accuracy": 0.611
@@ -198,13 +198,13 @@
   "COPPER": {
    "name": "MCX Copper",
    "1h": {
-    "calls": 28,
-    "graded": 24,
-    "correct": 13,
-    "accuracy": 0.542
+    "calls": 29,
+    "graded": 25,
+    "correct": 14,
+    "accuracy": 0.56
    },
    "close": {
-    "calls": 28,
+    "calls": 29,
     "graded": 18,
     "correct": 10,
     "accuracy": 0.556
@@ -213,13 +213,13 @@
   "ZINC": {
    "name": "MCX Zinc",
    "1h": {
-    "calls": 28,
-    "graded": 25,
+    "calls": 29,
+    "graded": 26,
     "correct": 13,
-    "accuracy": 0.52
+    "accuracy": 0.5
    },
    "close": {
-    "calls": 28,
+    "calls": 29,
     "graded": 18,
     "correct": 15,
     "accuracy": 0.833
@@ -228,13 +228,13 @@
   "NATGASMINI": {
    "name": "MCX Natural Gas Mini",
    "1h": {
-    "calls": 31,
-    "graded": 26,
+    "calls": 32,
+    "graded": 27,
     "correct": 16,
-    "accuracy": 0.615
+    "accuracy": 0.593
    },
    "close": {
-    "calls": 31,
+    "calls": 32,
     "graded": 19,
     "correct": 5,
     "accuracy": 0.263
@@ -244,8 +244,8 @@
  "days": [
   {
    "date": "2026-10-26",
-   "calls": 36,
-   "directional": 27,
+   "calls": 48,
+   "directional": 38,
    "signals": 13
   },
   {
